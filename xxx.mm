@@ -1216,8 +1216,7 @@
   <body>
     <img src="linux/pci/pci-local-bus.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1610262210494" ID="ID_5954363" MODIFIED="1610262215752" TEXT="Host Bridge">
 <node CREATED="1610262215752" ID="ID_817203190" MODIFIED="1610262278011" TEXT="&#x5904;&#x7406;&#x5668;/&#x7f13;&#x5b58;/&#x5185;&#x5b58;&#x901a;&#x8fc7;Host Bridge&#x8fde;&#x63a5;&#x5230;PCI&#x4e0a;"/>
 <node CREATED="1610262278204" ID="ID_7634704" MODIFIED="1610262331186" TEXT="Host Bridge&#x7ba1;&#x7406;PCI&#x603b;&#x7ebf;&#x57df;&#xff0c;&#x8fde;&#x63a5;&#x5904;&#x7406;&#x5668;&#x4e0e;PCI&#x8bbe;&#x5907;&#xff0c;&#x5b8c;&#x6210;&#x5904;&#x7406;&#x5668;&#x4e0e;PCI&#x8bbe;&#x5907;&#x7684;&#x6570;&#x636e;&#x4ea4;&#x6362;">
@@ -1255,8 +1254,7 @@
       <img src="linux/pci/pci-bus-signal.png" width="600" height="480" />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1610264776545" ID="ID_1901003352" MODIFIED="1610264793116" TEXT="AD[31:00]">
 <node CREATED="1610264793116" ID="ID_117472294" MODIFIED="1610264825421" TEXT="&#x5730;&#x5740;&#x4e0e;&#x6570;&#x636e;&#x4fe1;&#x53f7;&#x590d;&#x7528;&#xff0c;&#x4f20;&#x9001;&#x65f6;&#xff0c;&#x7b2c;&#x4e00;&#x4e2a;&#x65f6;&#x949f;&#x5468;&#x671f;&#x4f20;&#x9001;&#x5730;&#x5740;&#xff0c;&#x4e0b;&#x4e00;&#x4e2a;&#x65f6;&#x949f;&#x5468;&#x671f;&#x4f20;&#x9001;&#x6570;&#x636e;"/>
 </node>
@@ -1272,8 +1270,7 @@
       <img src="linux/pci/pci-bus-signal-c-be.png" width="500" height="400" />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1325,8 +1322,7 @@
       <img src="linux/pci/pci-work-mode.png" width="600" height="400" />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1610281638278" ID="ID_813836509" MODIFIED="1610281645196" TEXT="Programmed I/O">
 <node CREATED="1610281645196" ID="ID_855595908" MODIFIED="1610281653475" TEXT="&#x901a;&#x8fc7;IO&#x8bfb;&#x5199;&#x8bbf;&#x95ee;PCi&#x8bbe;&#x5907;&#x7a7a;&#x95f4;"/>
 </node>
@@ -1349,8 +1345,7 @@
       <img src="linux/pci/pci-bus-space.png" width="550" height="400" />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1610282079394" ID="ID_1360070063" MODIFIED="1610282085361" TEXT="memory&#x7a7a;&#x95f4;">
 <node CREATED="1610282085361" ID="ID_1809469083" MODIFIED="1610282116446" TEXT="&#x9488;&#x5bf9;32bit&#x5bfb;&#x5740;&#xff0c;&#x652f;&#x6301;4GB&#x5730;&#x5740;&#x7a7a;&#x95f4;&#xff0c;&#x9488;&#x5bf9;64bit&#x5bfb;&#x5740;&#xff0c;&#x652f;&#x6301;16EB&#x7684;&#x5730;&#x5740;&#x7a7a;&#x95f4;"/>
 </node>
@@ -1384,8 +1379,7 @@
       <img src="linux/pci/pci-bus-configuration-space.png" width="500" height="200" />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1610287487874" ID="ID_1735372058" MODIFIED="1610287574396" TEXT="Step1: CPU&#x5199;0CF8h&#xff0c;Bus/Device/Function&#x80fd;&#x6807;&#x8bc6;&#x51fa;&#x7279;&#x5b9a;&#x7684;&#x8bbe;&#x5907;&#x529f;&#x80fd;&#xff0c;Doubleword&#x6765;&#x6307;&#x5b9a;&#x914d;&#x7f6e;&#x7a7a;&#x95f4;&#x7684;&#x5177;&#x4f53;&#x67d0;&#x4e2a;&#x5bc4;&#x5b58;&#x5668;"/>
 <node CREATED="1610287540939" ID="ID_1139893305" MODIFIED="1610287599666" TEXT="Step2: CPU&#x53ef;&#x4ee5;IO&#x8bfb;&#x5199;0CFCh&#xff0c;&#x7528;&#x4e8e;&#x8bfb;&#x53d6;Step1&#x4e2d;&#x7684;&#x6307;&#x5b9a;&#x5bc4;&#x5b58;&#x5668;&#x5185;&#x5bb9;&#xff0c;&#x6216;&#x8005;&#x5199;&#x5165;&#x6307;&#x5b9a;&#x5bc4;&#x5b58;&#x5668;&#x5185;&#x5bb9;">
 <node CREATED="1610287620242" ID="ID_1178879116" MODIFIED="1610287650111" TEXT="&#x914d;&#x7f6e;&#x7a7a;&#x95f4;&#x5bc4;&#x5b58;&#x5668;&#x6709;&#x4e24;&#x79cd;&#x7c7b;&#x578b;">
@@ -1400,8 +1394,7 @@
       <img src="linux/pci/pci-bus-configuration-space-bridge-register.png" width="850" height="600" />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1610287653137" ID="ID_1661179070" MODIFIED="1610287655168" TEXT="Device">
@@ -1415,8 +1408,7 @@
       <img src="linux/pci/pci-bus-configuration-space-device-register.png" width="850" height="600" />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1610288232728" ID="ID_1386273201" MODIFIED="1610288252144" TEXT="Base Address Register, BAR&#x7a7a;&#x95f4;">
@@ -1441,8 +1433,7 @@
       <img src="linux/pci/pcie-arch-framework.png" width="600" height="400" />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1610289842026" ID="ID_1806589879" MODIFIED="1610289905271" TEXT="Root Complex&#xff0c;PCIe&#x67b6;&#x6784;&#x7684;&#x6839;">
 <node CREATED="1610290212948" ID="ID_1103582061" MODIFIED="1610290541824">
 <richcontent TYPE="NODE"><html>
@@ -1454,8 +1445,7 @@
       <img src="linux/pci/pcie-root-complex-implement.jpg" />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1610289928045" ID="ID_1054939024" MODIFIED="1610289962820" TEXT="&#x4ee3;&#x8868;CPU&#x4e0e;&#x7cfb;&#x7edf;&#x5176;&#x5b83;&#x90e8;&#x5206;&#x8fdb;&#x884c;&#x4ea4;&#x4e92;&#xff0c;&#x5e7f;&#x4e49;&#x4e0a;&#x8ba4;&#x4e3a;&#x662f;CPU&#x4e0e;PCIe&#x62d3;&#x6251;&#x4e4b;&#x95f4;&#x7684;&#x63a5;&#x53e3;"/>
 <node CREATED="1610289848295" ID="ID_34741153" MODIFIED="1610289893349" TEXT="CPU&#x548c;PCIe&#x603b;&#x7ebf;&#x4e4b;&#x95f4;&#x7684;&#x63a5;&#x53e3;&#x53ef;&#x80fd;&#x4f1a;&#x5305;&#x542b;&#x5904;&#x7406;&#x5668;&#x63a5;&#x53e3;&#x3001;DRAM&#x63a5;&#x53e3;&#x3001;&#x82af;&#x7247;&#x7b49;"/>
 <node CREATED="1610289964275" ID="ID_468699247" MODIFIED="1610290222205" TEXT="Root Complex&#x5c06;CPU&#x7684;request&#x8f6c;&#x6362;&#x6210;PCIe&#x7684;4&#x79cd;&#x8bf7;&#x6c42;">
@@ -1475,8 +1465,7 @@
   <body>
     <img src="linux/pci/pcie-switch-implement.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1610290012461" ID="ID_643581034" MODIFIED="1610290047437" TEXT="&#x63d0;&#x4f9b;&#x6247;&#x51fa;&#x529f;&#x80fd;&#xff0c;&#x8ba9;&#x66f4;&#x591a;&#x7684;PCIe&#x8bbe;&#x5907;&#x8fde;&#x63a5;&#x5728;PCIe&#x7aef;&#x53e3;&#x4e0a;"/>
 </node>
 </node>
@@ -1500,8 +1489,7 @@
       <img src="linux/pci/pcie-data-trans-arch-design.png" />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1610290862069" ID="ID_618943986" MODIFIED="1610290962674" TEXT="Transaction&#x5c42;">
 <node CREATED="1610290962674" ID="ID_1691342438" MODIFIED="1610291018837" TEXT="&#x8d1f;&#x8d23;TLP(Transaction Layer Packet)&#x5305;&#x7684;&#x5c01;&#x88c5;&#x548c;&#x89e3;&#x5c01;&#x88c5;&#xff0c;&#x8fd8;&#x8d1f;&#x8d23;QoS/&#x6d41;&#x63a7;/&#x6392;&#x5e8f;&#x7b49;&#x529f;&#x80fd;"/>
 </node>
@@ -1532,8 +1520,7 @@
   <body>
     <img src="linux/pci/pcie-data-trans-layers-details.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1547,8 +1534,7 @@
   <body>
     <img src="linux/pci/pcie-device-configuration-space.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1610291487117" ID="ID_1620810750" MODIFIED="1610291514349" TEXT="&#x4e3a;&#x517c;&#x5bb9;PCI&#x8f6f;&#x4ef6;&#xff0c;&#x4fdd;&#x7559;&#x4e86;256Bytes&#x7684;&#x914d;&#x7f6e;&#x7a7a;&#x95f4;"/>
 <node CREATED="1610291515546" ID="ID_741055390" MODIFIED="1610291558411" TEXT="&#x914d;&#x7f6e;&#x7a7a;&#x95f4;&#x62d3;&#x5c55;&#x5230;4KB&#xff0c;&#x8fd8;&#x8fdb;&#x884c;&#x4e86;&#x529f;&#x80fd;&#x4e0a;&#x7684;&#x62d3;&#x5c55;&#xff0c;&#x5305;&#x62ec;Capability, Power Management, MSI&#x4e2d;&#x65ad;&#x7b49;"/>
 <node CREATED="1610291568646" ID="ID_509151165" MODIFIED="1610291581215" TEXT="&#x62d3;&#x5c55;&#x540e;&#x7684;&#x533a;&#x57df;&#x5c06;&#x4f7f;&#x7528;MMIO&#x7684;&#x65b9;&#x5f0f;&#x8fdb;&#x884c;&#x8bbf;&#x95ee;">
@@ -1560,8 +1546,7 @@
   <body>
     <img src="linux/pci/pcie-device-configuration-space-2.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1577,8 +1562,7 @@
   <body>
     <img src="linux/pci/pci-linux-data-structure.jpg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1610292370984" ID="ID_926083567" MODIFIED="1610292375851">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1587,11 +1571,17 @@
   <body>
     <img src="linux/pci/pci-linux-data-structure-details.jpg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<node CREATED="1610294325094" ID="ID_1466895824" MODIFIED="1610294352933" TEXT="&#x6570;&#x636e;&#x7ed3;&#x6784;&#x5bf9;&#x786c;&#x4ef6;&#x6a21;&#x5757;&#x8fdb;&#x884c;&#x62bd;&#x8c61;&#xff0c;&#x6784;&#x5efa;&#x4e00;&#x4e2a;&#x7c7b;&#x4f3c;PCI&#x5b50;&#x7cfb;&#x7edf;&#x7269;&#x7406;&#x62d3;&#x6251;&#x7684;&#x5173;&#x7cfb;&#x56fe;"/>
+<node CREATED="1610294355849" ID="ID_1650485952" MODIFIED="1610294392022" TEXT="&#x9876;&#x5c42;&#x7ed3;&#x6784;&#x4e3a;struct pci_host_bridge&#xff0c;&#x8fd9;&#x4e2a;&#x7ed3;&#x6784;&#x4e00;&#x822c;&#x7531;Host&#x9a71;&#x52a8;&#x8d1f;&#x8d23;&#x6765;&#x521d;&#x59cb;&#x5316;&#x521b;&#x5efa;">
+<node CREATED="1610294394252" ID="ID_1743896139" MODIFIED="1610294430630" TEXT="pci_host_bridge&#x6307;&#x5411;root bus&#xff0c;&#x5c31;&#x662f;&#x7f16;&#x53f7;0&#x7684;&#x603b;&#x7ebf;">
+<node CREATED="1610294430630" ID="ID_22345940" MODIFIED="1610294458306" TEXT="0&#x53f7;&#x603b;&#x7ebf;&#x4e0b;&#xff0c;&#x53ef;&#x4ee5;&#x6302;&#x5404;&#x79cd;&#x5916;&#x8bbe;&#x3001;&#x7269;&#x7406;slot&#x3001;&#x6216;&#x8005;&#x901a;&#x8fc7;PCI&#x6865;&#x53bb;&#x62d3;&#x5c55;&#x603b;&#x7ebf;"/>
 </node>
 </node>
 </node>
+</node>
+</node>
+<node CREATED="1610294469055" ID="ID_1293998464" MODIFIED="1610294474659" TEXT="&#x6d41;&#x7a0b;&#x5206;&#x6790;"/>
 </node>
 </node>
 <node CREATED="1602679793733" FOLDED="true" ID="ID_563178314" MODIFIED="1606049461609" TEXT="&#xfeff;&#x6bcf;&#x6761;&#x603b;&#x7ebf;&#x90fd;&#x4f1a;&#x5b9e;&#x4f8b;&#x5316;bus_type ">
