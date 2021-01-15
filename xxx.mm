@@ -1943,7 +1943,7 @@
 </node>
 </node>
 <node CREATED="1610552512858" ID="ID_122317866" MODIFIED="1610552518582" TEXT="&#x4e2d;&#x65ad;&#x5b50;&#x7cfb;&#x7edf;">
-<node CREATED="1610552518583" ID="ID_248063190" MODIFIED="1610552531208" TEXT="&#x4e2d;&#x65ad;&#x63a7;&#x5236;&#x5668;&#x53ca;&#x9a71;&#x52a8;">
+<node CREATED="1610552518583" FOLDED="true" ID="ID_248063190" MODIFIED="1610813127962" TEXT="&#x4e2d;&#x65ad;&#x63a7;&#x5236;&#x5668;&#x53ca;&#x9a71;&#x52a8;">
 <node CREATED="1610639656362" ID="ID_874752978" MODIFIED="1610639670910">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1968,7 +1968,7 @@
 <node CREATED="1610639777174" ID="ID_1316501628" MODIFIED="1610639793654" TEXT="&#x5404;&#x7c7b;&#x8bbe;&#x5907;&#x9a71;&#x52a8;&#xff0c;&#x4e2d;&#x65ad;&#x5904;&#x7406;&#x51fd;&#x6570;"/>
 </node>
 </node>
-<node CREATED="1610639811288" FOLDED="true" ID="ID_677682427" MODIFIED="1610640536681" TEXT="ARM&#x901a;&#x7528;&#x4e2d;&#x65ad;&#x63a7;&#x5236;&#x5668;GIC, Generic Interrupt Controller">
+<node CREATED="1610639811288" FOLDED="true" ID="ID_677682427" MODIFIED="1610813126272" TEXT="ARM&#x901a;&#x7528;&#x4e2d;&#x65ad;&#x63a7;&#x5236;&#x5668;GIC, Generic Interrupt Controller">
 <node CREATED="1610639889720" ID="ID_1066409819" MODIFIED="1610639895118">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2008,8 +2008,230 @@
 <node CREATED="1610640379281" ID="ID_419676282" MODIFIED="1610640429104" TEXT="&#x5171;&#x4eab;&#x5916;&#x8bbe;&#x4e2d;&#x65ad;&#xff0c;&#x4e2d;&#x65ad;&#x4ea7;&#x751f;&#x540e;&#xff0c;&#x53ef;&#x4ee5;&#x5206;&#x53d1;&#x5230;&#x67d0;&#x4e2a;CPU&#x4e0a;&#xff0c;&#x4e2d;&#x65ad;&#x53f7;ID32-ID1019&#x7528;&#x4e8e;SPI, ID1020-ID1023&#x4fdd;&#x7559;"/>
 </node>
 </node>
-<node CREATED="1610640433328" ID="ID_747431164" MODIFIED="1610640440021" TEXT="Distributor&#x529f;&#x80fd;"/>
-<node CREATED="1610640440210" ID="ID_1907932979" MODIFIED="1610640452813" TEXT="CPU Interface&#x529f;&#x80fd;"/>
+<node CREATED="1610640433328" ID="ID_747431164" MODIFIED="1610640440021" TEXT="Distributor&#x529f;&#x80fd;">
+<node CREATED="1610716512317" ID="ID_946617496" MODIFIED="1610716527727" TEXT="&#x5168;&#x5c40;&#x5f00;&#x5173;&#x63a7;&#x5236;Distributor&#x5206;&#x53d1;&#x5230;CPU Interface"/>
+<node CREATED="1610716528088" ID="ID_136834878" MODIFIED="1610716535310" TEXT="&#x6253;&#x5f00;&#x6216;&#x8005;&#x5173;&#x95ed;&#x6bcf;&#x4e2a;&#x4e2d;&#x65ad;"/>
+<node CREATED="1610716536057" ID="ID_903170296" MODIFIED="1610716547068" TEXT="&#x8bbe;&#x7f6e;&#x6bcf;&#x4e2a;&#x4e2d;&#x65ad;&#x7684;&#x4f18;&#x5148;&#x7ea7;"/>
+<node CREATED="1610716547333" ID="ID_364661180" MODIFIED="1610716558851" TEXT="&#x8bbe;&#x7f6e;&#x6bcf;&#x4e2a;&#x4e2d;&#x65ad;&#x5c06;&#x8def;&#x7531;&#x7684;CPU&#x5217;&#x8868;"/>
+<node CREATED="1610716559079" ID="ID_1932578979" MODIFIED="1610716580905" TEXT="&#x8bbe;&#x7f6e;&#x6bcf;&#x4e2a;&#x5916;&#x8bbe;&#x4e2d;&#x65ad;&#x7684;&#x89e6;&#x53d1;&#x65b9;&#x5f0f;&#xff1a;&#x7535;&#x5e73;&#x89e6;&#x53d1;&#x3001;&#x8fb9;&#x7f18;&#x89e6;&#x53d1;"/>
+<node CREATED="1610716581119" ID="ID_1337236873" MODIFIED="1610716591744" TEXT="&#x8bbe;&#x7f6e;&#x6bcf;&#x4e2a;&#x4e2d;&#x65ad;&#x7684;Group">
+<node CREATED="1610716591744" ID="ID_445329013" MODIFIED="1610716596749" TEXT="Group0">
+<node CREATED="1610716596750" ID="ID_1179412351" MODIFIED="1610716605409" TEXT="&#x5b89;&#x5168;&#x4e2d;&#x65ad;&#xff0c;&#x652f;&#x6301;FIQ/IRQ"/>
+</node>
+<node CREATED="1610716606739" ID="ID_1405635416" MODIFIED="1610716609636" TEXT="Group1">
+<node CREATED="1610716609637" ID="ID_491213426" MODIFIED="1610716622825" TEXT="&#x975e;&#x5b89;&#x5168;&#x4e2d;&#x65ad;&#xff0c;&#x53ea;&#x652f;&#x6301;IRQ"/>
+</node>
+</node>
+<node CREATED="1610716625220" ID="ID_222446531" MODIFIED="1610716637242" TEXT="&#x5c06;SGI&#x4e2d;&#x65ad;&#x5206;&#x53d1;&#x5230;&#x76ee;&#x6807;CPU&#x4e0a;"/>
+<node CREATED="1610716638395" ID="ID_873986434" MODIFIED="1610716666952" TEXT="&#x6bcf;&#x4e2a;&#x4e2d;&#x65ad;&#x7684;&#x72b6;&#x6001;&#x53ef;&#x89c1;"/>
+<node CREATED="1610716667749" ID="ID_1076904565" MODIFIED="1610716686287" TEXT="&#x63d0;&#x4f9b;&#x8f6f;&#x4ef6;&#x673a;&#x5236;&#x6765;&#x8bbe;&#x7f6e;&#x548c;&#x6e05;&#x9664;&#x5916;&#x8bbe;&#x4e2d;&#x65ad;&#x7684;pending&#x72b6;&#x6001;"/>
+</node>
+<node CREATED="1610640440210" ID="ID_1907932979" MODIFIED="1610640452813" TEXT="CPU Interface&#x529f;&#x80fd;">
+<node CREATED="1610716690533" ID="ID_1207137097" MODIFIED="1610716703156" TEXT="&#x4f7f;&#x80fd;&#x4e2d;&#x65ad;&#x8bf7;&#x6c42;&#x4fe1;&#x53f7;&#x5230;CPU&#x4e0a;"/>
+<node CREATED="1610716744261" ID="ID_1647489195" MODIFIED="1610716750967" TEXT="&#x4e2d;&#x65ad;&#x786e;&#x8ba4;"/>
+<node CREATED="1610716751167" ID="ID_513436693" MODIFIED="1610716762432" TEXT="&#x6807;&#x8bc6;&#x4e2d;&#x65ad;&#x5904;&#x7406;&#x7684;&#x5b8c;&#x6210;"/>
+<node CREATED="1610716763586" ID="ID_370266364" MODIFIED="1610716773467" TEXT="&#x4e3a;&#x5904;&#x7406;&#x5668;&#x8bbe;&#x7f6e;&#x4e2d;&#x65ad;&#x4f18;&#x5148;&#x7ea7;&#x63a9;&#x7801;"/>
+<node CREATED="1610716774188" ID="ID_261795613" MODIFIED="1610716782821" TEXT="&#x8bbe;&#x7f6e;&#x5904;&#x7406;&#x5668;&#x7684;&#x4e2d;&#x65ad;&#x62a2;&#x5360;&#x7b56;&#x7565;"/>
+<node CREATED="1610716783035" ID="ID_1312003407" MODIFIED="1610716794300" TEXT="&#x786e;&#x5b9a;&#x5904;&#x7406;&#x5668;&#x7684;&#x6700;&#x9ad8;&#x4f18;&#x5148;&#x7ea7;pending&#x4e2d;&#x65ad;"/>
+</node>
+</node>
+</node>
+<node CREATED="1610716813982" FOLDED="true" ID="ID_761618197" MODIFIED="1610813123840" TEXT="&#x4e2d;&#x65ad;&#x72b6;&#x6001;&#x673a;">
+<node CREATED="1610716835097" ID="ID_535918088" MODIFIED="1610716840508">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/interrupt-state-machine.jpg" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1610717170240" ID="ID_1179665467" MODIFIED="1610717176445" TEXT="Inactive">
+<node CREATED="1610717176446" ID="ID_306963320" MODIFIED="1610717180256" TEXT="&#x65e0;&#x4e2d;&#x65ad;"/>
+</node>
+<node CREATED="1610717181625" ID="ID_1988698334" MODIFIED="1610717187536" TEXT="Pending">
+<node CREATED="1610717187536" ID="ID_49803004" MODIFIED="1610717222121" TEXT="&#x786c;&#x4ef6;&#x6216;&#x8f6f;&#x4ef6;&#x89e6;&#x53d1;&#x4e86;&#x4e2d;&#x65ad;&#xff0c;&#x4f46;&#x5c1a;&#x672a;&#x4f20;&#x9012;&#x5230;&#x76ee;&#x6807;CPU">
+<node CREATED="1610717222615" ID="ID_1807660444" MODIFIED="1610717317416" TEXT="&#x7535;&#x5e73;&#x89e6;&#x53d1;&#x6a21;&#x5f0f;&#x4e0b;&#xff0c;&#x4ea7;&#x751f;&#x4e2d;&#x65ad;&#x7684;&#x540c;&#x65f6;&#x4fdd;&#x6301;pending&#x72b6;&#x6001;"/>
+</node>
+</node>
+<node CREATED="1610717694233" ID="ID_1930096376" MODIFIED="1610717711635" TEXT="Active">
+<node CREATED="1610717712493" ID="ID_1927013286" MODIFIED="1610717734660" TEXT="&#x53d1;&#x751f;&#x4e86;&#x4e2d;&#x65ad;&#x5e76;&#x5c06;&#x5176;&#x4f20;&#x9012;&#x7ed9;&#x76ee;&#x6807;CPU&#xff0c;&#x5e76;&#x4e14;CPU&#x53ef;&#x4ee5;&#x5904;&#x7406;&#x8be5;&#x4e2d;&#x65ad;"/>
+</node>
+<node CREATED="1610717736124" ID="ID_858689392" MODIFIED="1610717740838" TEXT="Active and Pending">
+<node CREATED="1610717741066" ID="ID_1502442887" MODIFIED="1610717782948" TEXT="&#x53d1;&#x751f;&#x4e86;&#x4e2d;&#x65ad;&#x5e76;&#x4f20;&#x9012;&#x7ed9;&#x4e86;&#x76ee;&#x6807;CPU&#xff0c;&#x540c;&#x65f6;&#x53d1;&#x751f;&#x4e86;&#x76f8;&#x540c;&#x7684;&#x4e2d;&#x65ad;&#x4e14;&#x8be5;&#x4e2d;&#x65ad;&#x6b63;&#x5728;&#x7b49;&#x5f85;&#x5904;&#x7406;"/>
+</node>
+</node>
+<node CREATED="1610718190270" ID="ID_1081581732" MODIFIED="1610718200738" TEXT="GIC&#x68c0;&#x6d4b;&#x4e2d;&#x65ad;&#x6d41;&#x7a0b;">
+<node CREATED="1610718890610" ID="ID_286723567" MODIFIED="1610718915596" TEXT="GIC&#x6355;&#x83b7;&#x4e2d;&#x65ad;&#x4fe1;&#x53f7;&#xff0c;&#x4e2d;&#x65ad;&#x4fe1;&#x53f7;assert&#xff0c;&#x6807;&#x8bb0;&#x4e3a;pending&#x72b6;&#x6001;"/>
+<node CREATED="1610719800898" ID="ID_1918430645" MODIFIED="1610719934506" TEXT="Distributor&#x786e;&#x5b9a;&#x597d;&#x76ee;&#x6807;CPU&#x540e;&#xff0c;&#x5c06;&#x4e2d;&#x65ad;&#x4fe1;&#x53f7;&#x53d1;&#x9001;&#x5230;&#x76ee;&#x6807;CPU&#x4e0a;&#xff0c;&#x540c;&#x65f6;&#xff0c;&#x5bf9;&#x4e8e;&#x6bcf;&#x4e2a;CPU&#xff0c;Distributor&#x4f1a;&#x4ece;pending&#x4fe1;&#x53f7;&#x4e2d;&#x9009;&#x62e9;&#x6700;&#x9ad8;&#x4f18;&#x5148;&#x7ea7;&#x4e2d;&#x65ad;&#x53d1;&#x9001;&#x81f3;CPU Interface"/>
+<node CREATED="1610719937420" ID="ID_306927699" MODIFIED="1610719955225" TEXT="CPU Interface&#x6765;&#x51b3;&#x5b9a;&#x662f;&#x5426;&#x5c06;&#x4e2d;&#x65ad;&#x4fe1;&#x53f7;&#x53d1;&#x9001;&#x81f3;&#x76ee;&#x6807;CPU"/>
+<node CREATED="1610719956537" ID="ID_433430256" MODIFIED="1610720083102" TEXT="CPU&#x5b8c;&#x6210;&#x4e2d;&#x65ad;&#x5904;&#x7406;&#x540e;&#xff0c;&#x53d1;&#x9001;&#x7ed9;&#x4e00;&#x4e2a;&#x5b8c;&#x6210;&#x4fe1;&#x53f7;EOI, End of Interface&#x7ed9;GIC"/>
+</node>
+</node>
+<node CREATED="1610720465569" FOLDED="true" ID="ID_758898710" MODIFIED="1610813122080" TEXT="GIC&#x9a71;&#x52a8;&#x5206;&#x6790;">
+<node CREATED="1610721418012" ID="ID_1361612295" MODIFIED="1610721441972" TEXT="Device Tree&#x8bbe;&#x5907;&#x6811;&#xff0c;arch/arm64/boot/dts&#x4e0b;">
+<node CREATED="1610721480128" ID="ID_1726886218" MODIFIED="1610721493874">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/interrupt-controller-device-tree.jpg" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1610721628109" ID="ID_675685925" MODIFIED="1610721633636" TEXT="compatible">
+<node CREATED="1610721633636" ID="ID_717988105" MODIFIED="1610721675931" TEXT="&#x7528;&#x4e8e;&#x4e0e;&#x5177;&#x4f53;&#x7684;&#x9a71;&#x52a8;&#x8fdb;&#x884c;&#x5339;&#x914d;&#xff0c;&#x5982;&#x56fe;&#x4e2d;arm, gic-400&#xff0c;&#x6839;&#x636e;&#x8fd9;&#x4e2a;&#x540d;&#x5b57;&#x53d6;&#x5339;&#x914d;&#x5bf9;&#x5e94;&#x7684;&#x9a71;&#x52a8;&#x7a0b;&#x5e8f;"/>
+</node>
+<node CREATED="1610721677151" ID="ID_1634195022" MODIFIED="1610721713098" TEXT="interrupt-cells&#x5b57;&#x6bb5;">
+<node CREATED="1610721713099" ID="ID_1415322537" MODIFIED="1610721801442" TEXT="&#x7528;&#x4e8e;&#x6307;&#x5b9a;&#x7f16;&#x7801;&#x4e00;&#x4e2a;&#x4e2d;&#x65ad;&#x6e90;&#x6240;&#x9700;&#x8981;&#x7684;&#x5355;&#x5143;&#x4e2a;&#x6570;&#xff0c;&#x8fd9;&#x91cc;&#x4e3a;3&#x3002;&#x5916;&#x8bbe;&#x5728;&#x8bbe;&#x5907;&#x6811;&#x4e2d;&#x6dfb;&#x52a0;&#x4e2d;&#x65ad;&#x4fe1;&#x53f7;&#x65f6;&#xff0c;&#x53ef;&#x4ee5;&#x770b;&#x5230;interrupts = &lt;0 23 4&gt;">
+<node CREATED="1610721801443" ID="ID_1403775553" MODIFIED="1610721830012" TEXT="0&#x8868;&#x793a;&#x4e2d;&#x65ad;&#x7c7b;&#x578b;&#xff08;1&#xff1a;PPI, 0: SPI&#xff09;"/>
+<node CREATED="1610721830248" ID="ID_1208235153" MODIFIED="1610721835658" TEXT="23&#x8868;&#x793a;&#x4e2d;&#x65ad;&#x53f7;"/>
+<node CREATED="1610721835897" ID="ID_637080005" MODIFIED="1610721847691" TEXT="4&#x8868;&#x793a;&#x4e2d;&#x65ad;&#x89e6;&#x53d1;&#x7684;&#x7c7b;&#x578b;"/>
+</node>
+</node>
+<node CREATED="1610721870559" ID="ID_1425578462" MODIFIED="1610721874692" TEXT="reg&#x5b57;&#x6bb5;">
+<node CREATED="1610721874692" ID="ID_338952696" MODIFIED="1610721901453" TEXT="&#x4e2d;&#x65ad;&#x63a7;&#x5236;&#x5668;&#x7684;&#x5730;&#x5740;&#x4fe1;&#x606f;&#x4ee5;&#x53ca;&#x5730;&#x5740;&#x8303;&#x56f4;"/>
+</node>
+<node CREATED="1610721902678" ID="ID_335254599" MODIFIED="1610721911221" TEXT="interrupt-controller">
+<node CREATED="1610721911221" ID="ID_1759727121" MODIFIED="1610721930693" TEXT="&#x8868;&#x793a;&#x8be5;&#x8bbe;&#x5907;&#x662f;&#x4e00;&#x4e2a;&#x4e2d;&#x65ad;&#x63a7;&#x5236;&#x5668;&#xff0c;&#x5916;&#x8bbe;&#x53ef;&#x4ee5;&#x8fde;&#x63a5;&#x5728;&#x8be5;&#x4e2d;&#x65ad;&#x63a7;&#x5236;&#x5668;&#x4e0a;"/>
+</node>
+</node>
+<node CREATED="1610721976127" ID="ID_919977576" MODIFIED="1610721982011" TEXT="&#x8bbe;&#x5907;&#x6811;&#x6dfb;&#x52a0;&#x8def;&#x5f84;">
+<node CREATED="1610722112091" ID="ID_240865581" MODIFIED="1610722119051">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/interrupt-device-tree-to-system.png" />
+  </body>
+</html></richcontent>
+<node CREATED="1610721982012" ID="ID_1140018300" MODIFIED="1610722016799" TEXT="Device Tree&#x6700;&#x7ec8;&#x4f1a;&#x7f16;&#x8bd1;&#x6210;dtb&#x6587;&#x4ef6;&#xff0c;&#x901a;&#x8fc7;uboot&#x4f20;&#x9012;&#x7ed9;&#x5185;&#x6838;"/>
+<node CREATED="1610722017213" ID="ID_511001496" MODIFIED="1610722031004" TEXT="&#x5185;&#x6838;&#x542f;&#x52a8;&#x540e;&#x5c06;dtb&#x6587;&#x4ef6;&#x89e3;&#x6790;&#x6210;device node&#x7ed3;&#x6784;">
+<node CREATED="1610722044614" ID="ID_328993696" MODIFIED="1610722077469" TEXT="&#x8bbe;&#x5907;&#x6811;&#x7684;&#x8282;&#x70b9;&#x4fe1;&#x606f;&#x6700;&#x7ec8;&#x53d8;&#x6210;device_node&#x7ed3;&#x6784;&#xff0c;&#x5728;&#x5185;&#x5b58;&#x4e2d;&#x7ef4;&#x6301;&#x4e00;&#x4e2a;&#x6811;&#x72b6;&#x7ed3;&#x6784;"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1610810992711" ID="ID_1237631741" MODIFIED="1610810997053" TEXT="&#x6570;&#x636e;&#x7ed3;&#x6784;">
+<node CREATED="1610811014055" ID="ID_913256248" MODIFIED="1610811019926">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/interrupt-structure.jpg" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1610811073897" ID="ID_631221155" MODIFIED="1610811122207" TEXT="struct gic_chip_data&#x63cf;&#x8ff0;GIC&#x63a7;&#x5236;&#x5668;&#x7684;&#x4fe1;&#x606f;&#xff0c;&#x6574;&#x4e2a;&#x9a71;&#x52a8;&#x56f4;&#x7ed5;&#x8be5;&#x7ed3;&#x6784;&#x4f53;&#x7684;&#x521d;&#x59cb;&#x5316;&#xff0c;&#x5b9e;&#x9645;&#x5de5;&#x4f5c;&#x7531;&#x4e2d;&#x65ad;&#x4fe1;&#x53f7;&#x89e6;&#x53d1;&#xff0c;&#x7136;&#x540e;&#x8fdb;&#x884c;&#x56de;&#x8c03;&#x3002;"/>
+<node CREATED="1610811129110" ID="ID_201632288" MODIFIED="1610811161693" TEXT="struct irq_chip&#x63cf;&#x8ff0;&#x4e2d;&#x65ad;&#x63a7;&#x5236;&#x5668;&#x5e95;&#x5c42;&#x64cd;&#x4f5c;&#x51fd;&#x6570;&#x96c6;&#xff0c;&#x6700;&#x7ec8;&#x5b8c;&#x6210;&#x5bf9;&#x63a7;&#x5236;&#x5668;&#x786c;&#x4ef6;&#x7684;&#x64cd;&#x4f5c;"/>
+<node CREATED="1610811163818" ID="ID_559637527" MODIFIED="1610811200112" TEXT="struct irq_domain&#xff0c;&#x7528;&#x4e8e;&#x786c;&#x4ef6;&#x4e2d;&#x65ad;&#x53f7;&#x548c;Linux IRQ&#x4e2d;&#x65ad;&#x53f7;&#xff08;virq&#xff0c;&#x865a;&#x62df;&#x4e2d;&#x65ad;&#x53f7;&#xff09;&#x4e4b;&#x95f4;&#x7684;&#x6620;&#x5c04;">
+<node CREATED="1610811240085" ID="ID_60963715" MODIFIED="1610811247350">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/interrupt-domain.png" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1610811928367" ID="ID_868610997" MODIFIED="1610811936471" TEXT="&#x6bcf;&#x4e2a;&#x63a7;&#x5236;&#x5668;&#x4e00;&#x4e2a;IRQ domain"/>
+<node CREATED="1610811944178" ID="ID_85665338" MODIFIED="1610811970162" TEXT="&#x4e2d;&#x65ad;&#x63a7;&#x5236;&#x9a71;&#x52a8;&#x901a;&#x8fc7;irq_domain_add_*()&#x6765;&#x521b;&#x5efa;IRQ domain"/>
+<node CREATED="1610811976933" ID="ID_1959092993" MODIFIED="1610811990677" TEXT="IRQ domain&#x4e09;&#x79cd;&#x6620;&#x5c04;&#x65b9;&#x5f0f;">
+<node CREATED="1610812225454" ID="ID_1596560833" MODIFIED="1610812248129" TEXT="&#x786c;&#x4ef6;&#x4e2d;&#x65ad;&#x53f7;&#x53ef;&#x4ee5;&#x4e00;&#x6837;&#xff0c;&#x6700;&#x7ec8;&#x6620;&#x5c04;&#x5230;Linux&#x5185;&#x6838;&#x4e2d;&#x65ad;&#x53f7;&#x552f;&#x4e00;">
+<node CREATED="1610812010003" ID="ID_543605363" MODIFIED="1610812016174">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/interrupt-irq-domain-map.png" />
+  </body>
+</html></richcontent>
+<node CREATED="1610812027998" ID="ID_61823656" MODIFIED="1610812037138" TEXT="no map">
+<node CREATED="1610812037139" ID="ID_1126118012" MODIFIED="1610812054005" TEXT="&#x786c;&#x4ef6;&#x4e2d;&#x65ad;&#x53f7;&#x76f4;&#x63a5;&#x5c31;&#x662f;Linux&#x4e2d;&#x65ad;&#x53f7;"/>
+</node>
+<node CREATED="1610812054950" ID="ID_1001762419" MODIFIED="1610812058894" TEXT="linear map">
+<node CREATED="1610812058895" ID="ID_1415028669" MODIFIED="1610812123273" TEXT="&#x7ef4;&#x62a4;&#x56fa;&#x5b9a;&#x5927;&#x5c0f;&#x7684;&#x8868;&#xff0c;&#x7d22;&#x5f15;&#x662f;&#x786c;&#x4ef6;&#x4e2d;&#x65ad;&#x53f7;&#xff0c;&#x5982;&#x679c;&#x786c;&#x4ef6;&#x4e2d;&#x65ad;&#x6700;&#x5927;&#x6570;&#x91cf;&#x56fa;&#x5b9a;&#xff0c;&#x5e76;&#x4e14;&#x6570;&#x503c;&#x4e0d;&#x5927;&#xff0c;&#x53ef;&#x4ee5;&#x9009;&#x62e9;&#x7ebf;&#x6027;&#x6620;&#x5c04;"/>
+</node>
+<node CREATED="1610812175808" ID="ID_1217309374" MODIFIED="1610812178455" TEXT="tree map">
+<node CREATED="1610812178456" ID="ID_1834662813" MODIFIED="1610812191005" TEXT="&#x786c;&#x4ef6;&#x4e2d;&#x65ad;&#x53f7;&#x53ef;&#x80fd;&#x5f88;&#x5927;&#xff0c;&#x9009;&#x62e9;&#x6811;&#x7ed3;&#x6784;"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1610722160527" ID="ID_883453272" MODIFIED="1610722174050" TEXT="&#x6267;&#x884c;&#x6d41;&#x7a0b;">
+<node CREATED="1610722191252" ID="ID_139438303" MODIFIED="1610722194954">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/interrupt-gic-driver-execute-process.png" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1610722318890" ID="ID_1233456418" MODIFIED="1610722326130" TEXT="vmlinux.lds">
+<node CREATED="1610722326130" ID="ID_881529119" MODIFIED="1610722357578" TEXT="&#x811a;&#x672c;&#x5b9a;&#x4e49;__irqchip_of_table&#x6bb5;&#xff0c;&#x8be5;&#x6bb5;&#x7528;&#x4e8e;&#x5b58;&#x653e;&#x4e2d;&#x65ad;&#x63a7;&#x5236;&#x5668;&#x4fe1;&#x606f;&#xff0c;&#x7528;&#x6765;&#x6700;&#x7ec8;&#x5339;&#x914d;&#x8bbe;&#x5907;"/>
+</node>
+<node CREATED="1610722358863" ID="ID_1368502279" MODIFIED="1610810243318" TEXT="GIC&#x9a71;&#x52a8;&#x4e2d;&#xff0c;&#x7528;IRQCHIP_DECLARE&#x5b8f;&#x6765;&#x58f0;&#x660e;&#x7ed3;&#x6784;&#x4fe1;&#x606f;&#xff0c;&#x5305;&#x62ec;compatible&#x5b57;&#x6bb5;&#x548c;&#x56de;&#x8c03;&#x51fd;&#x6570;&#xff0c;&#x8be5;&#x5b8f;&#x4f1a;&#x5c06;&#x5bf9;&#x5e94;&#x7ed3;&#x6784;&#x653e;&#x5165;__irqchip_of_table&#x4e2d;"/>
+<node CREATED="1610810244062" ID="ID_9443560" MODIFIED="1610810354666" TEXT="&#x5185;&#x6838;&#x542f;&#x52a8;&#x521d;&#x59cb;&#x5316;&#x4e2d;&#x65ad;&#x7684;&#x51fd;&#x6570;&#x4e2d;&#xff0c;of_irq_init&#x51fd;&#x6570;&#x4f1a;&#x53bb;&#x67e5;&#x627e;&#x8bbe;&#x5907;&#x8282;&#x70b9;&#x4fe1;&#x606f;&#xff0c;&#x8be5;&#x51fd;&#x6570;&#x7684;&#x4f20;&#x5165;&#x53c2;&#x6570;&#x5c31;&#x662f;__irqchip_of_table&#x6bb5;&#xff0c;&#x7531;&#x4e8e;IRQCHIP_DECLARE&#x5df2;&#x7ecf;&#x5c06;&#x4fe1;&#x606f;&#x586b;&#x5145;&#x597d;&#x4e86;&#xff0c;of_irq_init&#x51fd;&#x6570;&#x6839;&#x636e;arm, gic-400&#x53bb;&#x67e5;&#x627e;&#x5bf9;&#x5e94;&#x7684;&#x8bbe;&#x5907;&#x8282;&#x70b9;&#xff0c;&#x5e76;&#x83b7;&#x53d6;&#x8bbe;&#x5907;&#x7684;&#x4fe1;&#x606f;"/>
+<node CREATED="1610810393551" ID="ID_293398202" MODIFIED="1610810436747" TEXT="of_irq_init&#x51fd;&#x6570;&#x6700;&#x7ec8;&#x4f1a;&#x56de;&#x8c03;IRQCHIP_DECLARE&#x58f0;&#x660e;&#x7684;&#x56de;&#x8c03;&#x51fd;&#x6570;&#xff0c;&#x5373;gic_of_init&#xff0c;&#x8fd9;&#x4e2a;&#x51fd;&#x6570;&#x5c31;&#x662f;GIC&#x9a71;&#x52a8;&#x7684;&#x521d;&#x59cb;&#x5316;&#x5165;&#x53e3;&#x51fd;&#x6570;"/>
+<node CREATED="1610810722274" ID="ID_244583154" MODIFIED="1610810776975" TEXT="GIC&#x7684;&#x5de5;&#x4f5c;&#xff0c;&#x672c;&#x8d28;&#x4e0a;&#x662f;&#x7531;&#x4e2d;&#x65ad;&#x4fe1;&#x53f7;&#x6765;&#x9a71;&#x52a8;&#xff0c;&#x56e0;&#x6b64;&#x9a71;&#x52a8;&#x672c;&#x8eab;&#x7684;&#x5de5;&#x4f5c;&#x5c31;&#x662f;&#x5b8c;&#x6210;&#x5404;&#x7c7b;&#x4fe1;&#x606f;&#x7684;&#x521d;&#x59cb;&#x5316;&#xff0c;&#x6ce8;&#x518c;&#x597d;&#x76f8;&#x5e94;&#x7684;&#x56de;&#x8c03;&#x51fd;&#x6570;&#xff0c;&#x4ee5;&#x4fbf;&#x80fd;&#x5728;&#x4fe1;&#x53f7;&#x5230;&#x6765;&#x4e4b;&#x65f6;&#x53bb;&#x6267;&#x884c;&#x3002;"/>
+<node CREATED="1610810793358" ID="ID_1654453958" MODIFIED="1610810865249" TEXT="set_smp_process_call&#x8bbe;&#x7f6e;__smp_cross_all&#x51fd;&#x6570;&#x6307;&#x5411;gic_raise_softirq&#xff0c;&#x672c;&#x8d28;&#x4e0a;&#x5c31;&#x662f;&#x901a;&#x8fc7;&#x8f6f;&#x4ef6;&#x89e6;&#x53d1;GIC&#x7684;SGI&#x4e2d;&#x65ad;&#xff0c;&#x7528;&#x4e8e;&#x6838;&#x95f4;&#x4ea4;&#x4e92;"/>
+<node CREATED="1610810876456" ID="ID_227036101" MODIFIED="1610810904362" TEXT="cpuhp_setup_state_nocalls&#x51fd;&#x6570;&#x8bbe;&#x7f6e;CPU&#x8fdb;&#x884c;&#x70ed;&#x63d2;&#x62d4;&#x65f6;GIC&#x7684;&#x56de;&#x8c03;&#x51fd;&#x6570;"/>
+<node CREATED="1610810910660" ID="ID_1757320682" MODIFIED="1610810968579" TEXT="set_handle_irq&#x51fd;&#x6570;&#x5c06;&#x5168;&#x5c40;&#x6307;&#x9488;handle_arch_irq&#x6307;&#x5411;gic_handle_irq&#xff0c;&#x5904;&#x7406;&#x5668;&#x8fdb;&#x5165;&#x4e2d;&#x65ad;&#x5f02;&#x5e38;&#xff0c;&#x6267;&#x884c;&#x7684;&#x4e2d;&#x65ad;&#x5904;&#x7406;&#x5165;&#x53e3;&#x51fd;&#x6570;&#x5c31;&#x662f;&#x8df3;&#x8f6c;&#x5230;handle_arch_irq&#x6267;&#x884c;"/>
+</node>
+</node>
+</node>
+<node CREATED="1610812266188" FOLDED="true" ID="ID_931452512" MODIFIED="1610813119937" TEXT="ARM64&#x4e2d;&#x65ad;&#x5206;&#x6790;">
+<node CREATED="1610812283003" ID="ID_1490715018" MODIFIED="1610812315835" TEXT="arch/arm64/kernel/entry.S">
+<node CREATED="1610812315835" ID="ID_419016956" MODIFIED="1610812355184" TEXT="&#x5916;&#x8bbe;&#x53d1;&#x751f;&#x4e2d;&#x65ad;&#xff0c;&#x5904;&#x7406;&#x5668;&#x5207;&#x6362;&#x5230;&#x7279;&#x5b9a;&#x5f02;&#x5e38;&#x6a21;&#x5f0f;&#xff08;&#x4e2d;&#x65ad;&#x5f02;&#x5e38;&#xff09;&#x8fdb;&#x884c;&#x5904;&#x7406;&#xff0c;&#x8fd9;&#x90e8;&#x5206;&#x662f;&#x67b6;&#x6784;&#x76f8;&#x5173;&#x7684;"/>
+</node>
+<node CREATED="1610812475469" ID="ID_529346602" MODIFIED="1610812496495" TEXT="ARM64&#x56db;&#x4e2a;&#x5f02;&#x5e38;&#x7b49;&#x7ea7;Exception Level: 0-3">
+<node CREATED="1610812496496" ID="ID_1224214311" MODIFIED="1610812501637" TEXT="EL0">
+<node CREATED="1610812501637" ID="ID_1124372807" MODIFIED="1610812506593" TEXT="&#x7528;&#x6237;&#x6001;&#x7a0b;&#x5e8f;"/>
+</node>
+<node CREATED="1610812507509" ID="ID_180335600" MODIFIED="1610812509647" TEXT="EL1">
+<node CREATED="1610812509648" ID="ID_103984830" MODIFIED="1610812513895" TEXT="&#x64cd;&#x4f5c;&#x7cfb;&#x7edf;&#x5185;&#x6838;"/>
+</node>
+<node CREATED="1610812514748" ID="ID_1641188684" MODIFIED="1610812516989" TEXT="EL2">
+<node CREATED="1610812516989" ID="ID_1079860692" MODIFIED="1610812521693" TEXT="Hypervisor"/>
+</node>
+<node CREATED="1610812522493" ID="ID_1077946940" MODIFIED="1610812524429" TEXT="EL3">
+<node CREATED="1610812524429" ID="ID_266117865" MODIFIED="1610812530337" TEXT="Secure Monitor"/>
+</node>
+</node>
+<node CREATED="1610812536621" ID="ID_1086686006" MODIFIED="1610812540100" TEXT="&#x5f02;&#x5e38;&#x89e6;&#x53d1;">
+<node CREATED="1610812540102" ID="ID_172789584" MODIFIED="1610812568438" TEXT="&#x5904;&#x7406;&#x5668;&#x8fdb;&#x884c;&#x5207;&#x6362;&#xff0c;&#x8df3;&#x8f6c;&#x5230;&#x5f02;&#x5e38;&#x5411;&#x91cf;&#x8868;&#x8fdb;&#x884c;&#x6267;&#x884c;&#xff0c;&#x6700;&#x7ec8;&#x8df3;&#x8f6c;&#x5230;irq_handler&#x4e2d;">
+<node CREATED="1610812586974" ID="ID_84395425" MODIFIED="1610812615856" TEXT="/*&#xa; * Interrupt handling.&#xa; */&#xa;&#x9;.macro&#x9;irq_handler&#xa;&#x9;ldr_l&#x9;x1, handle_arch_irq&#xa;&#x9;mov&#x9;x0, sp&#xa;&#x9;irq_stack_entry&#xa;&#x9;blr&#x9;x1&#xa;&#x9;irq_stack_exit&#xa;&#x9;.endm"/>
+</node>
+</node>
+<node CREATED="1610812658943" ID="ID_366076831" MODIFIED="1610812663199">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/interrupt-handle.png" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1610812825550" ID="ID_1445335395" MODIFIED="1610812862633" TEXT="&#x4e2d;&#x65ad;&#x89e6;&#x53d1;&#xff0c;&#x901a;&#x8fc7;&#x5f02;&#x5e38;&#x5411;&#x91cf;&#x8868;&#x627e;&#x5230;&#x5bf9;&#x5e94;&#x7684;&#x5165;&#x53e3;&#xff0c;&#x8df3;&#x8f6c;&#x5230;el0_irq&#x6216;&#x8005;el1_irq"/>
+<node CREATED="1610812867083" ID="ID_841847886" MODIFIED="1610812931805" TEXT="GIC&#x9a71;&#x52a8;&#x4e2d;&#x4f1a;&#x8c03;&#x7528;set_handle_irq&#x6765;&#x8bbe;&#x7f6e;handle_arch_irq&#xff0c;&#x6307;&#x5411;gic_handle_irq&#xff0c;&#x6700;&#x7ec8;&#x4e2d;&#x65ad;&#x89e6;&#x53d1;&#x4f1a;&#x8df3;&#x8f6c;&#x5230;gic_handle_irq&#x6267;&#x884c;"/>
+<node CREATED="1610812959428" ID="ID_1858450062" MODIFIED="1610812970892" TEXT="gic_handle_irq&#x51fd;&#x6570;&#x5904;&#x7406;">
+<node CREATED="1610812970893" ID="ID_326261542" MODIFIED="1610813004922" TEXT="&#x786c;&#x4ef6;&#x4e2d;&#x65ad;&#x53f7;0-16&#xff0c;&#x8f6f;&#x4ef6;&#x89e6;&#x53d1;&#x7684;&#x4e2d;&#x65ad;&#xff0c;&#x7528;&#x4e8e;&#x5904;&#x7406;&#x5668;&#x4e4b;&#x95f4;&#x7684;&#x4ea4;&#x4e92;"/>
+<node CREATED="1610813005986" ID="ID_790752693" MODIFIED="1610813039733" TEXT="&#x786c;&#x4ef6;&#x4e2d;&#x65ad;&#x53f7;16-1020&#xff0c;&#x5916;&#x8bbe;&#x89e6;&#x53d1;&#x7684;&#x4e2d;&#x65ad;"/>
+</node>
+<node CREATED="1610813044832" ID="ID_687063027" MODIFIED="1610813091227" TEXT="&#x5916;&#x8bbe;&#x89e6;&#x53d1;&#x4e2d;&#x65ad;&#xff0c;&#x6839;&#x636e;irq domain&#x67e5;&#x627e;Linux IRQ&#x4e2d;&#x65ad;&#x53f7;&#xff0c;&#x8fdb;&#x800c;&#x7684;&#x5f97;&#x5230;&#x4e2d;&#x65ad;&#x63cf;&#x8ff0;&#x7b26;irq_desc&#xff0c;&#x6700;&#x7ec8;&#x8c03;&#x7528;&#x5230;&#x5916;&#x8bbe;&#x7684;&#x4e2d;&#x65ad;&#x5904;&#x7406;&#x51fd;&#x6570;&#x3002;"/>
 </node>
 </node>
 </node>
