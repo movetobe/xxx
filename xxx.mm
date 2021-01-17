@@ -1943,7 +1943,7 @@
 </node>
 </node>
 <node CREATED="1610552512858" ID="ID_122317866" MODIFIED="1610552518582" TEXT="&#x4e2d;&#x65ad;&#x5b50;&#x7cfb;&#x7edf;">
-<node CREATED="1610552518583" FOLDED="true" ID="ID_248063190" MODIFIED="1610813127962" TEXT="&#x4e2d;&#x65ad;&#x63a7;&#x5236;&#x5668;&#x53ca;&#x9a71;&#x52a8;">
+<node CREATED="1610552518583" FOLDED="true" ID="ID_248063190" MODIFIED="1610873052024" TEXT="&#x4e2d;&#x65ad;&#x63a7;&#x5236;&#x5668;&#x53ca;&#x9a71;&#x52a8;">
 <node CREATED="1610639656362" ID="ID_874752978" MODIFIED="1610639670910">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2192,7 +2192,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1610812266188" FOLDED="true" ID="ID_931452512" MODIFIED="1610813119937" TEXT="ARM64&#x4e2d;&#x65ad;&#x5206;&#x6790;">
+<node CREATED="1610812266188" ID="ID_931452512" MODIFIED="1610873044898" TEXT="ARM64&#x4e2d;&#x65ad;&#x5206;&#x6790;">
 <node CREATED="1610812283003" ID="ID_1490715018" MODIFIED="1610812315835" TEXT="arch/arm64/kernel/entry.S">
 <node CREATED="1610812315835" ID="ID_419016956" MODIFIED="1610812355184" TEXT="&#x5916;&#x8bbe;&#x53d1;&#x751f;&#x4e2d;&#x65ad;&#xff0c;&#x5904;&#x7406;&#x5668;&#x5207;&#x6362;&#x5230;&#x7279;&#x5b9a;&#x5f02;&#x5e38;&#x6a21;&#x5f0f;&#xff08;&#x4e2d;&#x65ad;&#x5f02;&#x5e38;&#xff09;&#x8fdb;&#x884c;&#x5904;&#x7406;&#xff0c;&#x8fd9;&#x90e8;&#x5206;&#x662f;&#x67b6;&#x6784;&#x76f8;&#x5173;&#x7684;"/>
 </node>
@@ -2235,7 +2235,157 @@
 </node>
 </node>
 </node>
-<node CREATED="1610552531464" ID="ID_1307735102" MODIFIED="1610552536324" TEXT="&#x901a;&#x7528;&#x6846;&#x67b6;&#x5904;&#x7406;"/>
+<node CREATED="1610552531464" ID="ID_1307735102" MODIFIED="1610869265861" TEXT="&#x901a;&#x7528;&#x6846;&#x67b6;&#x5904;&#x7406;">
+<node CREATED="1610869267258" ID="ID_1110353787" MODIFIED="1610869276524" TEXT="&#x6570;&#x636e;&#x7ed3;&#x6784;&#x5206;&#x6790;">
+<node CREATED="1610869288174" ID="ID_257093367" MODIFIED="1610869292821">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/irq-desc.jpg" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1610870123062" ID="ID_849747511" MODIFIED="1610870136554" TEXT="&#x4e2d;&#x65ad;&#x63cf;&#x8ff0;&#x7b26;&#x7ec4;&#x7ec7;&#x5f62;&#x5f0f;">
+<node CREATED="1610870136554" ID="ID_1474294323" MODIFIED="1610870153821" TEXT="CONFIG_SPARSE_IRQ&#x5b8f;&#x6253;&#x5f00;">
+<node CREATED="1610870153822" ID="ID_834213730" MODIFIED="1610870225725" TEXT="&#x4e2d;&#x65ad;&#x63cf;&#x8ff0;&#x7b26;&#x4ee5;radix-tree&#x6765;&#x7ec4;&#x7ec7;&#xff0c;&#x7528;&#x6237;&#x5728;&#x521d;&#x59cb;&#x5316;&#x65f6;&#x8fdb;&#x884c;&#x52a8;&#x6001;&#x5206;&#x914d;&#xff0c;&#x7136;&#x540e;&#x63d2;&#x5165;radix-tree&#x4e2d;"/>
+</node>
+<node CREATED="1610870174942" ID="ID_1603252576" MODIFIED="1610870183669" TEXT="CONFIG_SPARSE_IRQ&#x5b8f;&#x5173;&#x95ed;">
+<node CREATED="1610870183669" ID="ID_1783355244" MODIFIED="1610870205185" TEXT="&#x4e2d;&#x65ad;&#x63cf;&#x8ff0;&#x7b26;&#x4ee5;&#x6570;&#x7ec4;&#x5f62;&#x5f0f;&#x7ec4;&#x7ec7;&#xff0c;&#x5e76;&#x4e14;&#x5df2;&#x7ecf;&#x5206;&#x914d;&#x597d;"/>
+</node>
+</node>
+<node CREATED="1610870356039" ID="ID_887434765" MODIFIED="1610870410730" TEXT="struct irq_chip&#x7528;&#x4e8e;&#x5bf9;&#x4e2d;&#x65ad;&#x63a7;&#x5236;&#x5668;&#x7684;&#x786c;&#x4ef6;&#x64cd;&#x4f5c;&#xff0c;struct irq_domain&#x4e0e;&#x4e2d;&#x65ad;&#x63a7;&#x5236;&#x5668;&#x5bf9;&#x5e94;&#xff0c;&#x5b8c;&#x6210;&#x786c;&#x4ef6;&#x4e2d;&#x65ad;&#x53f7;&#x5230;linux irq&#x7684;&#x6620;&#x5c04;">
+<node CREATED="1610870485364" ID="ID_1246469770" MODIFIED="1610870498539" TEXT="&#x8fd9;&#x90e8;&#x5206;&#x4e3b;&#x8981;&#x5728;&#x4e2d;&#x65ad;&#x63a7;&#x5236;&#x5668;&#x9a71;&#x52a8;&#x4e2d;&#x8fdb;&#x884c;&#x521d;&#x59cb;&#x5316;&#x8bbe;&#x7f6e;"/>
+</node>
+<node CREATED="1610870499495" ID="ID_647426464" MODIFIED="1610870666115" TEXT="&#x4e2d;&#x65ad;&#x63cf;&#x8ff0;&#x7b26;&#x7684;&#x521b;&#x5efa;&#xff0c;&#x4e3b;&#x8981;&#x5728;&#x83b7;&#x53d6;&#x8bbe;&#x5907;&#x4e2d;&#x65ad;&#x4fe1;&#x606f;&#x7684;&#x8fc7;&#x7a0b;&#x4e2d;&#x5b8c;&#x6210;&#xff0c;&#x4ece;&#x800c;&#x8ba9;&#x8bbe;&#x5907;&#x6811;&#x4e2d;&#x7684;&#x4e2d;&#x65ad;&#x4e0e;&#x5177;&#x4f53;&#x7684;&#x4e2d;&#x65ad;&#x63cf;&#x8ff0;&#x7b26;irq_desc&#x5339;&#x914d;"/>
+<node CREATED="1610870672520" ID="ID_898856808" MODIFIED="1610870694675" TEXT="struct irqaction/handler&#x7528;&#x4e8e;&#x6307;&#x5411;&#x8bbe;&#x5907;&#x9a71;&#x52a8;&#x7a0b;&#x5e8f;&#x7684;&#x4e2d;&#x65ad;&#x5904;&#x7406;&#x51fd;&#x6570;&#x3002;">
+<node CREATED="1610870694675" ID="ID_917306222" MODIFIED="1610870705686" TEXT="&#x8bbe;&#x5907;&#x7533;&#x8bf7;&#x6ce8;&#x518c;&#x4e2d;&#x65ad;&#x8fc7;&#x7a0b;&#x4e2d;&#x8fdb;&#x884c;&#x8bbe;&#x7f6e;"/>
+</node>
+</node>
+</node>
+<node CREATED="1610871089813" ID="ID_1397342915" MODIFIED="1610871100133" TEXT="&#x4e2d;&#x65ad;&#x5904;&#x7406;&#x6d41;&#x7a0b;">
+<node CREATED="1610871100134" ID="ID_1686642965" MODIFIED="1610871136759" TEXT="&#x4e2d;&#x65ad;&#x53f7;&#x5230;Linux irq&#x4e2d;&#x65ad;&#x53f7;&#x7684;&#x6620;&#x5c04;&#xff0c;&#x5e76;&#x521b;&#x5efa;irq_desc&#x4e2d;&#x65ad;&#x63cf;&#x8ff0;&#x7b26;"/>
+<node CREATED="1610871137970" ID="ID_769267455" MODIFIED="1610871182898" TEXT="&#x4e2d;&#x65ad;&#x6ce8;&#x518c;&#x65f6;&#xff0c;&#x83b7;&#x53d6;&#x8bbe;&#x5907;&#x7684;&#x4e2d;&#x65ad;&#x53f7;&#xff0c;&#x6839;&#x636e;&#x4e2d;&#x65ad;&#x53f7;&#x627e;&#x5230;&#x5bf9;&#x5e94;&#x7684;irq_desc&#xff0c;&#x5e76;&#x5c06;&#x8bbe;&#x5907;&#x4e2d;&#x7684;&#x4e2d;&#x65ad;&#x5904;&#x7406;&#x51fd;&#x6570;&#x6dfb;&#x52a0;&#x5230;irq_desc&#x4e2d;"/>
+<node CREATED="1610871356518" ID="ID_1931749368" MODIFIED="1610871399160" TEXT="&#x8bbe;&#x5907;&#x89e6;&#x53d1;&#x4e2d;&#x65ad;&#x4fe1;&#x53f7;&#xff0c;&#x786c;&#x4ef6;&#x4e2d;&#x65ad;&#x53f7;-&gt;Linux irq&#x4e2d;&#x65ad;&#x53f7;&#xff0c;&#x627e;&#x5230;irq_desc&#xff0c;-&gt;&#x4e2d;&#x65ad;&#x5904;&#x7406;&#x51fd;&#x6570;"/>
+</node>
+<node CREATED="1610871410871" ID="ID_854207930" MODIFIED="1610871416994" TEXT="&#x4e2d;&#x65ad;&#x6ce8;&#x518c;">
+<node CREATED="1610871578021" ID="ID_385293197" MODIFIED="1610871585053">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/hw-irq-to-linux-irq.jpg" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1610871690960" ID="ID_686661255" MODIFIED="1610871726557" TEXT="&#x786c;&#x4ef6;&#x8bbe;&#x5907;&#x7684;&#x4e2d;&#x65ad;&#x4fe1;&#x606f;&#x90fd;&#x5728;&#x8bbe;&#x5907;&#x6811;Device Tree&#x4e2d;&#x8fdb;&#x884c;&#x4e86;&#x63cf;&#x8ff0;&#xff0c;&#x5728;&#x7cfb;&#x7edf;&#x542f;&#x52a8;&#x8fc7;&#x7a0b;&#x4e2d;&#xff0c;&#x90fd;&#x5df2;&#x7ecf;&#x52a0;&#x8f7d;&#x5230;&#x5185;&#x5b58;&#x4e2d;&#x5e76;&#x5f97;&#x5230;&#x4e86;&#x89e3;&#x6790;"/>
+<node CREATED="1610871738316" ID="ID_713708737" MODIFIED="1610871772231" TEXT="&#x9a71;&#x52a8;&#x4e2d;&#x901a;&#x5e38;&#x4f7f;&#x7528;platform_get_irq&#x6216;&#x8005;irq_of_parse_and_map&#x63a5;&#x53e3;&#xff0c;&#x6839;&#x636e;&#x8bbe;&#x5907;&#x6811;&#x7684;&#x4fe1;&#x606f;&#x53bb;&#x521b;&#x5efa;&#x6620;&#x5c04;&#x5173;&#x7cfb;">
+<node CREATED="1610871802457" ID="ID_908083490" MODIFIED="1610871997713" TEXT="irq_create_fwspec_mapping&#x4f1a;&#x5148;&#x53bb;&#x627e;&#x5230;&#x5339;&#x914d;&#x7684;irq domain&#xff0c;&#x518d;&#x53bb;&#x56de;&#x8c03;&#x8be5;irq domain&#x7684;&#x51fd;&#x6570;&#x96c6;&#x3002;irq domain&#x90fd;&#x662f;&#x5728;&#x4e2d;&#x65ad;&#x63a7;&#x5236;&#x5668;&#x9a71;&#x52a8;&#x4e2d;&#x521d;&#x59cb;&#x5316;&#x7684;"/>
+</node>
+<node CREATED="1610871908780" ID="ID_1242379897" MODIFIED="1610871938071" TEXT="&#x5982;&#x679c;&#x5df2;&#x7ecf;&#x6709;&#x4e86;&#x6620;&#x5c04;&#xff0c;&#x76f4;&#x63a5;&#x8fd4;&#x56de;linux irq&#x53f7;&#xff0c;&#x5426;&#x5219;&#x8c03;&#x7528;irq_domain_alloc_irqs">
+<node CREATED="1610872043537" ID="ID_1955329049" MODIFIED="1610872064404" TEXT="&#x9488;&#x5bf9;Linux irq&#x4e2d;&#x65ad;&#x53f7;&#x521b;&#x5efa;&#x4e00;&#x4e2a;irq_desc&#x4e2d;&#x65ad;&#x63cf;&#x8ff0;&#x7b26;"/>
+<node CREATED="1610872067646" ID="ID_882142191" MODIFIED="1610872086759" TEXT="&#x8c03;&#x7528;domain-&gt;ops-&gt;alloc&#x51fd;&#x6570;&#x5b8c;&#x6210;&#x6620;&#x5c04;">
+<node CREATED="1610872103634" ID="ID_1237409450" MODIFIED="1610872131612" TEXT="&#x4ee5;ARM GICv2&#x4e3a;&#x4f8b;&#xff0c;&#x5bf9;&#x5e94;gic_irq_domain_alloc&#x51fd;&#x6570;">
+<node CREATED="1610872131612" ID="ID_1227603924" MODIFIED="1610872160885">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/arm-gicv2-irq-domain-alloc.jpg" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1610872254630" ID="ID_514523973" MODIFIED="1610872263236" TEXT="gic_irq_domain_translate">
+<node CREATED="1610872263236" ID="ID_906872241" MODIFIED="1610872292906" TEXT="&#x8d1f;&#x8d23;&#x89e3;&#x6790;&#x8bbe;&#x5907;&#x6811;&#x79cd;&#x63cf;&#x8ff0;&#x7684;&#x4e2d;&#x65ad;&#x53f7;&#x548c;&#x4e2d;&#x65ad;&#x89e6;&#x53d1;&#x7c7b;&#x578b;&#xff08;&#x8fb9;&#x7f18;&#x89e6;&#x53d1;&#x3001;&#x7535;&#x5e73;&#x89e6;&#x53d1;&#x7b49;&#xff09;"/>
+</node>
+<node CREATED="1610872295347" ID="ID_1260233461" MODIFIED="1610872309626" TEXT="gic_irq_domain_map">
+<node CREATED="1610872309627" ID="ID_1770230763" MODIFIED="1610872333493" TEXT="&#x786c;&#x4ef6;&#x4e2d;&#x65ad;&#x53f7;&#x548c;linux&#x4e2d;&#x65ad;&#x53f7;&#x7ed1;&#x5b9a;&#x5230;&#x4e00;&#x4e2a;&#x7ed3;&#x6784;&#x4f53;&#x4e2d;&#xff0c;&#x5b8c;&#x6210;&#x6620;&#x5c04;"/>
+<node CREATED="1610872337585" ID="ID_1083443016" MODIFIED="1610872348545" TEXT="&#x8bbe;&#x7f6e;irq_desc-&gt;handle_irq"/>
+</node>
+<node CREATED="1610872352067" ID="ID_58197944" MODIFIED="1610872373504" TEXT="&#x6839;&#x636e;&#x4e2d;&#x65ad;&#x53f7;&#x8bbe;&#x7f6e;irq_desc-&gt;handle_irq">
+<node CREATED="1610872373505" ID="ID_1954966295" MODIFIED="1610872387387" TEXT="&#x5171;&#x4eab;&#x4e2d;&#x65ad;&#x5165;&#x53e3;&#x4e3a;handle_fast_eoi_irq"/>
+<node CREATED="1610872388095" ID="ID_675060269" MODIFIED="1610872400408" TEXT="&#x79c1;&#x6709;&#x4e2d;&#x65ad;&#x5165;&#x53e3;&#x4e3a;handle_percpu_devid_irq"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1610872486691" ID="ID_98177980" MODIFIED="1610872501040" TEXT="request_irq/request_threaded_irq">
+<node CREATED="1610872501041" ID="ID_1715280788" MODIFIED="1610872513937" TEXT="request_irq&#x7528;&#x4e8e;&#x6ce8;&#x518c;&#x666e;&#x901a;&#x5904;&#x7406;&#x7684;&#x4e2d;&#x65ad;">
+<node CREATED="1610872726164" ID="ID_785025794" MODIFIED="1610872732045">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/request-irq.jpg" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1610872898542" ID="ID_1261624411" MODIFIED="1610872932903" TEXT="__setup_irq&#x7528;&#x4e8e;&#x5b8c;&#x6210;&#x4e2d;&#x65ad;&#x7684;&#x76f8;&#x5173;&#x8bbe;&#x7f6e;&#xff0c;&#x5305;&#x62ec;&#x4e2d;&#x65ad;&#x7ebf;&#x7a0b;&#x5316;&#x7684;&#x5904;&#x7406;">
+<node CREATED="1610872934475" ID="ID_1568588945" MODIFIED="1610872953838" TEXT="&#x4e2d;&#x65ad;&#x7ebf;&#x7a0b;&#x5316;&#x7528;&#x4e8e;&#x51cf;&#x5c11;&#x7cfb;&#x7edf;&#x5173;&#x4e2d;&#x65ad;&#x7684;&#x65f6;&#x95f4;&#xff0c;&#x589e;&#x5f3a;&#x7cfb;&#x7edf;&#x7684;&#x5b9e;&#x65f6;&#x6027;"/>
+<node CREATED="1610872955302" ID="ID_1583624681" MODIFIED="1610873011528" TEXT="ARM64&#x9ed8;&#x8ba4;&#x5f00;&#x542f;CONFIG_IRQ_FORCED_THREADING&#xff0c;&#x53c2;&#x6570;&#x4f20;&#x5165;threadirqs&#x65f6;&#xff0c;&#x9664;IRQF_NO_THREAD&#x5916;&#x7684;&#x4e2d;&#x65ad;&#xff0c;&#x5f3a;&#x5236;&#x7ebf;&#x7a0b;&#x5316;&#x5904;&#x7406;"/>
+</node>
+</node>
+</node>
+<node CREATED="1610872514216" ID="ID_1142879733" MODIFIED="1610872544407" TEXT="request_threaded_irq&#x7528;&#x4e8e;&#x6ce8;&#x518c;&#x7ebf;&#x7a0b;&#x5316;&#x5904;&#x7406;&#x7684;&#x4e2d;&#x65ad;"/>
+</node>
+</node>
+<node CREATED="1610873021209" ID="ID_1842832024" MODIFIED="1610873024050" TEXT="&#x4e2d;&#x65ad;&#x5904;&#x7406;">
+<node CREATED="1610873102751" ID="ID_287934194" MODIFIED="1610873142984" TEXT="&#x4e2d;&#x65ad;&#x6536;&#x5230;&#x540e;&#xff0c;&#x8df3;&#x8f6c;&#x5230;&#x5f02;&#x5e38;&#x5411;&#x91cf;&#x8868;&#x7684;&#x5165;&#x53e3;&#xff0c;&#x8fdb;&#x800c;&#x9010;&#x7ea7;&#x8fdb;&#x884c;&#x56de;&#x8c03;&#x5904;&#x7406;&#xff0c;&#x6700;&#x7ec8;&#x8c03;&#x7528;&#x5230;generic_handle_irq&#x8fdb;&#x884c;&#x4e2d;&#x65ad;&#x5904;&#x7406;">
+<node CREATED="1610873145430" ID="ID_374093943" MODIFIED="1610873154412">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/generic-handle-irq.jpg" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1610873284585" ID="ID_1773528275" MODIFIED="1610873289844">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/irq-wake-thread.jpg" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1610873377049" ID="ID_859057052" MODIFIED="1610873407292" TEXT="irq_thread&#x5185;&#x6838;&#x7ebf;&#x7a0b;&#x6839;&#x636e;&#x662f;&#x5426;&#x5f3a;&#x5236;&#x4e2d;&#x65ad;&#x7ebf;&#x7a0b;&#x5316;&#x5bf9;&#x51fd;&#x6570;&#x6307;&#x9488;handler_fn&#x8fdb;&#x884c;&#x521d;&#x59cb;&#x5316;"/>
+<node CREATED="1610873407492" ID="ID_1045780696" MODIFIED="1610873457495" TEXT="irq_thread&#x5185;&#x6838;&#x7ebf;&#x7a0b;&#x5c06;while(!irq_wait_for_interrupt)&#x5faa;&#x73af;&#x8fdb;&#x884c;&#x4e2d;&#x65ad;&#x5904;&#x7406;&#xff0c;&#x5f53;&#x6ee1;&#x8db3;&#x6761;&#x4ef6;&#x65f6;&#xff0c;&#x6267;&#x884c;handler_fn&#xff0c;&#x6700;&#x540e;&#x8c03;&#x7528;action-&gt;thread_fn">
+<node CREATED="1610873469077" ID="ID_1481521868" MODIFIED="1610873488456" TEXT="irq_wait_for_interrupt&#x5224;&#x65ad;&#x4e2d;&#x65ad;&#x7ebf;&#x7a0b;&#x5524;&#x9192;&#x6761;&#x4ef6;">
+<node CREATED="1610873488456" ID="ID_254072505" MODIFIED="1610873531410" TEXT="&#x6ee1;&#x8db3;&#xff0c;&#x5c06;&#x5f53;&#x524d;&#x4efb;&#x52a1;&#x8bbe;&#x7f6e;&#x4e3a;TASK_RUNNING&#xff0c;&#x8fd4;&#x56de;0&#xff0c;&#x8fd9;&#x6837;&#x5c31;&#x80fd;&#x6267;&#x884c;&#x4e2d;&#x65ad;&#x5904;&#x7406;"/>
+<node CREATED="1610873531638" ID="ID_1919619329" MODIFIED="1610873574613" TEXT="&#x4e0d;&#x6ee1;&#x8db3;&#xff0c;&#x8c03;&#x7528;schedule()&#x8fdb;&#x884c;&#x8c03;&#x5ea6;&#xff0c;&#x8ba9;&#x51fa;CPU&#xff0c;&#x5e76;&#x5c06;&#x4efb;&#x52a1;&#x8bbe;&#x7f6e;&#x4e3a;TASK_INTERRUPTIBLE&#x53ef;&#x4e2d;&#x65ad;&#x7761;&#x7720;&#x72b6;&#x6001;"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1610873637703" ID="ID_1988731513" MODIFIED="1610873651998" TEXT="&#x4e2d;&#x65ad;&#x5904;&#x7406;&#x5206;&#x4e3a;2&#x90e8;&#x5206;">
+<node CREATED="1610873651998" ID="ID_1751702148" MODIFIED="1610873657626" TEXT="&#x81ea;&#x4e0a;&#x800c;&#x4e0b;">
+<node CREATED="1610873657626" ID="ID_1924042984" MODIFIED="1610873674138" TEXT="irq_desc&#x4e2d;&#x65ad;&#x63cf;&#x8ff0;&#x7b26;&#x7684;&#x5efa;&#x7acb;">
+<node CREATED="1610873674139" ID="ID_747869887" MODIFIED="1610873685854" TEXT="&#x4e2d;&#x65ad;&#x6e90;&#x4fe1;&#x606f;&#x89e3;&#x6790;&#xff0c;device tree"/>
+<node CREATED="1610873686081" ID="ID_1432267685" MODIFIED="1610873698290" TEXT="&#x786c;&#x4ef6;&#x4e2d;&#x65ad;&#x53f7;&#x5230;Linux&#x4e2d;&#x65ad;&#x53f7;&#x6620;&#x5c04;"/>
+<node CREATED="1610873700243" ID="ID_100690777" MODIFIED="1610873707545" TEXT="irq_desc&#x521d;&#x59cb;&#x5316;"/>
+<node CREATED="1610873707761" ID="ID_199855121" MODIFIED="1610873712302" TEXT="&#x4e2d;&#x65ad;&#x6ce8;&#x518c;"/>
+</node>
+</node>
+<node CREATED="1610873714666" ID="ID_37552793" MODIFIED="1610873718650" TEXT="&#x81ea;&#x4e0b;&#x800c;&#x4e0a;">
+<node CREATED="1610873718650" ID="ID_1270682110" MODIFIED="1610873729267" TEXT="&#x5916;&#x8bbe;&#x89e6;&#x53d1;&#x4e2d;&#x65ad;"/>
+<node CREATED="1610873729836" ID="ID_1255199851" MODIFIED="1610873740372" TEXT="&#x4e2d;&#x65ad;&#x63a7;&#x5236;&#x5668;&#x63a5;&#x6536;&#x4fe1;&#x53f7;&#x53d1;&#x9001;&#x5904;&#x7406;&#x5668;"/>
+<node CREATED="1610873740583" ID="ID_1076441283" MODIFIED="1610873768594" TEXT="&#x5904;&#x7406;&#x5668;&#x8fdb;&#x884c;&#x5f02;&#x5e38;&#x6a21;&#x5f0f;&#x5207;&#x6362;&#xff0c;&#x9010;&#x7ea7;&#x56de;&#x8c03;">
+<node CREATED="1610873768594" ID="ID_962810646" MODIFIED="1610873782558" TEXT="&#x5982;&#x679c;&#x6d89;&#x53ca;&#x4e2d;&#x65ad;&#x7ebf;&#x7a0b;&#x5316;&#xff0c;&#x9700;&#x8981;&#x8fdb;&#x884c;&#x4e2d;&#x65ad;&#x5185;&#x6838;&#x7ebf;&#x7a0b;&#x5524;&#x9192;&#x64cd;&#x4f5c;"/>
+</node>
+</node>
+</node>
+</node>
 <node CREATED="1610552536564" ID="ID_1317830652" MODIFIED="1610552544139" TEXT="softirq&#x548c;tasklet"/>
 <node CREATED="1610552544348" ID="ID_679004650" MODIFIED="1610552549552" TEXT="workqueue"/>
 </node>
