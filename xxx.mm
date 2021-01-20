@@ -2624,7 +2624,290 @@
 </node>
 </node>
 </node>
-<node CREATED="1610552544348" ID="ID_679004650" MODIFIED="1610552549552" TEXT="workqueue"/>
+<node CREATED="1610552544348" ID="ID_679004650" MODIFIED="1610552549552" TEXT="workqueue">
+<node CREATED="1610983806910" ID="ID_1277640872" MODIFIED="1610983809233" TEXT="&#x6982;&#x8ff0;">
+<node CREATED="1610983809233" ID="ID_158878063" MODIFIED="1610983835608">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/workqueue-intro.png" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1610983868449" ID="ID_1732959859" MODIFIED="1610983897594" TEXT="workqueue&#x5de5;&#x4f5c;&#x961f;&#x5217;&#x662f;&#x5229;&#x7528;&#x5185;&#x6838;&#x7ebf;&#x7a0b;&#x6765;&#x5f02;&#x6b65;&#x6267;&#x884c;&#x5de5;&#x4f5c;&#x4efb;&#x52a1;&#x7684;&#x901a;&#x7528;&#x673a;&#x5236;"/>
+<node CREATED="1610983904050" ID="ID_1048327899" MODIFIED="1610983976496" TEXT="workqueue&#x5de5;&#x4f5c;&#x961f;&#x5217;&#x53ef;&#x4ee5;&#x7528;&#x4f5c;&#x4e2d;&#x65ad;&#x5904;&#x7406;&#x7684;Bottom-half&#x673a;&#x5236;&#xff0c;&#x5229;&#x7528;&#x8fdb;&#x7a0b;&#x4e0a;&#x4e0b;&#x6587;&#x6765;&#x6267;&#x884c;&#x4e2d;&#x65ad;&#x5904;&#x7406;&#x4e2d;&#x8017;&#x65f6;&#x7684;&#x4efb;&#x52a1;&#xff0c;&#x56e0;&#x6b64;&#x5b83;&#x5141;&#x8bb8;&#x7761;&#x7720;&#xff0c;&#x800c;softirq&#x548c;tasklet&#x5728;&#x5904;&#x7406;&#x4efb;&#x52a1;&#x65f6;&#x4e0d;&#x80fd;&#x7761;&#x7720;"/>
+<node CREATED="1610984086718" ID="ID_1384224630" MODIFIED="1610984164000" TEXT="&#x5728;&#x4e2d;&#x65ad;&#x5904;&#x7406;&#x8fc7;&#x7a0b;&#x4e2d;&#xff0c;&#x6216;&#x8005;&#x5176;&#x4ed6;&#x5b50;&#x7cfb;&#x7edf;&#x4e2d;&#xff0c;&#x8c03;&#x7528;workqueue&#x7684;&#x8c03;&#x5ea6;&#x6216;&#x8005;&#x5165;&#x961f;&#x63a5;&#x53e3;&#x540e;&#xff0c;&#x901a;&#x8fc7;&#x5efa;&#x7acb;&#x597d;&#x7684;&#x94fe;&#x63a5;&#x5173;&#x7cfb;&#x56fe;&#x9010;&#x7ea7;&#x627e;&#x5230;&#x5408;&#x9002;&#x7684;worker&#xff0c;&#x6700;&#x7ec8;&#x5b8c;&#x6210;&#x5de5;&#x4f5c;&#x4efb;&#x52a1;&#x7684;&#x6267;&#x884c;"/>
+</node>
+</node>
+<node CREATED="1610984209620" ID="ID_158094130" MODIFIED="1610984216661" TEXT="&#x6570;&#x636e;&#x7ed3;&#x6784;">
+<node CREATED="1610984232265" ID="ID_961563979" MODIFIED="1610984280943">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/workqueue-structure.png" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1610984404737" ID="ID_344691054" MODIFIED="1610984415296" TEXT="struct work_struct">
+<node CREATED="1610984415296" ID="ID_510007774" MODIFIED="1610984463874" TEXT="&#x5de5;&#x4f5c;&#x961f;&#x5217;&#x8c03;&#x5ea6;&#x7684;&#x6700;&#x5c0f;&#x5355;&#x4f4d;&#xff0c;work item"/>
+<node CREATED="1610984717226" ID="ID_1931191901" MODIFIED="1610984748749" TEXT="&#x521d;&#x59cb;&#x5316;&#x4e00;&#x4e2a;work&#x6dfb;&#x52a0;&#x5230;&#x5de5;&#x4f5c;&#x961f;&#x5217;&#x540e;&#xff0c;&#x4f1a;&#x5c06;&#x5176;&#x4f20;&#x9012;&#x5230;&#x5408;&#x9002;&#x7684;&#x5185;&#x6838;&#x7ebf;&#x7a0b;&#x6765;&#x8fdb;&#x884c;&#x5904;&#x7406;"/>
+<node CREATED="1610984791127" ID="ID_732224628" MODIFIED="1610984836858" TEXT="data&#x5b57;&#x6bb5;&#x4f4e;&#x6bd4;&#x7279;&#x4f4d;&#x5b58;&#x653e;&#x72b6;&#x6001;&#x4f4d;&#xff0c;&#x9ad8;&#x6bd4;&#x7279;&#x5b58;&#x653e;worker_pool&#x7684;ID&#x6216;&#x8005;pool_workqueue&#x7684;&#x6307;&#x9488;">
+<node CREATED="1610984836859" ID="ID_133102205" MODIFIED="1610984865852">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/workqueue-work-data.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1610984441032" ID="ID_799278205" MODIFIED="1610984450846" TEXT="struct workqueue_struct">
+<node CREATED="1610984450846" ID="ID_55852013" MODIFIED="1610984479416" TEXT="&#x5de5;&#x4f5c;&#x961f;&#x5217;&#xff0c;work item&#x90fd;&#x6302;&#x5165;&#x5230;&#x5de5;&#x4f5c;&#x961f;&#x5217;&#x4e2d;">
+<node CREATED="1611068014512" ID="ID_148041842" MODIFIED="1611068033917" TEXT="&#x5185;&#x6838;&#x4e2d;&#x5de5;&#x4f5c;&#x961f;&#x5217;&#x79cd;&#x7c7b;">
+<node CREATED="1611068033917" ID="ID_820782040" MODIFIED="1611068036785" TEXT="bound">
+<node CREATED="1611068036785" ID="ID_996741864" MODIFIED="1611068062527" TEXT="&#x7ed1;&#x5b9a;&#x5904;&#x7406;&#x5668;&#x7684;&#x5de5;&#x4f5c;&#x961f;&#x5217;&#xff0c;&#x6bcf;&#x4e2a;worker&#x521b;&#x5efa;&#x7684;&#x5185;&#x6838;&#x7ebf;&#x7a0b;&#x7ed1;&#x5b9a;&#x5230;&#x7279;&#x5b9a;&#x7684;CPU&#x4e0a;&#x8fd0;&#x884c;"/>
+</node>
+<node CREATED="1611068063805" ID="ID_1972790235" MODIFIED="1611068065916" TEXT="unbound">
+<node CREATED="1611068065916" ID="ID_508732434" MODIFIED="1611068095711" TEXT="&#x4e0d;&#x7ed1;&#x5b9a;&#x5904;&#x7406;&#x5668;&#x7684;&#x5de5;&#x4f5c;&#x961f;&#x5217;&#xff0c;&#x521b;&#x5efa;&#x7684;&#x65f6;&#x5019;&#x9700;&#x8981;&#x6307;&#x5b9a;WQ_UNBOUND&#x6807;&#x5fd7;&#xff0c;&#x5185;&#x6838;&#x7ebf;&#x7a0b;&#x53ef;&#x4ee5;&#x5728;&#x5904;&#x7406;&#x5668;&#x95f4;&#x8fc1;&#x79fb;"/>
+</node>
+</node>
+<node CREATED="1611068098528" ID="ID_624497335" MODIFIED="1611068125729" TEXT="some workqueue">
+<node CREATED="1611068126116" ID="ID_416893277" MODIFIED="1611068131386" TEXT="system_mq">
+<node CREATED="1611068131386" ID="ID_1409947587" MODIFIED="1611068185370" TEXT="&#x5982;&#x679c;work item&#x6267;&#x884c;&#x65f6;&#x95f4;&#x8f83;&#x77ed;&#xff0c;&#x4f7f;&#x7528;&#x672c;&#x961f;&#x5217;&#xff0c;&#x8c03;&#x7528;schedule[_delayed]_work[_on]&#x63a5;&#x53e3;&#x6dfb;&#x52a0;&#x5230;&#x672c;&#x961f;&#x5217;&#x4e2d;"/>
+</node>
+<node CREATED="1611068247085" ID="ID_108961161" MODIFIED="1611068257341" TEXT="system_highpri_mq">
+<node CREATED="1611068257341" ID="ID_417100486" MODIFIED="1611068282179" TEXT="&#x9ad8;&#x4f18;&#x5148;&#x7ea7;&#x5de5;&#x4f5c;&#x961f;&#x5217;&#xff0c;&#x4ee5;nice&#x503c;-20&#x6765;&#x8fd0;&#x884c;"/>
+</node>
+<node CREATED="1611068297808" ID="ID_444466886" MODIFIED="1611068303018" TEXT="system_long_mq">
+<node CREATED="1611068303018" ID="ID_1345931760" MODIFIED="1611068316761" TEXT="&#x5982;&#x679c;work item&#x6267;&#x884c;&#x65f6;&#x95f4;&#x8f83;&#x957f;&#xff0c;&#x4f7f;&#x7528;&#x672c;&#x961f;&#x5217;"/>
+</node>
+<node CREATED="1611068330573" ID="ID_1933609803" MODIFIED="1611068336341" TEXT="system_unbound_mq"/>
+<node CREATED="1611068336591" ID="ID_637919596" MODIFIED="1611068345174" TEXT="system_freezable_mq">
+<node CREATED="1611068345175" ID="ID_395599910" MODIFIED="1611068365692" TEXT="&#x8be5;&#x5de5;&#x4f5c;&#x961f;&#x5217;&#x7528;&#x4e8e;&#x5728;suspend&#x65f6;&#x53ef;&#x51bb;&#x7ed3;&#x7684;work item"/>
+</node>
+<node CREATED="1611068366823" ID="ID_1896203560" MODIFIED="1611068382405" TEXT="system_power_efficient_wq">
+<node CREATED="1611068382405" ID="ID_949131013" MODIFIED="1611068399342" TEXT="&#x7528;&#x4e8e;&#x8282;&#x80fd;&#x76ee;&#x7684;&#x800c;&#x9009;&#x62e9;&#x727a;&#x7272;&#x6027;&#x80fd;&#x7684;work item"/>
+</node>
+<node CREATED="1611068400099" ID="ID_1641719989" MODIFIED="1611068416699" TEXT="system_freezable_power_efficient_wq">
+<node CREATED="1611068416699" ID="ID_935258771" MODIFIED="1611068438971" TEXT="&#x7528;&#x4e8e;&#x8282;&#x80fd;&#x6216;&#x8005;suspend&#x65f6;&#x53ef;&#x51bb;&#x7ed3;&#x7684;work item"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1610984503004" ID="ID_1888899911" MODIFIED="1610984507537" TEXT="struct worker">
+<node CREATED="1610984507537" ID="ID_1909516627" MODIFIED="1610984531923" TEXT="work item&#x7684;&#x5904;&#x7406;&#x8005;&#xff0c;&#x6bcf;&#x4e2a;worker&#x5bf9;&#x5e94;&#x4e00;&#x4e2a;&#x5185;&#x6838;&#x7ebf;&#x7a0b;"/>
+<node CREATED="1611068500501" ID="ID_577606623" MODIFIED="1611068523052" TEXT="worker&#x6839;&#x636e;&#x5de5;&#x4f5c;&#x72b6;&#x6001;&#xff0c;&#x53ef;&#x4ee5;&#x6dfb;&#x52a0;&#x5230;worker_pool&#x7684;&#x7a7a;&#x95f2;&#x94fe;&#x8868;&#x6216;&#x8005;&#x5fd9;&#x788c;&#x5217;&#x8868;&#x4e2d;"/>
+<node CREATED="1611068529441" ID="ID_1463017461" MODIFIED="1611068556170" TEXT="worker&#x5904;&#x4e8e;&#x7a7a;&#x95f2;&#x72b6;&#x6001;&#x65f6;&#x5e76;&#x63a5;&#x6536;&#x5230;&#x5de5;&#x4f5c;&#x5904;&#x7406;&#x8bf7;&#x6c42;&#xff0c;&#x5c06;&#x5524;&#x9192;&#x5185;&#x6838;&#x7ebf;&#x7a0b;&#x6765;&#x5904;&#x7406;"/>
+<node CREATED="1611068580299" ID="ID_1258167054" MODIFIED="1611068623497" TEXT="&#x5185;&#x6838;&#x7ebf;&#x7a0b;&#x5728;&#x6bcf;&#x4e2a;worker pool&#x4e2d;&#x7531;&#x4e00;&#x4e2a;&#x521d;&#x59cb;&#x7684;&#x7a7a;&#x95f2;&#x5de5;&#x4f5c;&#x7ebf;&#x7a0b;&#x521b;&#x5efa;&#xff0c;&#x5e76;&#x6839;&#x636e;&#x9700;&#x8981;&#x52a8;&#x6001;&#x521b;&#x5efa;&#x548c;&#x9500;&#x6bc1;"/>
+</node>
+<node CREATED="1610984533694" ID="ID_261498436" MODIFIED="1610984541703" TEXT="struct worker_pool">
+<node CREATED="1610984541703" ID="ID_618438060" MODIFIED="1610984573218" TEXT="worker&#x6c60;&#xff08;&#x5185;&#x6838;&#x7ebf;&#x7a0b;&#x6c60;&#xff09;&#xff0c;&#x5171;&#x4eab;&#x8d44;&#x6e90;&#x6c60;&#xff0c;&#x63d0;&#x4f9b;&#x4e0d;&#x540c;&#x7684;worker&#x5bf9;work item&#x8fdb;&#x884c;&#x5904;&#x7406;"/>
+<node CREATED="1611068966134" ID="ID_1201776996" MODIFIED="1611069010553" TEXT="worker pool&#x662f;per-cpu&#x521b;&#x5efa;&#x7684;&#xff0c;&#x6bcf;&#x4e2a;CPU&#x90fd;&#x6709;&#x4e24;&#x4e2a;worker pool&#xff0c;&#x5bf9;&#x5e94;&#x4e0d;&#x540c;&#x7ea7;&#x522b;&#x7684;&#x4f18;&#x5148;&#x7ea7;&#xff0c;nice&#x503c;&#x5206;&#x522b;&#x4e3a;0&#x548c;-20"/>
+<node CREATED="1611069015561" ID="ID_728918925" MODIFIED="1611069050843" TEXT="&#x975e;&#x7ed1;&#x5b9a;&#x7c7b;&#x578b;&#x7684;&#x5de5;&#x4f5c;&#x961f;&#x5217;&#xff0c;worker pool&#x521b;&#x5efa;&#x540e;&#x4f1a;&#x6dfb;&#x52a0;&#x5230;unbound_pool_hash&#x54c8;&#x5e0c;&#x8868;&#x4e2d;"/>
+<node CREATED="1611069051070" ID="ID_1446572634" MODIFIED="1611069086329" TEXT="worker pool&#x7ba1;&#x7406;&#x4e00;&#x4e2a;&#x7a7a;&#x95f2;&#x94fe;&#x8868;&#x548c;&#x4e00;&#x4e2a;&#x5fd9;&#x788c;&#x94fe;&#x8868;&#xff0c;&#x5176;&#x4e2d;&#x5fd9;&#x788c;&#x94fe;&#x8868;&#x7531;&#x54c8;&#x5e0c;&#x8868;&#x7ba1;&#x7406;"/>
+</node>
+<node CREATED="1610984587805" ID="ID_1967733998" MODIFIED="1610984595695" TEXT="struct pool_workqueue">
+<node CREATED="1610984595695" ID="ID_286771576" MODIFIED="1610984615030" TEXT="&#x7528;&#x4e8e;&#x8fde;&#x63a5;workqueue&#x548c;worker_pool"/>
+</node>
+</node>
+<node CREATED="1611069115513" ID="ID_1407736692" MODIFIED="1611069139937">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/workqueue-structure-2.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1611069185882" ID="ID_1830210968" MODIFIED="1611069195688" TEXT="&#x6d41;&#x7a0b;&#x5206;&#x6790;">
+<node CREATED="1611069195690" ID="ID_1112625886" MODIFIED="1611069204055" TEXT="workqueue&#x5b50;&#x7cfb;&#x7edf;&#x521d;&#x59cb;&#x5316;">
+<node CREATED="1611069204055" ID="ID_1031487435" MODIFIED="1611069223912" TEXT="workqueue_init_early">
+<node CREATED="1611069277356" ID="ID_1365950795" MODIFIED="1611069284689">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/workqueue-init-early.png" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1611069361081" ID="ID_744101536" MODIFIED="1611069389842">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/alloc-workqueue.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1611069224233" ID="ID_1677643159" MODIFIED="1611069228360" TEXT="workqueue_init">
+<node CREATED="1611069537603" ID="ID_188708033" MODIFIED="1611069544602">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/workqueue-init.png" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1611069612239" ID="ID_702651064" MODIFIED="1611069682508" TEXT="create_worker&#x51fd;&#x6570;&#x4e2d;&#xff0c;&#x521b;&#x5efa;&#x7684;&#x5185;&#x6838;&#x7ebf;&#x7a0b;&#x540d;&#x5b57;&#x4e3a;kworker/XX:YY&#x6216;&#x8005;kworker/uXX:YY&#xff0c;&#x5176;&#x4e2d;XX&#x8868;&#x793a;worker_pool&#x7684;&#x7f16;&#x53f7;&#xff0c;YY&#x8868;&#x793a;worker&#x7684;&#x7f16;&#x53f7;&#xff0c;u&#x8868;&#x793a;unbound"/>
+</node>
+</node>
+</node>
+<node CREATED="1611069691694" ID="ID_1476197093" MODIFIED="1611069697853" TEXT="work&#x8c03;&#x5ea6;">
+<node CREATED="1611069708958" ID="ID_1061007838" MODIFIED="1611069715468" TEXT="schedule_work">
+<node CREATED="1611069726053" ID="ID_1376963725" MODIFIED="1611069750628">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/schdule-work.png" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1611097285643" ID="ID_1086100368" MODIFIED="1611097302429" TEXT="schedule_work&#x9ed8;&#x8ba4;&#x5c06;work&#x6dfb;&#x52a0;&#x5230;&#x7cfb;&#x7edf;&#x7684;system_work&#x5de5;&#x4f5c;&#x961f;&#x5217;&#x4e2d;"/>
+<node CREATED="1611097367347" ID="ID_1287243580" MODIFIED="1611097555936" TEXT="&#x5982;&#x679c;WORK_STRUCT_PENDING_BIT&#x5df2;&#x7ecf;&#x7f6e;&#x4f4d;&#xff0c;&#x8bf4;&#x660e;&#x5df2;&#x7ecf;&#x6dfb;&#x52a0;&#x5230;&#x961f;&#x5217;&#x4e2d;&#x6267;&#x884c;&#x3002;&#x5426;&#x5219;&#x8c03;&#x7528;__queue_work&#x8fdb;&#x884c;&#x6dfb;&#x52a0;&#x3002;&#x56e0;&#x4e3a;&#x5de5;&#x4f5c;&#x961f;&#x5217;&#x4f7f;&#x7528;WORK_STRUCT_PENDING_BIT&#x6765;&#x540c;&#x6b65;work&#x7684;&#x63d2;&#x5165;&#x548c;&#x5220;&#x9664;&#x64cd;&#x4f5c;&#xff0c;&#x8bbe;&#x7f6e;&#x8fd9;&#x4e2a;&#x6bd4;&#x7279;&#x4f4d;&#x624d;&#x80fd;&#x6267;&#x884c;work&#xff0c;&#x8fd9;&#x4e2a;&#x8fc7;&#x7a0b;&#x53ef;&#x80fd;&#x88ab;&#x4e2d;&#x65ad;&#x6216;&#x8005;&#x62a2;&#x5360;&#x6253;&#x65ad;&#xff0c;&#x6545;&#x8be5;&#x8fc7;&#x7a0b;&#x9700;&#x8981;&#x5728;&#x5173;&#x4e2d;&#x65ad;&#x7684;&#x60c5;&#x51b5;&#x4e0b;&#x8fdb;&#x884c;"/>
+<node CREATED="1611097586749" ID="ID_1742123842" MODIFIED="1611097647515" TEXT="workqueue&#x7684;&#x6807;&#x5fd7;&#x4f4d;&#x8bbe;&#x7f6e;&#x4e86;__WQ_DRAINING&#xff0c;&#x8868;&#x660e;&#x5de5;&#x4f5c;&#x961f;&#x5217;&#x6b63;&#x5728;&#x9500;&#x6bc1;&#xff0c;&#x6240;&#x6709;work&#x90fd;&#x8981;&#x5904;&#x7406;&#x5b8c;&#xff0c;&#x6b64;&#x65f6;&#x4e0d;&#x5141;&#x8bb8;&#x518d;&#x5c06;work&#x6dfb;&#x52a0;&#x5230;&#x961f;&#x5217;&#x4e2d;&#x3002;&#x9664;&#x975e;&#x6267;&#x884c;work&#x53c8;&#x89e6;&#x53d1;&#x65b0;&#x7684;work&#xff0c;&#x5373;chanined work"/>
+<node CREATED="1611097924917" ID="ID_1743104005" MODIFIED="1611154287480" TEXT="&#x5224;&#x65ad;workqueue&#x7c7b;&#x578b;&#xff0c;&#x5982;&#x679c;&#x662f;bound&#xff0c;&#x6839;&#x636e;cpu&#x6765;&#x83b7;&#x53d6;pool_workqueue&#xff0c;&#x5982;&#x679c;&#x662f;unbound&#xff0c;&#x901a;&#x8fc7;node&#x53f7;&#x83b7;&#x53d6;pool_workqueue"/>
+<node CREATED="1611154768610" ID="ID_1770850276" MODIFIED="1611155095125" TEXT="get_work_pool&#x83b7;&#x53d6;&#x4e0a;&#x6b21;&#x6267;&#x884c;work&#x7684;worker_pool&#xff0c;&#x5982;&#x679c;&#x672c;&#x6b21;&#x6267;&#x884c;&#x7684;worker_pool&#x4e0e;&#x4e0a;&#x6b21;&#x6267;&#x884c;&#x7684;worker_pool&#x4e0d;&#x4e00;&#x81f4;&#xff0c;&#x4e14;&#x901a;&#x8fc7;find_worker_executing_work&#x5224;&#x65ad;work&#x6b63;&#x5728;&#x67d0;&#x4e2a;worker_pool&#x4e2d;&#x7684;worker&#x4e2d;&#x6267;&#x884c;&#xff0c;&#x8003;&#x8651;&#x5230;&#x7f13;&#x5b58;&#x70ed;&#x5ea6;&#xff0c;&#x653e;&#x5230;&#x8be5;worker&#x6267;&#x884c;&#x65f6;&#x66f4;&#x5408;&#x7406;&#x7684;&#x9009;&#x62e9;&#xff0c;&#x8fdb;&#x800c;&#x6839;&#x636e;&#x8be5;worker&#x83b7;&#x53d6;&#x5230;pool_workqueue"/>
+<node CREATED="1611155184545" ID="ID_354836915" MODIFIED="1611155261526" TEXT="&#x5224;&#x65ad;pool_workqueue&#x6d3b;&#x8dc3;&#x7684;work&#x6570;&#x91cf;&#xff0c;&#x5c11;&#x4e8e;&#x6700;&#x5927;&#x9650;&#x503c;&#x5219;&#x5c06;work&#x52a0;&#x5165;&#x5230;pool-&gt;worklist&#x4e2d;&#xff0c;&#x5426;&#x5219;&#x52a0;&#x5165;&#x5230;pwq-&gt;delayed_works&#x94fe;&#x8868;&#x4e2d;&#xff0c;&#x5982;&#x679c;__need_more_worker&#x5224;&#x65ad;&#x6ca1;&#x6709;worker&#x5728;&#x6267;&#x884c;&#xff0c;&#x5219;&#x5524;&#x9192;worker&#x5185;&#x6838;&#x7ebf;&#x7a0b;&#x6267;&#x884c;"/>
+</node>
+<node CREATED="1611155314228" ID="ID_1724955616" MODIFIED="1611155329707" TEXT="--&gt;">
+<node CREATED="1611155324496" ID="ID_1264436212" MODIFIED="1611155364802" TEXT="schedule_work&#x5b8c;&#x6210;&#x7684;&#x5de5;&#x4f5c;&#x662f;&#x5c06;work&#x6dfb;&#x52a0;&#x5230;&#x5bf9;&#x5e94;&#x7684;&#x94fe;&#x8868;&#x4e2d;&#xff0c;&#x800c;&#x5728;&#x6dfb;&#x52a0;&#x8fc7;&#x7a0b;&#x4e2d;&#xff0c;&#x9996;&#x5148;&#x9700;&#x8981;&#x786e;&#x5b9a;pool_workqueue"/>
+<node CREATED="1611155365311" ID="ID_879141657" MODIFIED="1611155404072" TEXT="pool_workqueue&#x5bf9;&#x5e94;&#x4e00;&#x4e2a;worker_pool&#xff0c;&#x56e0;&#x6b64;&#x786e;&#x5b9a;&#x4e86;pool_workqueue&#xff0c;&#x4e5f;&#x5c31;&#x786e;&#x5b9a;&#x8fc7;&#x4e86;worker_pool&#xff0c;&#x8fdb;&#x800c;&#x53ef;&#x4ee5;&#x5c06;work&#x6dfb;&#x52a0;&#x5230;&#x5de5;&#x4f5c;&#x94fe;&#x8868;&#x4e2d;"/>
+<node CREATED="1611155405917" ID="ID_1613557017" MODIFIED="1611155417261" TEXT="pool_workqueue&#x5206;&#x4e3a;&#x4e09;&#x79cd;">
+<node CREATED="1611155417261" ID="ID_104264349" MODIFIED="1611155428285" TEXT="bound&#x7c7b;&#x578b;&#xff0c;&#x6839;&#x636e;CPU&#x53f7;&#x83b7;&#x53d6;"/>
+<node CREATED="1611155428486" ID="ID_1234878789" MODIFIED="1611155488035" TEXT="unbound&#x7c7b;&#x578b;&#xff0c;&#x6839;&#x636e;node&#x53f7;&#x83b7;&#x53d6;&#xff0c;&#x9488;&#x5bf9;unbound&#x7c7b;&#x578b;&#x7684;&#x5de5;&#x4f5c;&#x961f;&#x5217;&#xff0c;pool_workqueue&#x7684;&#x91ca;&#x653e;&#x65f6;&#x5f02;&#x6b65;&#x6267;&#x884c;&#x7684;&#xff0c;&#x9700;&#x8981;&#x5224;&#x65ad;refcnt&#x7684;&#x8ba1;&#x6570;&#x503c;&#xff0c;&#x56e0;&#x6b64;&#x83b7;&#x53d6;pool_workqueue&#x65f6;&#x53ef;&#x80fd;&#x8981;&#x591a;&#x6b21;retry"/>
+<node CREATED="1611155490281" ID="ID_1415680328" MODIFIED="1611155507299" TEXT="&#x6839;&#x636e;&#x7f13;&#x5b58;&#x70ed;&#x5ea6;&#xff0c;&#x4f18;&#x5148;&#x9009;&#x62e9;&#x6b63;&#x5728;&#x88ab;&#x6267;&#x884c;&#x7684;worker_pool"/>
+</node>
+</node>
+</node>
+<node CREATED="1611155519281" ID="ID_1886967857" MODIFIED="1611155523927" TEXT="worker_thread">
+<node CREATED="1611155529002" ID="ID_598333250" MODIFIED="1611155546974" TEXT="work&#x6dfb;&#x52a0;&#x5230;&#x5de5;&#x4f5c;&#x961f;&#x5217;&#x540e;&#xff0c;&#x6700;&#x7ec8;&#x7684;&#x6267;&#x884c;&#x5728;worker_thread&#x51fd;&#x6570;&#x4e2d;">
+<node CREATED="1611155559037" ID="ID_1009645134" MODIFIED="1611155584171">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/worker_thread.png" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1611155665818" ID="ID_610421742" MODIFIED="1611155707284" TEXT="&#x5728;&#x521b;&#x5efa;worker&#x65f6;&#xff0c;&#x521b;&#x5efa;&#x5185;&#x6838;&#x7ebf;&#x7a0b;&#xff0c;&#x6267;&#x884c;&#x51fd;&#x6570;&#x4e3a;worker_thread"/>
+<node CREATED="1611155710140" ID="ID_1176894462" MODIFIED="1611155835924" TEXT="worker_thread&#x5728;&#x5f00;&#x59cb;&#x6267;&#x884c;&#x65f6;&#xff0c;&#x8bbe;&#x7f6e;&#x6807;&#x5fd7;&#x4f4d;PF_WQ_WORKER&#xff0c;&#x8c03;&#x5ea6;&#x5668;&#x5728;&#x8fdb;&#x884c;&#x8c03;&#x5ea6;&#x5904;&#x7406;&#x65f6;&#x4f1a;&#x5bf9;task&#x8fdb;&#x884c;&#x5224;&#x65ad;&#xff0c;&#x9488;&#x5bf9;workerqueue worker&#x8fdb;&#x884c;&#x7279;&#x6b8a;&#x5904;&#x7406;"/>
+<node CREATED="1611155836252" ID="ID_1839198875" MODIFIED="1611155882980" TEXT="worker&#x5bf9;&#x5e94;&#x7684;&#x5185;&#x6838;&#x7ebf;&#x7a0b;&#xff0c;&#x5728;&#x6ca1;&#x6709;&#x5904;&#x7406;work&#x7684;&#x65f6;&#x5019;&#x662f;&#x7761;&#x7720;&#x72b6;&#x6001;&#xff0c;&#x5f53;&#x88ab;&#x5524;&#x9192;&#x65f6;&#xff0c;&#x8df3;&#x8f6c;&#x5230;woke_up&#x5f00;&#x59cb;&#x6267;&#x884c;"/>
+<node CREATED="1611155883430" ID="ID_1993446535" MODIFIED="1611155931304" TEXT="wokup_up&#x4e4b;&#x540e;&#xff0c;&#x5982;&#x679c;&#x6b64;&#x65f6;worker&#x662f;&#x9700;&#x8981;&#x9500;&#x6bc1;&#x7684;&#xff0c;&#x90a3;&#x5c31;&#x8fdb;&#x884c;&#x6e05;&#x7406;&#x5de5;&#x4f5c;&#x5e76;&#x8fd4;&#x56de;&#x3002;&#x5426;&#x5219;&#xff0c;&#x79bb;&#x5f00;IDLE&#x72b6;&#x6001;&#xff0c;&#x5e76;&#x8fdb;&#x5165;recheck&#x6a21;&#x5757;&#x6267;&#x884c;"/>
+<node CREATED="1611156184884" ID="ID_522818801" MODIFIED="1611156275393" TEXT="recheck&#x90e8;&#x5206;&#xff0c;&#x9996;&#x5148;&#x5224;&#x65ad;&#x662f;&#x5426;&#x9700;&#x8981;&#x66f4;&#x591a;&#x7684;worker&#x6765;&#x5904;&#x7406;&#xff0c;&#x5982;&#x679c;&#x6ca1;&#x6709;&#x4efb;&#x52a1;&#x5904;&#x7406;&#xff0c;&#x8df3;&#x8f6c;&#x5230;sleep&#x5730;&#x65b9;&#x8fdb;&#x884c;&#x7761;&#x7720;&#x3002;&#x6709;&#x4efb;&#x52a1;&#x9700;&#x8981;&#x5904;&#x7406;&#x65f6;&#xff0c;&#x4f1a;&#x5224;&#x65ad;&#x662f;&#x5426;&#x6709;&#x7a7a;&#x95f2;&#x5185;&#x6838;&#x7ebf;&#x7a0b;&#x4ee5;&#x53ca;&#x662f;&#x5426;&#x9700;&#x8981;&#x52a8;&#x6001;&#x521b;&#x5efa;&#xff0c;&#x518d;&#x6e05;&#x9664;&#x6389;worker&#x7684;&#x6807;&#x5fd7;&#x4f4d;&#xff0c;&#x7136;&#x540e;&#x904d;&#x5386;&#x5de5;&#x4f5c;&#x94fe;&#x8868;&#xff0c;&#x5bf9;&#x94fe;&#x8868;&#x4e2d;&#x7684;&#x6bcf;&#x4e2a;&#x8282;&#x70b9;&#x8c03;&#x7528;process_one_work&#x6765;&#x5904;&#x7406;">
+<node CREATED="1611156435714" ID="ID_1443537756" MODIFIED="1611156441931">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/process_one_worker.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1611156287054" ID="ID_1699223055" MODIFIED="1611156308586" TEXT="sleep&#x90e8;&#x5206;&#xff0c;worker&#x8fdb;&#x5165;&#x7a7a;&#x95f2;&#xff0c;&#x5f53;&#x524d;&#x5185;&#x6838;&#x7ebf;&#x7a0b;&#x8fdb;&#x5165;&#x7761;&#x7720;&#xff0c;&#x8ba9;&#x51fa;CPU"/>
+<node CREATED="1611156342085" ID="ID_400265601" MODIFIED="1611156413506" TEXT="&#x7ba1;&#x7406;worker_pool&#x7684;&#x5185;&#x6838;&#x7ebf;&#x7a0b;&#x6c60;&#xff0c;&#x5982;&#x679c;&#x6709;PENDING&#x72b6;&#x6001;&#x7684;work&#xff0c;&#x5e76;&#x4e14;&#x53d1;&#x73b0;&#x6ca1;&#x6709;&#x6b63;&#x5728;&#x8fd0;&#x884c;&#x7684;&#x5de5;&#x4f5c;&#x7ebf;&#x7a0b;(worker_pool-&gt;nr_running == 0)&#xff0c;&#x5524;&#x9192;&#x7a7a;&#x95f2;&#x72b6;&#x6001;&#x7684;&#x5185;&#x6838;&#x7ebf;&#x7a0b;&#xff0c;&#x6216;&#x8005;&#x52a8;&#x6001;&#x521b;&#x5efa;&#x5185;&#x6838;&#x7ebf;&#x7a0b;"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1611156500526" ID="ID_1810838908" MODIFIED="1611156505930" TEXT="worker&#x52a8;&#x6001;&#x7ba1;&#x7406;">
+<node CREATED="1611156544355" ID="ID_120333289" MODIFIED="1611156551408" TEXT="worker&#x72b6;&#x6001;&#x673a;">
+<node CREATED="1611156555219" ID="ID_863349300" MODIFIED="1611156563187">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/worker-state-machine.png" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1611156647480" ID="ID_988092478" MODIFIED="1611156673732" TEXT="worker_pool&#x901a;&#x8fc7;nr_running&#x5b57;&#x6bb5;&#x6765;&#x5728;&#x4e0d;&#x540c;&#x7684;&#x72b6;&#x6001;&#x673a;&#x4e4b;&#x95f4;&#x8fdb;&#x884c;&#x5207;&#x6362;"/>
+<node CREATED="1611156674923" ID="ID_1471179179" MODIFIED="1611156737258" TEXT="worker_pool&#x4e2d;&#x6709;work&#x9700;&#x8981;&#x5904;&#x7406;&#x65f6;&#xff0c;&#x9700;&#x8981;&#x81f3;&#x5c11;&#x4fdd;&#x8bc1;&#x6709;&#x4e00;&#x4e2a;&#x8fd0;&#x884c;&#x72b6;&#x6001;&#x7684;worker&#xff0c;&#x5f53;nr_running &gt; 1&#xff0c;&#x5c06;&#x591a;&#x4f59;&#x7684;worker&#x8fdb;&#x5165;IDLE&#x72b6;&#x6001;&#xff0c;&#x6ca1;&#x6709;work&#x9700;&#x8981;&#x5904;&#x7406;&#x65f6;&#xff0c;&#x6240;&#x6709;&#x7684;worker&#x90fd;&#x4f1a;&#x8fdb;&#x5165;IDLE&#x72b6;&#x6001;"/>
+<node CREATED="1611156828033" ID="ID_1647244909" MODIFIED="1611156874918" TEXT="&#x6267;&#x884c;work&#x65f6;&#xff0c;&#x5982;&#x679c;&#x56de;&#x8c03;&#x51fd;&#x6570;&#x963b;&#x585e;&#x8fd0;&#x884c;&#xff0c;&#x90a3;&#x4e48;&#x4f1a;&#x8ba9;worker&#x8fdb;&#x5165;&#x7761;&#x7720;&#x72b6;&#x6001;&#xff0c;&#x6b64;&#x65f6;&#x8c03;&#x5ea6;&#x5668;&#x4f1a;&#x8fdb;&#x884c;&#x5224;&#x65ad;&#x662f;&#x5426;&#x9700;&#x8981;&#x5524;&#x9192;&#x53e6;&#x4e00;&#x4e2a;worker"/>
+<node CREATED="1611156881664" ID="ID_1744611604" MODIFIED="1611156913492" TEXT="IDLE&#x72b6;&#x6001;&#x7684;worker&#x90fd;&#x5b58;&#x653e;&#x5728;idle_list&#x94fe;&#x8868;&#x4e2d;&#xff0c;&#x5982;&#x679c;&#x7a7a;&#x95f2;&#x65f6;&#x95f4;&#x8d85;&#x8fc7;&#x4e86;300s&#xff0c;&#x5219;&#x5c06;&#x5176;&#x8fdb;&#x884c;&#x9500;&#x6bc1;"/>
+</node>
+<node CREATED="1611156918512" ID="ID_276307412" MODIFIED="1611156931312" TEXT="Running-&gt;Suspend">
+<node CREATED="1611156953404" ID="ID_76618959" MODIFIED="1611156961330">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/workerqueue-running-suspend.jpg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1611157000009" ID="ID_1921407317" MODIFIED="1611157006181" TEXT="Suspend-&gt;Running">
+<node CREATED="1611157006662" ID="ID_1383141113" MODIFIED="1611157028898">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/workerqueue-suspend-running.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1611157073921" ID="ID_984767568" MODIFIED="1611157574087" TEXT="worker&#x52a8;&#x6001;&#x5220;&#x9664;">
+<node CREATED="1611157092121" ID="ID_1734893662" MODIFIED="1611157098705">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/worker-dynamic-delete.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1611157551591" ID="ID_765325533" MODIFIED="1611157558189" TEXT="worker&#x52a8;&#x6001;&#x6dfb;&#x52a0;">
+<node CREATED="1611157558389" ID="ID_541547311" MODIFIED="1611157572008">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linux/interrupt/worker-dynamic-add.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1584792723247" ID="ID_348746736" MODIFIED="1610202502668" TEXT="Qemu-Kvm">
 <font NAME="SansSerif" SIZE="12"/>
