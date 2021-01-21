@@ -1942,7 +1942,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1610552512858" ID="ID_122317866" MODIFIED="1610552518582" TEXT="&#x4e2d;&#x65ad;&#x5b50;&#x7cfb;&#x7edf;">
+<node CREATED="1610552512858" FOLDED="true" ID="ID_122317866" MODIFIED="1611157746507" TEXT="&#x4e2d;&#x65ad;&#x5b50;&#x7cfb;&#x7edf;">
 <node CREATED="1610552518583" FOLDED="true" ID="ID_248063190" MODIFIED="1610873052024" TEXT="&#x4e2d;&#x65ad;&#x63a7;&#x5236;&#x5668;&#x53ca;&#x9a71;&#x52a8;">
 <node CREATED="1610639656362" ID="ID_874752978" MODIFIED="1610639670910">
 <richcontent TYPE="NODE"><html>
@@ -2641,7 +2641,7 @@
 <node CREATED="1610984086718" ID="ID_1384224630" MODIFIED="1610984164000" TEXT="&#x5728;&#x4e2d;&#x65ad;&#x5904;&#x7406;&#x8fc7;&#x7a0b;&#x4e2d;&#xff0c;&#x6216;&#x8005;&#x5176;&#x4ed6;&#x5b50;&#x7cfb;&#x7edf;&#x4e2d;&#xff0c;&#x8c03;&#x7528;workqueue&#x7684;&#x8c03;&#x5ea6;&#x6216;&#x8005;&#x5165;&#x961f;&#x63a5;&#x53e3;&#x540e;&#xff0c;&#x901a;&#x8fc7;&#x5efa;&#x7acb;&#x597d;&#x7684;&#x94fe;&#x63a5;&#x5173;&#x7cfb;&#x56fe;&#x9010;&#x7ea7;&#x627e;&#x5230;&#x5408;&#x9002;&#x7684;worker&#xff0c;&#x6700;&#x7ec8;&#x5b8c;&#x6210;&#x5de5;&#x4f5c;&#x4efb;&#x52a1;&#x7684;&#x6267;&#x884c;"/>
 </node>
 </node>
-<node CREATED="1610984209620" ID="ID_158094130" MODIFIED="1610984216661" TEXT="&#x6570;&#x636e;&#x7ed3;&#x6784;">
+<node CREATED="1610984209620" FOLDED="true" ID="ID_158094130" MODIFIED="1611157744589" TEXT="&#x6570;&#x636e;&#x7ed3;&#x6784;">
 <node CREATED="1610984232265" ID="ID_961563979" MODIFIED="1610984280943">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2730,7 +2730,7 @@
 </richcontent>
 </node>
 </node>
-<node CREATED="1611069185882" ID="ID_1830210968" MODIFIED="1611069195688" TEXT="&#x6d41;&#x7a0b;&#x5206;&#x6790;">
+<node CREATED="1611069185882" FOLDED="true" ID="ID_1830210968" MODIFIED="1611157742835" TEXT="&#x6d41;&#x7a0b;&#x5206;&#x6790;">
 <node CREATED="1611069195690" ID="ID_1112625886" MODIFIED="1611069204055" TEXT="workqueue&#x5b50;&#x7cfb;&#x7edf;&#x521d;&#x59cb;&#x5316;">
 <node CREATED="1611069204055" ID="ID_1031487435" MODIFIED="1611069223912" TEXT="workqueue_init_early">
 <node CREATED="1611069277356" ID="ID_1365950795" MODIFIED="1611069284689">
@@ -2771,7 +2771,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1611069691694" ID="ID_1476197093" MODIFIED="1611069697853" TEXT="work&#x8c03;&#x5ea6;">
+<node CREATED="1611069691694" FOLDED="true" ID="ID_1476197093" MODIFIED="1611157740276" TEXT="work&#x8c03;&#x5ea6;">
 <node CREATED="1611069708958" ID="ID_1061007838" MODIFIED="1611069715468" TEXT="schedule_work">
 <node CREATED="1611069726053" ID="ID_1376963725" MODIFIED="1611069750628">
 <richcontent TYPE="NODE"><html>
@@ -2835,7 +2835,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1611156500526" ID="ID_1810838908" MODIFIED="1611156505930" TEXT="worker&#x52a8;&#x6001;&#x7ba1;&#x7406;">
+<node CREATED="1611156500526" FOLDED="true" ID="ID_1810838908" MODIFIED="1611157738668" TEXT="worker&#x52a8;&#x6001;&#x7ba1;&#x7406;">
 <node CREATED="1611156544355" ID="ID_120333289" MODIFIED="1611156551408" TEXT="worker&#x72b6;&#x6001;&#x673a;">
 <node CREATED="1611156555219" ID="ID_863349300" MODIFIED="1611156563187">
 <richcontent TYPE="NODE"><html>
@@ -2911,7 +2911,95 @@
 </node>
 <node CREATED="1584792723247" ID="ID_348746736" MODIFIED="1610202502668" TEXT="Qemu-Kvm">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1610552457430" ID="ID_1660128838" MODIFIED="1610552463177" TEXT="&#x6982;&#x8ff0;"/>
+<node CREATED="1610552457430" FOLDED="true" ID="ID_1660128838" MODIFIED="1611245374928" TEXT="&#x6982;&#x8ff0;">
+<node CREATED="1611244393290" ID="ID_1289303260" MODIFIED="1611244701590" TEXT="&#x8f6f;&#x4ef6;/&#x786c;&#x4ef6;&#x865a;&#x62df;&#x5316;">
+<node CREATED="1611244396253" ID="ID_1953310586" MODIFIED="1611244399984" TEXT="&#x8f6f;&#x4ef6;&#x865a;&#x62df;&#x5316;">
+<node CREATED="1611244557318" ID="ID_301920540" MODIFIED="1611244565702">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="virtualization/software-virtualization.jpg" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1611244427130" ID="ID_346227250" MODIFIED="1611244474977" TEXT="Qemu&#x7ffb;&#x8bd1;&#xff1a;Guest&#x4ee3;&#x7801;&#x6307;&#x4ee4; -&gt; TCG(Tiny Code Generator)&#x4e2d;&#x95f4;&#x4ee3;&#x7801; -&gt; Host&#x67b6;&#x6784;&#x652f;&#x6301;&#x7684;&#x4ee3;&#x7801;&#x6307;&#x4ee4;"/>
+</node>
+</node>
+<node CREATED="1611244400225" ID="ID_1197019006" MODIFIED="1611244402670" TEXT="&#x786c;&#x4ef6;&#x865a;&#x62df;&#x5316;">
+<node CREATED="1611244570785" ID="ID_622650837" MODIFIED="1611244573821">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="virtualization/hardware-virtualization.jpg" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1611244592776" ID="ID_1451268417" MODIFIED="1611244648516" TEXT="KVM(Kernel-Based Virtual Machine)&#x5b9e;&#x73b0;&#x5bf9;CPU&#x548c;&#x5185;&#x5b58;&#x7684;&#x865a;&#x62df;&#x5316;&#xff0c;&#x4ee5;&#x53ca;&#x786c;&#x4ef6;I/O&#x865a;&#x62df;&#x5316;&#x7684;&#x62e6;&#x622a;&#xff0c;Guest&#x7684;I/O&#x88ab;KVM&#x62e6;&#x622a;&#x540e;&#x4ea4;&#x7ed9;Qemu&#x5904;&#x7406;"/>
+</node>
+</node>
+</node>
+<node CREATED="1611244688534" ID="ID_201560139" MODIFIED="1611244713306" TEXT="&#x534a;&#x865a;&#x62df;&#x5316;/&#x5168;&#x865a;&#x62df;&#x5316;">
+<node CREATED="1611244713306" ID="ID_1951836893" MODIFIED="1611244748902" TEXT="&#x6839;&#x636e;GuestOS&#x662f;&#x5426;&#x9700;&#x8981;&#x5bf9;&#x5e94;&#x8fdb;&#x884c;&#x6539;&#x52a8;&#x800c;&#x5212;&#x5206;">
+<node CREATED="1611244763249" ID="ID_303730339" MODIFIED="1611244767013">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="virtualization/para-virt-full-virt.jpg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1611244777722" ID="ID_1911637633" MODIFIED="1611244787405" TEXT="type1/type2&#x865a;&#x62df;&#x5316;">
+<node CREATED="1611244891227" ID="ID_822515950" MODIFIED="1611244894648">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="virtualization/type1-type2-virtualization.jpg" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1611244788734" ID="ID_415440175" MODIFIED="1611244824839" TEXT="native/bare-mental hypervisor&#xff0c;&#x76f4;&#x63a5;&#x63a7;&#x5236;&#x786c;&#x4ef6;&#x8d44;&#x6e90;&#x548c;&#x5ba2;&#x6237;&#x673a;&#xff0c;&#x5982;Xen"/>
+<node CREATED="1611244825821" ID="ID_958838369" MODIFIED="1611244874143" TEXT="Hypervisor&#x8fd0;&#x884c;&#x5728;Host&#x64cd;&#x4f5c;&#x7cfb;&#x7edf;&#x4e4b;&#x4e0a;&#xff0c;&#x5982;VMWare Workstation, KVM&#x7b49;&#xff0c;hypervisor&#x53ea;&#x662f;&#x5bbf;&#x4e3b;&#x673a;&#x64cd;&#x4f5c;&#x7cfb;&#x7edf;&#x7684;&#x4e00;&#x4e2a;&#x5e94;&#x7528;&#x7a0b;&#x5e8f;"/>
+</node>
+</node>
+<node CREATED="1611244910600" ID="ID_329291313" MODIFIED="1611244917880" TEXT="Kvm-Qemu&#x6846;&#x67b6;">
+<node CREATED="1611244929675" ID="ID_283858155" MODIFIED="1611244933646">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="virtualization/kvm-qemu-arch.jpg" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1611244944839" ID="ID_1400216416" MODIFIED="1611244959607" TEXT="Qemu(Quick Emulator)">
+<node CREATED="1611244959607" ID="ID_828625476" MODIFIED="1611244978382" TEXT="&#x865a;&#x62df;&#x5316;&#x65b9;&#x6848;&#x7684;&#x7528;&#x6237;&#x6001;&#x7ec4;&#x6210;&#x90e8;&#x5206;">
+<node CREATED="1611244978382" ID="ID_281356389" MODIFIED="1611244996062" TEXT="Emulator&#xff0c;&#x6a21;&#x62df;&#x5668;&#xff0c;&#x6a21;&#x62df;&#x5404;&#x79cd;&#x786c;&#x4ef6;&#xff0c;&#x4f7f;&#x7528;&#x4e8c;&#x8fdb;&#x5236;&#x7ffb;&#x8bd1;&#x6280;&#x672f;"/>
+<node CREATED="1611244996344" ID="ID_1125833377" MODIFIED="1611245022871" TEXT="Virtualiser&#xff0c;&#x865a;&#x62df;&#x673a;&#xff0c;&#x901a;&#x8fc7;ioctl&#x4e0e;KVM&#x5185;&#x6838;&#x6a21;&#x5757;&#x8fdb;&#x884c;&#x4ea4;&#x4e92;&#xff0c;&#x5b8c;&#x6210;&#x865a;&#x62df;&#x5316;&#x529f;&#x80fd;"/>
+</node>
+<node CREATED="1611245071964" ID="ID_485331026" MODIFIED="1611245118629" TEXT="&#x4e3a;&#x6bcf;&#x4e2a;VM&#x521b;&#x5efa;&#x4e00;&#x4e2a;&#x8fdb;&#x7a0b;&#xff0c;&#x9488;&#x5bf9;&#x6bcf;&#x4e2a;vCPU&#x521b;&#x5efa;&#x4e00;&#x4e2a;&#x7ebf;&#x7a0b;&#xff0c;Guest&#x7684;&#x7cfb;&#x7edf;&#x548c;&#x5e94;&#x7528;&#x8fd0;&#x884c;&#x5728;vCPU&#x4e4b;&#x4e0a;"/>
+<node CREATED="1611245127342" ID="ID_199308063" MODIFIED="1611245159984" TEXT="Qemu&#x80fd;&#x6a21;&#x62df;IO&#x529f;&#x80fd;&#xff0c;KVM&#x53ef;&#x80fd;&#x4e0d;&#x662f;&#x5168;&#x90e8;&#x652f;&#x6301;">
+<node CREATED="1611245159985" ID="ID_1283963810" MODIFIED="1611245215108" TEXT="VM&#x4e2d;&#x7a0b;&#x5e8f;&#x6267;&#x884c;I/O -&gt; VM&#x9000;&#x51fa;&#x8fdb;&#x5165;KVM -&gt; KVM&#x5224;&#x65ad;&#x5904;&#x7406;&#x5e76;&#x5c06;&#x63a7;&#x5236;&#x6743;&#x4ea4;&#x7ed9;Qemu -&gt; Qemu&#x6a21;&#x62df;I/O&#x8bbe;&#x5907;&#x6765;&#x54cd;&#x5e94;&#x7a0b;&#x5e8f;&#x7684;I/O&#x8bf7;&#x6c42;"/>
+</node>
+</node>
+<node CREATED="1611245221392" ID="ID_1896288441" MODIFIED="1611245224936" TEXT="KVM&#x5185;&#x6838;&#x6a21;&#x5757;">
+<node CREATED="1611245229252" ID="ID_51618743" MODIFIED="1611245312424" TEXT="&#x4f9d;&#x8d56;&#x5e95;&#x5c42;&#x865a;&#x62df;&#x5316;&#x652f;&#x6301;&#xff08;Intel VT/AMD-V&#xff09;&#xff0c;&#x4e3b;&#x8981;&#x662f;&#x521d;&#x59cb;&#x5316;CPU&#x786c;&#x4ef6;&#xff0c;&#x6253;&#x5f00;&#x865a;&#x62df;&#x5316;&#x6a21;&#x5f0f;&#xff0c;&#x5c06;&#x865a;&#x62df;&#x5316;&#x5ba2;&#x6237;&#x673a;&#x8fd0;&#x884c;&#x5728;&#x865a;&#x62df;&#x673a;&#x6a21;&#x5f0f;&#x4e0b;&#xff0c;&#x5e76;&#x5bf9;&#x865a;&#x62df;&#x5316;&#x5ba2;&#x6237;&#x673a;&#x7684;&#x8fd0;&#x884c;&#x63d0;&#x4f9b;&#x652f;&#x6301;"/>
+<node CREATED="1611245313303" ID="ID_237432676" MODIFIED="1611245369595" TEXT="&#x5b9e;&#x73b0;CPU&#x3001;&#x5185;&#x5b58;&#x865a;&#x62df;&#x5316;&#x7b49;&#x3002;&#x5916;&#x8bbe;IO&#x865a;&#x62df;&#x5316;&#x901a;&#x5e38;&#x4e0d;&#x662f;&#x7531;KVM&#x8d1f;&#x8d23;&#xff0c;&#x53ea;&#x6709;&#x5bf9;&#x6027;&#x80fd;&#x8981;&#x6c42;&#x5f88;&#x9ad8;&#x7684;&#x865a;&#x62df;&#x8bbe;&#x5907;&#x624d;&#x9700;&#x8981;&#x7531;KVM&#x5185;&#x6838;&#x6a21;&#x5757;&#x6765;&#x8d1f;&#x8d23;"/>
+</node>
+</node>
+</node>
+</node>
 <node CREATED="1610552463564" ID="ID_1655526236" MODIFIED="1610552470138" TEXT="ARMv8&#x865a;&#x62df;&#x5316;"/>
 <node CREATED="1610552470698" ID="ID_44685651" MODIFIED="1610552478468" TEXT="KVM&#x6e90;&#x7801;"/>
 <node CREATED="1610552480105" ID="ID_1709456476" MODIFIED="1610552484050" TEXT="CPU&#x865a;&#x62df;&#x5316;"/>
