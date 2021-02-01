@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1559439668711" ID="ID_1288720447" MODIFIED="1612083326066" TEXT="&#x751f;&#x6001;&#x7cfb;&#x7edf;">
+<node CREATED="1559439668711" ID="ID_1288720447" MODIFIED="1612191188220" TEXT="&#x751f;&#x6001;&#x7cfb;&#x7edf;">
 <font NAME="Dialog" SIZE="12"/>
-<node CREATED="1559439668711" FOLDED="true" ID="ID_467133460" MODIFIED="1612083326066" POSITION="right" TEXT="&#x8ba1;&#x7b97;&#x673a;&#x7cfb;&#x7edf;">
+<node CREATED="1559439668711" FOLDED="true" ID="ID_467133460" MODIFIED="1612191188220" POSITION="right" TEXT="&#x8ba1;&#x7b97;&#x673a;&#x7cfb;&#x7edf;">
 <font NAME="Dialog" SIZE="12"/>
 <node CREATED="1562333922071" FOLDED="true" ID="ID_1354632992" MODIFIED="1611582302811" TEXT="&#x5e94;&#x7528;">
 <font NAME="SansSerif" SIZE="12"/>
@@ -863,7 +863,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1572998351193" FOLDED="true" ID="ID_563900263" MODIFIED="1612083326066" TEXT="&#x64cd;&#x4f5c;&#x7cfb;&#x7edf;">
+<node CREATED="1572998351193" FOLDED="true" ID="ID_563900263" MODIFIED="1612191188220" TEXT="&#x64cd;&#x4f5c;&#x7cfb;&#x7edf;">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1560520460057" ID="ID_347427388" MODIFIED="1606049537363" TEXT="&#x7f51;&#x7edc;&#x7ba1;&#x7406;">
 <font NAME="SansSerif" SIZE="12"/>
@@ -1116,7 +1116,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1560825224145" FOLDED="true" ID="ID_28482001" MODIFIED="1612083326066" TEXT="linux">
+<node CREATED="1560825224145" FOLDED="true" ID="ID_28482001" MODIFIED="1612191188220" TEXT="linux">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1560825227596" FOLDED="true" ID="ID_1089083421" MODIFIED="1611582300883" TEXT="&#x5185;&#x6838;utils&#x4ee3;&#x7801;">
 <font NAME="SansSerif" SIZE="12"/>
@@ -2909,7 +2909,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1584792723247" FOLDED="true" ID="ID_348746736" MODIFIED="1612083326066" TEXT="Qemu-Kvm">
+<node CREATED="1584792723247" FOLDED="true" ID="ID_348746736" MODIFIED="1612191188220" TEXT="Qemu-Kvm">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1610552457430" FOLDED="true" ID="ID_1660128838" MODIFIED="1611245374928" TEXT="&#x6982;&#x8ff0;">
 <node CREATED="1611244393290" FOLDED="true" ID="ID_1289303260" MODIFIED="1611762611467" TEXT="&#x8f6f;&#x4ef6;/&#x786c;&#x4ef6;&#x865a;&#x62df;&#x5316;">
@@ -4136,7 +4136,205 @@
 </node>
 </node>
 </node>
-<node CREATED="1611475787490" ID="ID_1650392973" MODIFIED="1611475790647" TEXT="virtio&#x865a;&#x62df;&#x5316;"/>
+<node CREATED="1611475787490" FOLDED="true" ID="ID_1650392973" MODIFIED="1612191188220" TEXT="virtio&#x865a;&#x62df;&#x5316;">
+<node CREATED="1612096765537" FOLDED="true" ID="ID_1539428288" MODIFIED="1612191188208" TEXT="&#x7f51;&#x5361;">
+<node CREATED="1612096839136" FOLDED="true" ID="ID_383847498" MODIFIED="1612191188197" TEXT="&#x7f51;&#x5361;&#x5de5;&#x4f5c;&#x539f;&#x7406;">
+<node CREATED="1612096846985" FOLDED="true" ID="ID_800367426" MODIFIED="1612191188176">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="virtualization/virt-io/network-card.jpg" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1612102891905" ID="ID_1443853058" MODIFIED="1612102930866" TEXT="PHY&#x5bf9;&#x5e94;&#x7269;&#x7406;&#x5c42;&#xff0c;&#x8d1f;&#x8d23;&#x901a;&#x4fe1;&#x8bbe;&#x5907;&#x4e0e;&#x7f51;&#x7edc;&#x5a92;&#x4ecb;&#x4e4b;&#x95f4;&#x7684;&#x4e92;&#x901a;&#xff0c;&#x5b9a;&#x4e49;&#x4f20;&#x8f93;&#x7684;&#x5149;&#x7535;&#x4fe1;&#x53f7;&#x3001;&#x7ebf;&#x8def;&#x72b6;&#x6001;&#x7b49;"/>
+<node CREATED="1612102933082" ID="ID_634083130" MODIFIED="1612102961446" TEXT="MAC&#x63a7;&#x5236;&#x5668;&#x5bf9;&#x5e94;&#x6570;&#x636e;&#x94fe;&#x8def;&#x5c42;&#xff0c;&#x8d1f;&#x8d23;&#x7f51;&#x7edc;&#x5bfb;&#x5740;&#x3001;&#x9519;&#x8bef;&#x4fa6;&#x6d4b;&#x548c;&#x6539;&#x9519;&#x7b49;"/>
+<node CREATED="1612102971079" FOLDED="true" ID="ID_509439022" MODIFIED="1612191188176" TEXT="PHY&#x548c;MAC&#x901a;&#x8fc7;MII/GMII(Media Independent Interface)&#x548c;MDIO(Management Data Input/output)&#x76f8;&#x8fde;">
+<node CREATED="1612103048230" ID="ID_1304595321" MODIFIED="1612103092794" TEXT="MII/GMII(Gigabit MII)&#x7531;IEEE&#x5b9a;&#x4e49;&#x7684;&#x4ee5;&#x592a;&#x7f51;&#x884c;&#x4e1a;&#x6807;&#x51c6;&#xff0c;&#x4e0e;&#x5a92;&#x4ecb;&#x65e0;&#x5173;&#xff0c;&#x5305;&#x542b;&#x6570;&#x636e;&#x63a5;&#x53e3;&#x548c;&#x7ba1;&#x7406;&#x63a5;&#x53e3;&#xff0c;&#x7528;&#x4e8e;&#x7f51;&#x7edc;&#x6570;&#x636e;&#x4f20;&#x8f93;"/>
+<node CREATED="1612103096740" ID="ID_1705687656" MODIFIED="1612103125051" TEXT="MDIO&#x4e5f;&#x662f;IEEE&#x5b9a;&#x4e49;&#xff0c;&#x4e00;&#x79cd;&#x7b80;&#x5355;&#x7684;&#x4e32;&#x884c;&#x63a5;&#x53e3;&#xff0c;&#x7528;&#x4e8e;&#x63a7;&#x5236;&#x6536;&#x53d1;&#x5668;&#xff0c;&#x6536;&#x96c6;&#x72b6;&#x6001;&#x4fe1;&#x606f;&#x7b49;"/>
+</node>
+<node CREATED="1612103130033" ID="ID_1041992185" MODIFIED="1612103162443" TEXT="&#x7f51;&#x5361;&#x901a;&#x8fc7;PCI&#x63a5;&#x53e3;&#x63a5;&#x5165;&#x5230;PCI&#x603b;&#x7ebf;&#x4e2d;&#xff0c;CPU&#x53ef;&#x4ee5;&#x901a;&#x8fc7;&#x8bbf;&#x95ee;BAR&#x7a7a;&#x95f4;&#x6765;&#x83b7;&#x53d6;&#x6570;&#x636e;&#x5305;&#xff0c;&#x4e5f;&#x6709;&#x7f51;&#x5361;&#x76f4;&#x63a5;&#x6302;&#x5728;&#x5185;&#x5b58;&#x603b;&#x7ebf;&#x4e0a;"/>
+<node CREATED="1612103176444" ID="ID_1978937500" MODIFIED="1612103207966" TEXT="&#x7f51;&#x5361;&#x8fd8;&#x6709;&#x4e00;&#x4e2a;EEPROM&#x82af;&#x7247;&#xff0c;&#x7528;&#x4e8e;&#x8bb0;&#x5f55;&#x5382;&#x5546;ID/&#x7f51;&#x5361;MAC&#x5730;&#x5740;/&#x914d;&#x7f6e;&#x4fe1;&#x606f;&#x7b49;"/>
+</node>
+<node CREATED="1612103234818" FOLDED="true" ID="ID_15858335" MODIFIED="1612191188187">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="virtualization/virt-io/network-card-data-path.jpg" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1612103503682" ID="ID_649190146" MODIFIED="1612103575157" TEXT="&#x7f51;&#x7edc;&#x5305;&#x7684;&#x63a5;&#x6536;&#x548c;&#x53d1;&#x9001;&#xff0c;&#x90fd;&#x662f;&#x5178;&#x578b;&#x7684;&#x751f;&#x4ea7;&#x8005;-&#x6d88;&#x8d39;&#x8005;&#x6a21;&#x578b;&#xff0c;CPU&#x4f1a;&#x5728;&#x5185;&#x5b58;&#x4e2d;&#x7ef4;&#x62a4;&#x4e24;&#x4e2a;ring-buffer&#xff0c;&#x5206;&#x522b;&#x4ee3;&#x8868;Rx&#x548c;Tx&#xff0c;ring-buffer&#x4e2d;&#x5b58;&#x653e;&#x63cf;&#x8ff0;&#x7b26;&#xff0c;&#x63cf;&#x8ff0;&#x7b26;&#x91cc;&#x5305;&#x542b;&#x4e00;&#x4e2a;&#x7f51;&#x7edc;&#x5305;&#x7684;&#x4fe1;&#x606f;&#xff0c;&#x5305;&#x62ec;&#x4e86;&#x7f51;&#x7edc;&#x5305;&#x5730;&#x5740;&#x3001;&#x957f;&#x5ea6;&#x3001;&#x72b6;&#x6001;&#x7b49;&#x4fe1;&#x606f;"/>
+<node CREATED="1612103617807" FOLDED="true" ID="ID_1867128959" MODIFIED="1612191188187" TEXT="ring-buffer&#x6709;&#x5934;&#x5c3e;&#x4e24;&#x4e2a;&#x6307;&#x9488;">
+<node CREATED="1612103628410" FOLDED="true" ID="ID_1643578932" MODIFIED="1612191188187" TEXT="&#x53d1;&#x9001;&#x7aef;">
+<node CREATED="1612103634604" ID="ID_541618333" MODIFIED="1612103648399" TEXT="TDH, Transmit Descriptor Head"/>
+<node CREATED="1612103648641" ID="ID_711066590" MODIFIED="1612103660369" TEXT="TDT, Transmit Descriptor Tail"/>
+</node>
+<node CREATED="1612103661712" FOLDED="true" ID="ID_519051467" MODIFIED="1612191188187" TEXT="&#x63a5;&#x6536;&#x7aef;">
+<node CREATED="1612103663954" ID="ID_1145752553" MODIFIED="1612103673995" TEXT="RDH, Receive Descriptor Head"/>
+<node CREATED="1612103674382" ID="ID_1783150966" MODIFIED="1612103684118" TEXT="RDT, Receive Descriptor Tail"/>
+</node>
+</node>
+<node CREATED="1612103799393" ID="ID_514071298" MODIFIED="1612103844530" TEXT="CPU&#x548c;&#x7f51;&#x5361;&#x5206;&#x5f00;&#x66f4;&#x65b0;&#x5934;&#x5c3e;&#x6307;&#x9488;&#x7684;&#x503c;&#xff0c;&#x751f;&#x4ea7;&#x8005;&#x66f4;&#x65b0;&#x5c3e;&#x6307;&#x9488;&#xff0c;&#x6d88;&#x8d39;&#x8005;&#x66f4;&#x65b0;&#x5934;&#x6307;&#x9488;"/>
+<node CREATED="1612103845073" ID="ID_1389408387" MODIFIED="1612103914218" TEXT="&#x6570;&#x636e;&#x7684;&#x4f20;&#x8f93;&#xff0c;&#x4f7f;&#x7528;DMA&#x6765;&#x642c;&#x8fd0;&#xff0c;&#x56e0;&#x4e3a;CPU&#x7684;&#x62f7;&#x8d1d;&#x663e;&#x7136;&#x662f;&#x4e00;&#x79cd;&#x4f4e;&#x6548;&#x7684;&#x9009;&#x62e9;&#x3002;PCI&#x8bbe;&#x5907;&#x6709;&#x81ea;&#x5df1;&#x7684;BAR&#x7a7a;&#x95f4;&#xff0c;&#x53ef;&#x4ee5;&#x901a;&#x8fc7;DMA&#x5728;BAR&#x7a7a;&#x95f4;&#x548c;DDR&#x7a7a;&#x95f4;&#x5185;&#x8fdb;&#x884c;&#x642c;&#x8fd0;"/>
+</node>
+</node>
+<node CREATED="1612103975038" FOLDED="true" ID="ID_1442460126" MODIFIED="1612191188208" TEXT="Linux&#x7f51;&#x5361;&#x9a71;&#x52a8;">
+<node CREATED="1612104002932" FOLDED="true" ID="ID_1001340345" MODIFIED="1612191188197">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="virtualization/virt-io/linux-network-driver.jpg" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1612104040659" ID="ID_1701233073" MODIFIED="1612104070535" TEXT="&#x9a71;&#x52a8;&#x7a0b;&#x5e8f;&#x8d1f;&#x8d23;&#x786c;&#x4ef6;&#x7684;&#x521d;&#x59cb;&#x5316;&#xff0c;&#x4ee5;&#x53ca;TX&#x548c;RX&#x7684;ring-buffer&#x7684;&#x521b;&#x5efa;&#x4ee5;&#x53ca;&#x521d;&#x59cb;&#x5316;"/>
+<node CREATED="1612104072118" ID="ID_1782217369" MODIFIED="1612104099746" TEXT="ndo_start_xmit&#x8d1f;&#x8d23;&#x7f51;&#x7edc;&#x5305;&#x901a;&#x8fc7;&#x9a71;&#x52a8;&#x7a0b;&#x5e8f;&#x53d1;&#x9001;&#x51fa;&#x53bb;"/>
+<node CREATED="1612104100015" ID="ID_1473267147" MODIFIED="1612104120897" TEXT="neif_receive_skb&#x8d1f;&#x8d23;&#x901a;&#x8fc7;&#x9a71;&#x52a8;&#x7a0b;&#x5e8f;&#x63a5;&#x6536;&#x6570;&#x636e;&#x5305;"/>
+<node CREATED="1612104123158" ID="ID_1561341620" MODIFIED="1612104132989" TEXT="&#x6570;&#x636e;&#x901a;&#x8fc7;struct sk_buff&#x6765;&#x5b58;&#x50a8;"/>
+<node CREATED="1612104136307" FOLDED="true" ID="ID_670819375" MODIFIED="1612191188197" TEXT="&#x53d1;&#x9001;&#x6570;&#x636e;">
+<node CREATED="1612104142021" ID="ID_1967458412" MODIFIED="1612104205315" TEXT="CPU&#x8d1f;&#x8d23;&#x51c6;&#x5907;TX&#x7f51;&#x7edc;&#x6570;&#x636e;&#x4ee5;&#x53ca;&#x63cf;&#x8ff0;&#x7b26;&#x8d44;&#x6e90;&#xff0c;&#x66f4;&#x65b0;TDT&#x6307;&#x9488;&#xff0c;&#x5e76;&#x901a;&#x77e5;NIC&#x53ef;&#x4ee5;&#x8fdb;&#x884c;&#x6570;&#x636e;&#x53d1;&#x9001;&#xff0c;&#x5f53;&#x6570;&#x636e;&#x53d1;&#x9001;&#x5b8c;&#x6bd5;&#x540e;NIC&#x901a;&#x8fc7;&#x4e2d;&#x65ad;&#x4fe1;&#x53f7;&#x901a;&#x77e5;CPU&#x8fdb;&#x884c;&#x4e0b;&#x4e00;&#x4e2a;&#x5305;&#x7684;&#x5904;&#x7406;"/>
+</node>
+<node CREATED="1612104248585" FOLDED="true" ID="ID_738623272" MODIFIED="1612191188197" TEXT="&#x63a5;&#x6536;&#x6570;&#x636e;">
+<node CREATED="1612104254952" ID="ID_1275078109" MODIFIED="1612104314173" TEXT="CPU&#x8d1f;&#x8d23;&#x51c6;&#x5907;RX&#x63cf;&#x8ff0;&#x7b26;&#x8d44;&#x6e90;&#xff0c;&#x63a5;&#x6536;&#x6570;&#x636e;&#x540e;&#xff0c;NIC&#x901a;&#x8fc7;&#x4e2d;&#x65ad;&#x901a;&#x77e5;CPU&#xff0c;&#x9a71;&#x52a8;&#x7a0b;&#x5e8f;&#x901a;&#x8fc7;&#x8c03;&#x5ea6;&#x5185;&#x6838;&#x7ebf;&#x7a0b;&#x6765;&#x5904;&#x7406;&#x7f51;&#x7edc;&#x5305;&#x6570;&#x636e;&#xff0c;&#x5904;&#x7406;&#x5b8c;&#x6210;&#x540e;&#x8fdb;&#x884c;&#x4e0b;&#x4e00;&#x4e2a;&#x5305;&#x7684;&#x63a5;&#x6536;"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1612188102344" FOLDED="true" ID="ID_1883956510" MODIFIED="1612191188209" TEXT="&#x7f51;&#x5361;&#x5168;&#x865a;&#x62df;&#x5316;">
+<node CREATED="1612188134205" FOLDED="true" ID="ID_1645585711" MODIFIED="1612191188209">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="virtualization/virt-io/nic-full-virt.jpg" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1612188178759" FOLDED="true" ID="ID_1189572836" MODIFIED="1612191188209" TEXT="Qemu&#x4e2d;&#xff0c;&#x8bbe;&#x5907;&#x7684;&#x6a21;&#x62df;&#x79f0;&#x4e3a;&#x524d;&#x7aef;&#xff0c;&#x6bd4;&#x5982;e1000&#xff0c;&#x524d;&#x7aef;&#x4e0e;&#x540e;&#x7aef;&#x901a;&#x4fe1;&#xff0c;&#x540e;&#x7aef;&#x518d;&#x4e0e;&#x5e95;&#x5c42;&#x901a;&#x4fe1;">
+<node CREATED="1612188218275" FOLDED="true" ID="ID_326418940" MODIFIED="1612191188209" TEXT="&#x53d1;&#x9001;">
+<node CREATED="1612188226737" ID="ID_1413359376" MODIFIED="1612188261028" TEXT="GuestOS&#x5728;&#x51c6;&#x5907;&#x597d;&#x6570;&#x636e;&#x5305;&#x6570;&#x636e;&#x4ee5;&#x53ca;&#x63cf;&#x8ff0;&#x7b26;&#x8d44;&#x6e90;&#x540e;&#xff0c;&#x901a;&#x8fc7;&#x5199;TDT&#x5bc4;&#x5b58;&#x5668;&#xff0c;&#x89e6;&#x53d1;VM&#x7684;&#x5f02;&#x5e38;&#x9000;&#x51fa;&#xff0c;&#x7531;KVM&#x63a5;&#x7ba1;"/>
+<node CREATED="1612188306874" ID="ID_264500186" MODIFIED="1612188343729" TEXT="KVM&#x6a21;&#x5757;&#x8fd4;&#x56de;&#x5230;Qemu&#x540e;&#xff0c;Qemu&#x4f1a;&#x68c0;&#x67e5;VM&#x9000;&#x51fa;&#x7684;&#x539f;&#x56e0;&#xff0c;&#x6bd4;&#x5982;&#x68c0;&#x67e5;&#x5230;e1000&#x5bc4;&#x5b58;&#x5668;&#x8bbf;&#x95ee;&#x51fa;&#x9519;&#xff0c;&#x89e6;&#x53d1;e1000&#x524d;&#x7aef;&#x5de5;&#x4f5c;"/>
+<node CREATED="1612188358374" ID="ID_1432495543" MODIFIED="1612188415112" TEXT="Qemu&#x80fd;&#x8bbf;&#x95ee;GuestOS&#x4e2d;&#x7684;&#x5730;&#x5740;&#x5185;&#x5bb9;&#xff0c;&#x56e0;&#x800c;e1000&#x524d;&#x7aef;&#x80fd;&#x83b7;&#x53d6;&#x5230;GuestOS&#x5185;&#x5b58;&#x4e2d;&#x7684;&#x7f51;&#x7edc;&#x5305;&#x6570;&#x636e;&#xff0c;&#x53d1;&#x9001;&#x7ed9;&#x540e;&#x7aef;&#xff0c;&#x540e;&#x7aef;&#x518d;&#x5c06;&#x7f51;&#x7edc;&#x5305;&#x6570;&#x636e;&#x53d1;&#x9001;&#x7ed9;TUN/TAP&#x9a71;&#x52a8;&#xff0c;&#x5176;&#x4e2d;TUN/TAP&#x4e3a;&#x865a;&#x62df;&#x7f51;&#x7edc;&#x8bbe;&#x5907;"/>
+<node CREATED="1612188503337" ID="ID_1622796613" MODIFIED="1612188531023" TEXT="&#x6570;&#x636e;&#x53d1;&#x9001;&#x5b8c;&#x6210;&#x540e;&#xff0c;&#x9664;&#x4e86;&#x66f4;&#x65b0;ring-buffer&#x7684;&#x6307;&#x9488;&#x53ca;&#x63cf;&#x8ff0;&#x7b26;&#x72b6;&#x6001;&#x4fe1;&#x606f;&#x5916;&#xff0c;KVM&#x6a21;&#x5757;&#x4f1a;&#x6a21;&#x62df;TX&#x4e2d;&#x65ad;"/>
+<node CREATED="1612188533346" ID="ID_106336421" MODIFIED="1612188556902" TEXT="&#x5f53;&#x518d;&#x6b21;&#x8fdb;&#x5165;VM&#x65f6;&#xff0c;GuestOS&#x770b;&#x5230;&#x7684;&#x662f;&#x6570;&#x636e;&#x5df2;&#x7ecf;&#x53d1;&#x9001;&#x5b8c;&#x6bd5;&#xff0c;&#x540c;&#x65f6;&#x8fd8;&#x9700;&#x8981;&#x8fdb;&#x884c;&#x4e2d;&#x65ad;&#x5904;&#x7406;"/>
+<node CREATED="1612188562226" ID="ID_361973345" MODIFIED="1612188634083" TEXT="GuestOS&#x8dd1;&#x5728;vCPU&#x7ebf;&#x7a0b;&#x4e2d;&#xff0c;&#x53d1;&#x9001;&#x6570;&#x636e;&#x65f6;&#x76f8;&#x5f53;&#x4e8e;&#x4f1a;&#x963b;&#x585e;&#x5b83;&#x7684;&#x6267;&#x884c;&#xff0c;&#x76f4;&#x5230;&#x5904;&#x7406;&#x5b8c;&#x6210;&#x540e;&#x518d;&#x6062;&#x590d;&#x56de;&#x6765;&#xff0c;&#x4e5f;&#x5c31;&#x662f;&#x4e00;&#x4e2a;&#x4e25;&#x683c;&#x7684;&#x540c;&#x6b65;&#x5904;&#x7406;&#x8fc7;&#x7a0b;"/>
+</node>
+<node CREATED="1612188639340" FOLDED="true" ID="ID_1172149432" MODIFIED="1612191188209" TEXT="&#x63a5;&#x6536;">
+<node CREATED="1612188641693" ID="ID_1866788498" MODIFIED="1612188660542" TEXT="TUN/TAP&#x6709;&#x7f51;&#x7edc;&#x5305;&#x6570;&#x636e;&#x65f6;&#xff0c;&#x53ef;&#x4ee5;&#x901a;&#x8fc7;&#x8bfb;&#x53d6;TAP&#x6587;&#x4ef6;&#x63cf;&#x8ff0;&#x7b26;&#x6765;&#x83b7;&#x53d6;"/>
+<node CREATED="1612188662388" ID="ID_41188729" MODIFIED="1612188692331" TEXT="Qemu&#x4e2d;&#x7684;I/O&#x7ebf;&#x7a0b;&#x4f1a;&#x88ab;&#x5524;&#x9192;&#x5e76;&#x89e6;&#x53d1;&#x540e;&#x7aef;&#x5904;&#x7406;&#xff0c;&#x5e76;&#x5c06;&#x6570;&#x636e;&#x53d1;&#x9001;&#x7ed9;e1000&#x524d;&#x7aef;"/>
+<node CREATED="1612188708086" ID="ID_1147425538" MODIFIED="1612188744331" TEXT="e1000&#x524d;&#x7aef;&#x5c06;&#x6570;&#x636e;&#x62f7;&#x8d1d;&#x5230;GuestOS&#x7269;&#x7406;&#x5185;&#x5b58;&#x4e2d;&#xff0c;&#x5e76;&#x6a21;&#x62df;RX&#x4e2d;&#x65ad;&#xff0c;&#x89e6;&#x53d1;VM&#x9000;&#x51fa;&#xff0c;&#x5e76;&#x7531;KVM&#x63a5;&#x7ba1;"/>
+<node CREATED="1612188744839" ID="ID_687960158" MODIFIED="1612188773345" TEXT="KVM&#x6a21;&#x5757;&#x8fd4;&#x56de;&#x5230;Qemu&#x4e2d;&#x65ad;&#x8fdb;&#x884c;&#x5904;&#x7406;&#x540e;&#xff0c;&#x5e76;&#x6700;&#x7ec8;&#x91cd;&#x65b0;&#x8fdb;&#x5165;GuestOS&#x7684;&#x6267;&#x884c;&#x4e2d;&#x65ad;&#x5904;&#x7406;"/>
+<node CREATED="1612188775235" ID="ID_1828000661" MODIFIED="1612188796911" TEXT="&#x7531;&#x4e8e;&#x6709;I/O&#x7ebf;&#x7a0b;&#x6765;&#x5904;&#x7406;&#x63a5;&#x6536;&#xff0c;&#x80fd;&#x4e0e;vCPU&#x7ebf;&#x7a0b;&#x505a;&#x5230;&#x5e76;&#x884c;&#x5904;&#x7406;"/>
+</node>
+</node>
+<node CREATED="1612188876816" FOLDED="true" ID="ID_1406254523" MODIFIED="1612191188209" TEXT="&#x5f0a;&#x7aef;">
+<node CREATED="1612188879089" ID="ID_1304100807" MODIFIED="1612188913637" TEXT="GuestOS&#x64cd;&#x4f5c;&#x5bc4;&#x5b58;&#x5668;&#x65f6;&#xff0c;&#x4f1a;&#x89e6;&#x53d1;VM&#x9000;&#x51fa;&#xff0c;&#x6d89;&#x53ca;&#x5230;KVM&#x548c;Qemu&#x7684;&#x5904;&#x7406;&#xff0c;&#x5e76;&#x6700;&#x7ec8;&#x518d;&#x6b21;&#x8fdb;&#x5165;VM&#xff0c;overhead&#x5927;"/>
+<node CREATED="1612188939837" ID="ID_112921508" MODIFIED="1612188967153" TEXT="&#x4e0d;&#x7ba1;&#x662f;Host&#x8fd8;&#x662f;Guest&#x4e2d;&#xff0c;&#x4e2d;&#x65ad;&#x5904;&#x7406;&#x7684;&#x5f00;&#x9500;&#x6bd4;&#x8f83;&#x5927;&#xff0c;&#x4e2d;&#x65ad;&#x6d89;&#x53ca;&#x7684;&#x5bc4;&#x5b58;&#x5668;&#x8bbf;&#x95ee;&#x4e5f;&#x6bd4;&#x8f83;&#x591a;"/>
+<node CREATED="1612188968510" ID="ID_1161822064" MODIFIED="1612188984318" TEXT="&#x8f6f;&#x4ef6;&#x6a21;&#x62df;&#x7684;&#x65b9;&#x6848;&#xff0c;&#x541e;&#x5410;&#x91cf;&#x6027;&#x80fd;&#x8f83;&#x4f4e;&#xff0c;&#x65f6;&#x5ef6;&#x8f83;&#x5927;"/>
+</node>
+</node>
+</node>
+<node CREATED="1612189083753" FOLDED="true" ID="ID_305534690" MODIFIED="1612191188220" TEXT="&#x7f51;&#x5361;&#x534a;&#x865a;&#x62df;&#x5316;">
+<node CREATED="1612189568735" FOLDED="true" ID="ID_1414586036" MODIFIED="1612191188220">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="virtualization/virt-io/nic-half-virt.jpg" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1612189603821" FOLDED="true" ID="ID_1599787425" MODIFIED="1612191188219" TEXT="virtio&#x9a71;&#x52a8;&#xff08;virtio-net driver&#xff09;&#x662f;&#x5c06;OS-specific&#x7684;&#x6d88;&#x606f;&#x8f6c;&#x6362;&#x6210;virtio&#x683c;&#x5f0f;&#x7684;&#x6d88;&#x606f;&#xff0c;&#x800c;&#x5bf9;&#x7aef;&#xff08;virtio-net frontend&#xff09;&#x5219;&#x662f;&#x505a;&#x76f8;&#x53cd;&#x7684;&#x5de5;&#x4f5c;">
+<node CREATED="1612189965626" FOLDED="true" ID="ID_1337314436" MODIFIED="1612191188219" TEXT="&#x6570;&#x636e;&#x4f20;&#x9012;">
+<node CREATED="1612189969363" FOLDED="true" ID="ID_263732255" MODIFIED="1612191188219" TEXT="virtio&#x6570;&#x636e;&#x4f20;&#x9012;&#x4f7f;&#x7528;scatter-gather list (sg-list)">
+<node CREATED="1612189993973" FOLDED="true" ID="ID_458329590" MODIFIED="1612191188209">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="virtualization/virt-io/sg-list.png" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1612190026469" ID="ID_1396180211" MODIFIED="1612190053058" TEXT="sg-list&#x65f6;&#x6982;&#x5ff5;&#x4e0a;&#x7684;&#xff08;&#x7269;&#x7406;&#xff09;&#x5730;&#x5740;&#x548c;&#x957f;&#x5ea6;&#x5bf9;&#x7684;&#x94fe;&#x8868;&#xff0c;&#x901a;&#x5e38;&#x4f5c;&#x4e3a;&#x6570;&#x7ec4;&#x6765;&#x5b9e;&#x73b0;"/>
+<node CREATED="1612190070694" ID="ID_377597723" MODIFIED="1612190094741" TEXT="&#x6bcf;&#x4e2a;sg-list&#x63cf;&#x8ff0;&#x4e00;&#x4e2a;&#x591a;&#x5757;&#x7684;buffer&#xff0c;&#x6d88;&#x8d39;&#x8005;&#x7528;&#x5b83;&#x6765;&#x4f5c;&#x4e3a;&#x8f93;&#x5165;&#x6216;&#x8005;&#x8f93;&#x51fa;&#x64cd;&#x4f5c;"/>
+</node>
+</node>
+</node>
+<node CREATED="1612190120390" FOLDED="true" ID="ID_1410054602" MODIFIED="1612191188219" TEXT="virtqueue">
+<node CREATED="1612190130813" FOLDED="true" ID="ID_1550116370" MODIFIED="1612191188219" TEXT="virtio&#x7684;&#x6838;&#x5fc3;&#x662f;virtqueue(VQ)&#x7684;&#x62bd;&#x8c61;">
+<node CREATED="1612190153489" ID="ID_1862169722" MODIFIED="1612190180629" TEXT="VQ&#x662f;&#x961f;&#x5217;&#xff0c;sg-list&#x4f1a;&#x88ab;Guest&#x9a71;&#x52a8;&#x653e;&#x7f6e;&#x5230;VQ&#x4e2d;&#xff0c;&#x4f9b;Hypervisor&#x6765;&#x6d88;&#x8d39;"/>
+<node CREATED="1612190188904" ID="ID_1261439917" MODIFIED="1612190218408" TEXT="&#x8f93;&#x51fa;sg-list&#x7528;&#x4e8e;&#x5411;Hypervisor&#x6765;&#x53d1;&#x9001;&#x6570;&#x636e;&#xff0c;&#x800c;&#x8f93;&#x5165;sg-list&#x7528;&#x4e8e;&#x63a5;&#x6536;Hypervisor&#x7684;&#x6570;&#x636e;"/>
+<node CREATED="1612190223399" ID="ID_777883300" MODIFIED="1612190231449" TEXT="&#x9a71;&#x52a8;&#x53ef;&#x4ee5;&#x4f7f;&#x7528;&#x4e00;&#x4e2a;&#x6216;&#x8005;&#x591a;&#x4e2a;virtqueue"/>
+</node>
+<node CREATED="1612190285361" FOLDED="true" ID="ID_1968681622" MODIFIED="1612191188219" TEXT="&#x6570;&#x636e;&#x6d41;">
+<node CREATED="1612190290034" FOLDED="true" ID="ID_278182035" MODIFIED="1612191188219">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="virtualization/virt-io/virtqueue-data-trans.png" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1612190306320" ID="ID_1654146259" MODIFIED="1612190339966" TEXT="GuestOS&#x9a71;&#x52a8;&#x4ea7;&#x751f;&#x4e00;&#x4e2a;sg-list&#x65f6;&#xff0c;&#x8c03;&#x7528;add_buff(SG, Token)&#x5165;&#x961f;&#x5217;"/>
+<node CREATED="1612190348305" ID="ID_1258730072" MODIFIED="1612190371407" TEXT="Hypervisor&#x8fdb;&#x884c;&#x51fa;&#x961f;&#x5217;&#x64cd;&#x4f5c;&#xff0c;&#x5e76;&#x6d88;&#x8d39;sg-list&#xff0c;&#x5e76;&#x5c06;sg-list push&#x56de;&#x53bb;"/>
+<node CREATED="1612190372698" ID="ID_857771499" MODIFIED="1612190385235" TEXT="Guest&#x901a;&#x8fc7;get_buff()&#x8fdb;&#x884c;&#x6e05;&#x7406;&#x5de5;&#x4f5c;"/>
+</node>
+</node>
+<node CREATED="1612190873384" FOLDED="true" ID="ID_862637927" MODIFIED="1612191188219" TEXT="&#x4e8b;&#x4ef6;&#x901a;&#x77e5;">
+<node CREATED="1612190878488" FOLDED="true" ID="ID_856014366" MODIFIED="1612191188219">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="virtualization/virt-io/virtqueue-event-notify.jpg" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1612190884396" ID="ID_1323921636" MODIFIED="1612190910713" TEXT="GuestOS&#x9a71;&#x52a8;&#x60f3;&#x8981;Hypervisor&#x6d88;&#x8d39;sg-list&#x65f6;&#xff0c;&#x901a;&#x8fc7;VQ&#x7684;kick&#x6765;&#x901a;&#x77e5;"/>
+<node CREATED="1612190963938" ID="ID_1959349174" MODIFIED="1612190994247" TEXT="Hypervisor&#x901a;&#x8fc7;interrupt&#x6765;&#x901a;&#x77e5;GuestOS&#x9a71;&#x52a8;&#x5df2;&#x7ecf;&#x6d88;&#x8d39;&#x5b8c;&#x4e86;"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1612191021457" ID="ID_30017723" MODIFIED="1612191051733">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="virtualization/virt-io/nic-half-virt-1.jpg" />
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1612191074648" ID="ID_700881417" MODIFIED="1612191078517">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="virtualization/virt-io/nic-half-virt-2.jpg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
