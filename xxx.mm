@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1559439668711" ID="ID_1288720447" MODIFIED="1613834543104" TEXT="&#x751f;&#x6001;&#x7cfb;&#x7edf;">
 <font NAME="Dialog" SIZE="12"/>
-<node CREATED="1559439668711" FOLDED="true" ID="ID_467133460" MODIFIED="1613834543104" POSITION="right" TEXT="&#x8ba1;&#x7b97;&#x673a;&#x7cfb;&#x7edf;">
+<node CREATED="1559439668711" ID="ID_467133460" MODIFIED="1614350878752" POSITION="right" TEXT="&#x8ba1;&#x7b97;&#x673a;&#x7cfb;&#x7edf;">
 <font NAME="Dialog" SIZE="12"/>
 <node CREATED="1562333922071" FOLDED="true" ID="ID_1354632992" MODIFIED="1611582302811" TEXT="&#x5e94;&#x7528;">
 <font NAME="SansSerif" SIZE="12"/>
@@ -863,7 +863,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1572998351193" FOLDED="true" ID="ID_563900263" MODIFIED="1613834543103" TEXT="&#x64cd;&#x4f5c;&#x7cfb;&#x7edf;">
+<node CREATED="1572998351193" ID="ID_563900263" MODIFIED="1614350880195" TEXT="&#x64cd;&#x4f5c;&#x7cfb;&#x7edf;">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1613659503103" FOLDED="true" ID="ID_179269982" MODIFIED="1613834542976" TEXT="&#x4e00;&#x4e9b;&#x57fa;&#x672c;&#x6982;&#x5ff5;">
 <node CREATED="1613659507660" FOLDED="true" ID="ID_649824739" MODIFIED="1613834542975" TEXT="Level Trigger &#x548c; Edge Trigger">
@@ -1130,7 +1130,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1560825224145" FOLDED="true" ID="ID_28482001" MODIFIED="1613834543103" TEXT="linux">
+<node CREATED="1560825224145" ID="ID_28482001" MODIFIED="1614350882802" TEXT="linux">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1560825227596" FOLDED="true" ID="ID_1089083421" MODIFIED="1613659492126" TEXT="&#x5185;&#x6838;utils&#x4ee3;&#x7801;">
 <font NAME="SansSerif" SIZE="12"/>
@@ -2883,7 +2883,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1584792723247" FOLDED="true" ID="ID_348746736" MODIFIED="1613834543103" TEXT="Qemu-Kvm">
+<node CREATED="1584792723247" ID="ID_348746736" MODIFIED="1614350889317" TEXT="Qemu-Kvm">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1610552457430" FOLDED="true" ID="ID_1660128838" MODIFIED="1611245374928" TEXT="&#x6982;&#x8ff0;">
 <node CREATED="1611244393290" FOLDED="true" ID="ID_1289303260" MODIFIED="1611762611467" TEXT="&#x8f6f;&#x4ef6;/&#x786c;&#x4ef6;&#x865a;&#x62df;&#x5316;">
@@ -4047,7 +4047,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1611475787490" FOLDED="true" ID="ID_1650392973" MODIFIED="1613834543102" TEXT="virtio&#x865a;&#x62df;&#x5316;">
+<node CREATED="1611475787490" ID="ID_1650392973" MODIFIED="1614350894968" TEXT="virtio&#x865a;&#x62df;&#x5316;">
 <node CREATED="1612096765537" FOLDED="true" ID="ID_1539428288" MODIFIED="1612191188208" TEXT="&#x7f51;&#x5361;">
 <node CREATED="1612096839136" FOLDED="true" ID="ID_383847498" MODIFIED="1612191188197" TEXT="&#x7f51;&#x5361;&#x5de5;&#x4f5c;&#x539f;&#x7406;">
 <node CREATED="1612096846985" FOLDED="true" ID="ID_800367426" MODIFIED="1612191188176">
@@ -4235,9 +4235,9 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1613746658898" FOLDED="true" ID="ID_1891666417" MODIFIED="1613834543102" TEXT="virtio&#x8bbe;&#x5907;">
-<node CREATED="1613748064289" FOLDED="true" ID="ID_596693800" MODIFIED="1613834542977" TEXT="&#x6982;&#x8ff0;">
-<node CREATED="1613746879423" FOLDED="true" ID="ID_1889167446" MODIFIED="1613834542977">
+<node CREATED="1613746658898" ID="ID_1891666417" MODIFIED="1614434059471" TEXT="virtio&#x8bbe;&#x5907;">
+<node CREATED="1613748064289" FOLDED="true" ID="ID_596693800" MODIFIED="1614434062750" TEXT="&#x6982;&#x8ff0;">
+<node CREATED="1613746879423" ID="ID_1889167446" MODIFIED="1614432817674">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4260,7 +4260,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1613748072059" FOLDED="true" ID="ID_1291243222" MODIFIED="1613834543007" TEXT="&#x5165;&#x53e3;&#x6d41;&#x7a0b;&#x5206;&#x6790;">
+<node CREATED="1613748072059" FOLDED="true" ID="ID_1291243222" MODIFIED="1614432628640" TEXT="&#x5165;&#x53e3;&#x6d41;&#x7a0b;&#x5206;&#x6790;">
 <node CREATED="1613747877093" FOLDED="true" ID="ID_486297652" MODIFIED="1613834542977">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -4295,8 +4295,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1613748231623" FOLDED="true" ID="ID_1544713443" MODIFIED="1613834543039" TEXT="tap&#x521b;&#x5efa;">
-<node CREATED="1613832810169" FOLDED="true" ID="ID_881534517" MODIFIED="1613834543007">
+<node CREATED="1613748231623" FOLDED="true" ID="ID_1544713443" MODIFIED="1614434073401" TEXT="tap&#x521b;&#x5efa;">
+<node CREATED="1613832810169" ID="ID_881534517" MODIFIED="1614432634473">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4307,7 +4307,7 @@
 </html>
 </richcontent>
 <node CREATED="1613833135747" ID="ID_1975743075" MODIFIED="1613833179073" TEXT="NetClientState&#x662f;&#x7f51;&#x5361;&#x6a21;&#x62df;&#x7684;&#x6838;&#x5fc3;&#x7ed3;&#x6784;&#xff0c;&#x8868;&#x793a;&#x7f51;&#x7edc;&#x8bbe;&#x5907;&#x4e2d;&#x7684;&#x51e0;&#x4e2a;&#x7aef;&#x70b9;&#xff0c;&#x4e24;&#x4e2a;&#x7aef;&#x70b9;&#x901a;&#x8fc7;peer&#x6307;&#x5411;&#x5bf9;&#x65b9;"/>
-<node CREATED="1613833184238" FOLDED="true" ID="ID_189115000" MODIFIED="1613834543007" TEXT="&#x521b;&#x5efa;tap&#x8bbe;&#x5907;&#x7684;&#x4e3b;&#x8981;&#x5de5;&#x4f5c;&#x5c31;&#x662f;&#x521b;&#x5efa;&#x4e00;&#x4e2a;NetClientState&#x7ed3;&#x6784;&#xff0c;&#x5e76;&#x6dfb;&#x52a0;&#x5230;net_clients&#x94fe;&#x8868;&#x4e2d;">
+<node CREATED="1613833184238" ID="ID_189115000" MODIFIED="1614432646208" TEXT="&#x521b;&#x5efa;tap&#x8bbe;&#x5907;&#x7684;&#x4e3b;&#x8981;&#x5de5;&#x4f5c;&#x5c31;&#x662f;&#x521b;&#x5efa;&#x4e00;&#x4e2a;NetClientState&#x7ed3;&#x6784;&#xff0c;&#x5e76;&#x6dfb;&#x52a0;&#x5230;net_clients&#x94fe;&#x8868;&#x4e2d;">
 <node CREATED="1613833211808" ID="ID_1126876489" MODIFIED="1613833215887">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -4343,8 +4343,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1613748240673" FOLDED="true" ID="ID_785097866" MODIFIED="1613834543102" TEXT="virtio-net&#x521b;&#x5efa;">
-<node CREATED="1613833434624" FOLDED="true" ID="ID_1795224870" MODIFIED="1613834543054" TEXT="&#x6570;&#x636e;&#x7ed3;&#x6784;">
+<node CREATED="1613748240673" FOLDED="true" ID="ID_785097866" MODIFIED="1614434109942" TEXT="virtio-net&#x521b;&#x5efa;">
+<node CREATED="1613833434624" ID="ID_1795224870" MODIFIED="1614434076271" TEXT="&#x6570;&#x636e;&#x7ed3;&#x6784;">
 <node CREATED="1613833491783" FOLDED="true" ID="ID_572028194" MODIFIED="1613834543039">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -4426,6 +4426,117 @@
 <node CREATED="1613834399826" ID="ID_1214162578" MODIFIED="1613834445327" TEXT="virtio_net_device_realize&#x8fdb;&#x884c;&#x4e86;virtio&#x901a;&#x7528;&#x7684;&#x8bbe;&#x7f6e;&#xff0c;&#x521b;&#x5efa;&#x4e86;NetClientState&#x7aef;&#x70b9;&#xff0c;&#x4e0e;tap&#x8bbe;&#x5907;&#x5bf9;&#x5e94;&#xff0c;&#x5206;&#x522b;&#x6307;&#x5411;&#x5bf9;&#x65b9;"/>
 <node CREATED="1613834445555" ID="ID_74543395" MODIFIED="1613834494307" TEXT="virtio_bus_device_plugged&#x8868;&#x793a;&#x8bbe;&#x5907;&#x63d2;&#x5165;&#x603b;&#x7ebf;&#x65f6;&#x7684;&#x5904;&#x7406;&#xff0c;&#x5b8c;&#x6210;&#x7684;&#x5de5;&#x4f5c;&#x5c31;&#x662f;&#x6309;&#x7167;PCI&#x603b;&#x7ebf;&#x89c4;&#x5212;&#xff0c;&#x914d;&#x7f6e;&#x5404;&#x7c7b;&#x4fe1;&#x606f;&#xff0c;&#x4ee5;&#x4fbf;&#x4e8e;GuestOS&#x4e2d;&#x7684;virtio&#x9a71;&#x52a8;&#x4ea4;&#x4e92;"/>
 </node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1614350902610" ID="ID_20610094" MODIFIED="1614350911298" TEXT="virtio&#x9a71;&#x52a8;">
+<node CREATED="1614433982402" ID="ID_386378048" MODIFIED="1614433991713">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="virtualization/virt-io/virtio-driver/virtio-driver-framework-linux.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1614434656857" ID="ID_4160290" MODIFIED="1614434677538" TEXT="&#x6570;&#x636e;&#x7ed3;&#x6784;">
+<node CREATED="1614434677487" ID="ID_862924324" MODIFIED="1614434683687" TEXT="virtio-bus">
+<node CREATED="1614434662347" ID="ID_1096506042" MODIFIED="1614434665334">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="virtualization/virt-io/virtio-driver/virtio-bus.png" />
+  </body>
+</html></richcontent>
+<node CREATED="1614434781796" ID="ID_1124870776" MODIFIED="1614434799227" TEXT="virtio&#x8bbe;&#x5907;&#x4e0e;virtio&#x9a71;&#x52a8;&#xff0c;&#x901a;&#x8fc7;virtio_device_id&#x6765;&#x5339;&#x914d;"/>
+<node CREATED="1614434799564" ID="ID_1908914102" MODIFIED="1614434828131" TEXT="struct virtio_config_ops&#xff0c;&#x51fd;&#x6570;&#x96c6;&#x7531;&#x9a71;&#x52a8;&#x6765;&#x8fdb;&#x884c;&#x6307;&#x5b9a;&#xff0c;&#x7528;&#x4e8e;&#x64cd;&#x4f5c;&#x5177;&#x4f53;&#x7684;&#x8bbe;&#x5907;"/>
+</node>
+</node>
+<node CREATED="1614434842502" ID="ID_1532881841" MODIFIED="1614434867607" TEXT="virtio-net&#x9a71;&#x52a8;&#xff0c;&#x65e2;&#x662f;virtio&#x8bbe;&#x5907;&#xff0c;&#x4e5f;&#x662f;pci&#x8bbe;&#x5907;&#xff0c;&#x5728;&#x5185;&#x6838;&#x4e2d;&#x901a;&#x8fc7;struct virtio_pci_device&#x6765;&#x7ec4;&#x7ec7;">
+<node CREATED="1614434868111" ID="ID_1183139940" MODIFIED="1614434917671">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="virtualization/virt-io/virtio-driver/virtio-pci-device.png" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1614435018944" ID="ID_1469374274" MODIFIED="1614435072081" TEXT="&#x7ef4;&#x62a4;&#x51e0;&#x4e2a;IO&#x533a;&#x57df;&#xff0c;Common/ISR/Device/Notify&#xff0c;&#x7528;&#x4e8e;&#x83b7;&#x53d6;virtio&#x8bbe;&#x5907;&#x7684;&#x5404;&#x79cd;&#x4fe1;&#x606f;&#xff0c;virtio&#x89c4;&#x8303;&#x51b3;&#x5b9a;"/>
+<node CREATED="1614435086492" ID="ID_1158447983" MODIFIED="1614435094795" TEXT="virtio&#x8bbe;&#x5907;">
+<node CREATED="1614435094795" ID="ID_858144297" MODIFIED="1614435110035" TEXT="Device status field"/>
+<node CREATED="1614435110277" ID="ID_1911890249" MODIFIED="1614435113599" TEXT="feature bits"/>
+<node CREATED="1614435113827" ID="ID_184043686" MODIFIED="1614435119325" TEXT="notifications"/>
+<node CREATED="1614435119551" ID="ID_1785015914" MODIFIED="1614435125315" TEXT="device configuration space"/>
+<node CREATED="1614435125557" ID="ID_1370844396" MODIFIED="1614435132491" TEXT="one or more virtqueues"/>
+</node>
+<node CREATED="1614435139691" ID="ID_623912426" MODIFIED="1614435154182" TEXT="&#x5145;&#x5f53;pci&#x8bbe;&#x5907;&#x548c;virtio&#x8bbe;&#x5907;&#x7684;&#x7ebd;&#x5e26;">
+<node CREATED="1614435188606" ID="ID_1875911984" MODIFIED="1614435191418">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="virtualization/virt-io/virtio-driver/virtio-pci-device-bus-perspect.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1614435272103" ID="ID_1360070244" MODIFIED="1614435277988" TEXT="&#x6d41;&#x7a0b;&#x5206;&#x6790;">
+<node CREATED="1614435277989" ID="ID_731626621" MODIFIED="1614435282235" TEXT="virtio&#x603b;&#x7ebf;&#x521b;&#x5efa;">
+<node CREATED="1614435319837" ID="ID_292251287" MODIFIED="1614435323165">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="virtualization/virt-io/virtio-driver/virtio-bus-register.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1614435411129" ID="ID_1038832211" MODIFIED="1614435414905" TEXT="virtio&#x9a71;&#x52a8;&#x8c03;&#x7528;">
+<node CREATED="1614435434453" ID="ID_1318689692" MODIFIED="1614435470625" TEXT="virtio-net&#x8bbe;&#x5907;&#x6302;&#x8f7d;pci&#x603b;&#x7ebf;&#x4e0a;&#xff0c;&#x7cfb;&#x7edf;&#x5728;PCI&#x5b50;&#x7cfb;&#x7edf;&#x521d;&#x59cb;&#x5316;&#x65f6;&#x4f1a;&#x53bb;&#x679a;&#x4e3e;&#x6240;&#x6709;&#x7684;&#x8bbe;&#x5907;&#xff0c;&#x5e76;&#x5c06;&#x679a;&#x4e3e;&#x7684;&#x8bbe;&#x5907;&#x6ce8;&#x518c;&#x8fdb;&#x7cfb;&#x7edf;">
+<node CREATED="1614435478926" ID="ID_77881000" MODIFIED="1614435486710" TEXT="&#x7cfb;&#x7edf;&#x5728;&#x5339;&#x914d;&#x4e0a;&#x4e4b;&#x540e;&#xff0c;&#x8c03;&#x7528;&#x8bbe;&#x5907;&#x7684;&#x9a71;&#x52a8;">
+<node CREATED="1614435486953" ID="ID_1232485228" MODIFIED="1614435517126">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="virtualization/virt-io/virtio-driver/pci-device-probe.png" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1614435546736" ID="ID_186976926" MODIFIED="1614435560726">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="virtualization/virt-io/virtio-driver/virtio-pci-probe.png" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1614435616218" ID="ID_1862923442" MODIFIED="1614435731782" TEXT="virtio_pci_probe&#x662f;virtio&#x4f5c;&#x4e3a;PCI&#x8bbe;&#x5907;&#x7684;&#x9a71;&#x52a8;&#xff0c;&#x4e0e;virtio&#x4f5c;&#x4e3a;virtio&#x8bbe;&#x5907;&#x7684;&#x9a71;&#x52a8;&#x4e00;&#x8d77;&#x5b8c;&#x6210;struct virtio_pci_device&#x7ed3;&#x6784;&#x7684;&#x521d;&#x59cb;&#x5316;"/>
+<node CREATED="1614435736180" ID="ID_4953540" MODIFIED="1614435841160" TEXT="virtio_pci_modern_probe: &#x8be5;&#x51fd;&#x6570;&#x7684;&#x5185;&#x5bb9;&#x4e0e;virtio&#x89c4;&#x8303;&#x76f8;&#x5173;&#xff0c;virtio&#x8bbe;&#x5907;&#x6309;&#x7167;&#x89c4;&#x8303;&#x586b;&#x5145;common/device/isr/notification&#x7b49;&#x529f;&#x80fd;&#xff0c;virtio_pci_modern_probe&#x51fd;&#x6570;&#x901a;&#x8fc7;virtio_pci_find_capability&#x53bb;&#x83b7;&#x53d6;&#x5bf9;&#x5e94;&#x7684;&#x80fd;&#x529b;&#xff0c;&#x5e76;&#x901a;&#x8fc7;map_capability&#x5b8c;&#x6210;IO&#x7a7a;&#x95f4;&#x7684;&#x6620;&#x5c04;"/>
+<node CREATED="1614435844404" ID="ID_757424133" MODIFIED="1614435889317" TEXT="virtio_pci_probe&#x8bbe;&#x7f6e;virtio_pci_config_ops&#x51fd;&#x6570;&#x96c6;&#xff0c;&#x4f20;&#x9012;&#x7ed9;virtio&#x9a71;&#x52a8;&#xff0c;&#x5728;&#x9a71;&#x52a8;&#x4e2d;&#x56de;&#x8c03;&#x8fd9;&#x4e9b;&#x51fd;&#x6570;&#x6765;&#x64cd;&#x4f5c;virtio&#x8bbe;&#x5907;"/>
+<node CREATED="1614435897722" ID="ID_653892732" MODIFIED="1614435939838" TEXT="register_virtio_device&#xff1a;&#x5411;&#x7cfb;&#x7edf;&#x6ce8;&#x518c;virtio&#x8bbe;&#x5907;&#xff0c;&#x4ece;&#x800c;&#x89e6;&#x53d1;virtio&#x603b;&#x7ebf;&#x7684;&#x5339;&#x914d;&#x64cd;&#x4f5c;&#xff0c;&#x6700;&#x7ec8;&#x8c03;&#x7528;&#x5b9e;&#x9645;&#x8bbe;&#x5907;&#x7684;&#x9a71;&#x52a8;&#x7a0b;&#x5e8f;"/>
+<node CREATED="1614435940661" ID="ID_1035067051" MODIFIED="1614435986943" TEXT="virtio-dev-probe&#x51fd;&#x6570;&#x4e2d;&#x6309;&#x7167;virtio&#x89c4;&#x8303;&#x5206;&#x9636;&#x6bb5;&#x8bbe;&#x7f6e;&#x4e0d;&#x540c;&#x7684;&#x72b6;&#x6001;&#x3001;&#x83b7;&#x53d6;virtio&#x8bbe;&#x5907;&#x7684;feature&#x7b49;&#xff0c;&#x6700;&#x7ec8;&#x8c03;&#x7528;&#x5b9e;&#x9645;&#x8bbe;&#x5907;&#x7684;&#x9a71;&#x52a8;&#x7a0b;&#x5e8f;"/>
 </node>
 </node>
 </node>
