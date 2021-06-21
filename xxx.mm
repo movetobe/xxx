@@ -897,6 +897,21 @@
 </node>
 </node>
 </node>
+<node CREATED="1623943720648" ID="ID_686788009" MODIFIED="1623943737103" TEXT="LAYER2.5">
+<node CREATED="1623944321170" ID="ID_1194234037" MODIFIED="1623944322482" TEXT="ARP">
+<node CREATED="1624176809648" ID="ID_600458277" MODIFIED="1624176816742" TEXT="type&#xff1a;0x0806"/>
+<node CREATED="1624176851021" ID="ID_1358719044" MODIFIED="1624176857940" TEXT="request/reply: 0/1"/>
+<node CREATED="1624116894809" ID="ID_901884706" MODIFIED="1624116922328" TEXT="ARP&#x9ad8;&#x901f;&#x7f13;&#x5b58;&#x4e00;&#x822c;&#x65f6;&#x95f4;20min"/>
+</node>
+<node CREATED="1623944356031" ID="ID_1986060148" MODIFIED="1623944357837" TEXT="RARP">
+<node CREATED="1624176818694" ID="ID_576950984" MODIFIED="1624176849038" TEXT="type: 0x0835"/>
+<node CREATED="1624176860409" ID="ID_1684628395" MODIFIED="1624176870512" TEXT="request/reply: 3/4"/>
+</node>
+</node>
+<node CREATED="1623943737530" ID="ID_215316051" MODIFIED="1623943741369" TEXT="LAYER3"/>
+<node CREATED="1623943741596" ID="ID_1803112718" MODIFIED="1623943745391" TEXT="LAYER3.5"/>
+<node CREATED="1623943745619" ID="ID_1302658734" MODIFIED="1623943748448" TEXT="LAYER4"/>
+<node CREATED="1623943748660" ID="ID_1550971309" MODIFIED="1623943752499" TEXT="LAYER5"/>
 </node>
 </node>
 <node CREATED="1572998351193" ID="ID_563900263" MODIFIED="1614350880195" TEXT="&#x64cd;&#x4f5c;&#x7cfb;&#x7edf;">
@@ -1061,7 +1076,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1572998434235" FOLDED="true" ID="ID_1013956045" MODIFIED="1622986891440" TEXT="GCC/GLIBC">
+<node CREATED="1572998434235" ID="ID_1013956045" MODIFIED="1623251498045" TEXT="GCC/GLIBC">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1572998451430" ID="ID_157617438" MODIFIED="1620777753117" TEXT="C&#x5e93;&#x51fd;&#x6570;">
 <font NAME="SansSerif" SIZE="12"/>
@@ -6496,6 +6511,41 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
+<node CREATED="1623681722253" FOLDED="true" ID="ID_130007492" MODIFIED="1623768337167" TEXT="&#x5982;&#x4f55;&#x6781;&#x5ea6;&#x538b;&#x69a8;&#x7f51;&#x7edc;&#x6027;&#x80fd;&#xff1a;&#x63ed;&#x79d8;UCLOUD&#x7684;&#x7269;&#x7406;&#x4e91;&#x7f51;&#x5173;">
+<node CREATED="1623681873097" FOLDED="true" ID="ID_642761430" MODIFIED="1623768335214">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="tech/network/ucloud/ucloud-gw-develop.png" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1623682403661" ID="ID_1694656916" MODIFIED="1623682408492">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="tech/network/ucloud/ucloud-gw-smartnic.jpg" />
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1623682410346" ID="ID_21998197" MODIFIED="1623682416305">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="tech/network/ucloud/ucloud-gw-programmable-smartnic.jpg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 <node CREATED="1585744716859" FOLDED="true" ID="ID_1617519564" MODIFIED="1606049461623" TEXT="SD-WAN&#x6280;&#x672f;&#x53d1;&#x5c55;&#x4e0e;&#x6f14;&#x8fdb;">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1585746414955" ID="ID_325953713" MODIFIED="1606049435826" TEXT="&#x53e0;&#x52a0;&#x7f51;&#x7edc;&#x67b6;&#x6784;">
@@ -6701,6 +6751,101 @@
 </node>
 </node>
 </node>
+<node CREATED="1623251903180" ID="ID_1561738477" MODIFIED="1624057500690" TEXT="&#x5b9e;&#x73b0;&#x4e00;&#x4e2a;&#x57fa;&#x4e8e;XDP_eBPF&#x7684;&#x5b66;&#x4e60;&#x578b;&#x7f51;&#x6865;">
+<node CREATED="1623280395910" ID="ID_408758815" MODIFIED="1623280421397" TEXT="BPF/eBPF">
+<node CREATED="1623280494443" ID="ID_512871102" MODIFIED="1623280698206" TEXT="Berkeley Packet Filter/extended BPF"/>
+<node CREATED="1623280744494" ID="ID_1242762025" MODIFIED="1623280780921" TEXT="BPF&#x80cc;&#x540e;&#x7684;&#x601d;&#x60f3;&#xff1a;&#x4e0e;&#x5176;&#x628a;&#x6570;&#x636e;&#x5305;&#x590d;&#x5236;&#x5230;&#x7528;&#x6237;&#x7a7a;&#x95f4;&#x6267;&#x884c;&#x7528;&#x6237;&#x6001;&#x7a0b;&#x5e8f;&#x8fc7;&#x6ee4;&#xff0c;&#x4e0d;&#x5982;&#x628a;&#x8fc7;&#x6ee4;&#x7a0b;&#x5e8f;&#x704c;&#x8fdb;&#x5185;&#x6838;&#x53bb;"/>
+</node>
+<node CREATED="1623335536749" ID="ID_1401487798" MODIFIED="1623335539912" TEXT="XDP">
+<node CREATED="1623335539913" ID="ID_884021200" MODIFIED="1623335572265" TEXT="eXpress Data Path, &#x4f4d;&#x4e8e;&#x7f51;&#x5361;&#x9a71;&#x52a8;&#x7a0b;&#x5e8f;&#x91cc;&#x7684;&#x4e00;&#x4e2a;&#x5feb;&#x901f;&#x5904;&#x7406;&#x6570;&#x636e;&#x5305;&#x7684;Hook&#x70b9;"/>
+<node CREATED="1623335573514" ID="ID_1450379583" MODIFIED="1623335579135" TEXT="&#x80cc;&#x540e;&#x7684;&#x601d;&#x60f3;">
+<node CREATED="1623335579136" ID="ID_693621175" MODIFIED="1623335602299" TEXT="&#x6570;&#x636e;&#x5305;&#x5904;&#x7406;&#x975e;&#x5e38;&#x5e95;&#x5c42;&#xff0c;&#x907f;&#x5f00;&#x4e86;&#x5f88;&#x591a;&#x5185;&#x6838;skb&#x5904;&#x7406;&#x5f00;&#x9500;"/>
+<node CREATED="1623335603984" ID="ID_618446788" MODIFIED="1623335617506" TEXT="&#x53ef;&#x4ee5;&#x5c06;&#x5f88;&#x591a;&#x5904;&#x7406;&#x903b;&#x8f91;offload&#x5230;&#x7f51;&#x5361;&#x786c;&#x4ef6;"/>
+</node>
+<node CREATED="1623335646959" ID="ID_1396420632" MODIFIED="1623335692032" TEXT="&#x5982;&#x679c;&#x5728;XDP&#x7684;&#x8fd9;&#x4e2a;hook&#x70b9;&#x704c;&#x8fdb;&#x6765;&#x4e00;&#x70b9;eBPF&#x5b57;&#x8282;&#x7801;&#xff0c;&#x5c06;&#x662f;&#x4e00;&#x4ef6;&#x4ee4;&#x4eba;&#x6109;&#x5feb;&#x7684;&#x4e8b;&#x60c5;"/>
+</node>
+</node>
+<node CREATED="1623336631817" ID="ID_895937992" MODIFIED="1623336651632" TEXT="&#x7528;Linux&#x5185;&#x6838;&#x7684;&#x745e;&#x58eb;&#x519b;&#x5200;-eBPF&#x5b9e;&#x73b0;socket&#x8f6c;&#x53d1;offload">
+<node CREATED="1624232513881" ID="ID_937788839" MODIFIED="1624232536045" TEXT="&#x4f20;&#x7edf;&#x7684;&#x8f6c;&#x53d1;">
+<node CREATED="1624232591502" ID="ID_801259613" MODIFIED="1624233191872">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <img src="tech/network/linux-network/eBPF-XDP/traditional-socket.jpg" width="500" height="300" />
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1624233103289" ID="ID_618058957" MODIFIED="1624233116506" TEXT="sendfile&#x65b9;&#x5f0f;&#xff0c;&#x4e0d;&#x652f;&#x6301;socket">
+<node CREATED="1624233117049" ID="ID_425477416" MODIFIED="1624233218831">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <img src="tech/network/linux-network/eBPF-XDP/sendfile.jpg" width="500" height="300" />
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1624233227844" ID="ID_1674595575" MODIFIED="1624233237243" TEXT="DPDK&#x65b9;&#x5f0f;">
+<node CREATED="1624233259823" ID="ID_1095334062" MODIFIED="1624233266382" TEXT="&#x9700;&#x8981;&#x4fee;&#x6539;&#x5e94;&#x7528;&#xff0c;&#x6bd4;&#x8f83;&#x590d;&#x6742;"/>
+</node>
+<node CREATED="1624233254935" ID="ID_542765248" MODIFIED="1624233272133" TEXT="sockmap">
+<node CREATED="1624233293899" ID="ID_286190918" MODIFIED="1624233870249">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <img src="tech/network/linux-network/eBPF-XDP/ebpf-sockmap.jpg" width="600" height="400" />
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1624233348023" ID="ID_1979962100" MODIFIED="1624233373071" TEXT="&#x901a;&#x8fc7;&#x66ff;&#x6362;skdataready&#x56de;&#x8c03;&#x51fd;&#x6570;&#x7684;&#x65b9;&#x5f0f;&#x63a5;&#x7ba1;&#x6574;&#x4e2a;&#x6570;&#x636e;&#x9762;&#x7684;&#x8f6c;&#x53d1;&#x903b;&#x8f91;&#x5904;&#x7406;"/>
+<node CREATED="1624233870223" ID="ID_127531354" MODIFIED="1624233916912" TEXT="skdataready&#x662f;&#x5185;&#x6838;&#x534f;&#x8bae;&#x6808;&#x548c;&#x8fdb;&#x7a0b;&#x4e0a;&#x4e0b;&#x6587;&#x7684;socket&#x4e4b;&#x95f4;&#x7684;&#x6570;&#x636e;&#x901a;&#x9053;&#x63a5;&#x53e3;&#xff0c;&#x5b83;&#x5c06;&#x6570;&#x636e;&#x4ece;&#x5185;&#x6838;&#x534f;&#x8bae;&#x6808;&#x4ea4;&#x63a5;&#x7ed9;&#x6301;&#x6709;socket&#x7684;&#x8fdb;&#x7a0b;">
+<node CREATED="1624233607626" ID="ID_1605816994" MODIFIED="1624233790694">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <img src="tech/network/linux-network/eBPF-XDP/skdataready-traditional.jpg" width="500" height="300" />
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1624233796240" ID="ID_1284310285" MODIFIED="1624233826662" TEXT="skdataready&#x56de;&#x8c03;&#x51fd;&#x6570;&#x7684;&#x63a7;&#x5236;&#x6743;&#x8f6c;&#x79fb;&#x662f;&#x901a;&#x8fc7;&#x4e00;&#x6b21;wakeup&#x64cd;&#x4f5c;&#x5b8c;&#x6210;&#xff0c;&#x8fdb;&#x884c;&#x4e86;&#x4e00;&#x6b21;&#x4e0a;&#x4e0b;&#x6587;&#x7684;&#x5207;&#x6362;"/>
+</node>
+</node>
+<node CREATED="1624233919769" ID="ID_291130392" MODIFIED="1624233971456" TEXT="sockmap&#x901a;&#x8fc7;&#x4e00;&#x79cd;Streadm Parser&#x673a;&#x5236;&#xff0c;&#x5c06;&#x6570;&#x636e;&#x5305;&#x7684;&#x63a7;&#x5236;&#x6743;&#x8f6c;&#x79fb;&#x5230;eBPF&#x5904;&#x7406;&#x7a0b;&#x5e8f;&#xff0c;eBPF&#x53ef;&#x4ee5;&#x5b9e;&#x73b0;&#x6570;&#x636e;&#x6d41;&#x7684;Redirect&#xff0c;&#x5b9e;&#x73b0;socket&#x6570;&#x636e;&#x4e4b;&#x95f4;&#x7684;offload&#x5904;&#x7406;">
+<node CREATED="1624233971931" ID="ID_336868721" MODIFIED="1624234003910">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <img src="tech/network/linux-network/eBPF-XDP/skdataready-sockmap.jpg" width="500" height="300" />
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1585442228985" ID="ID_1092305934" MODIFIED="1622985192497" TEXT="&#x64cd;&#x4f5c;&#x7cfb;&#x7edf;">
 <font NAME="SansSerif" SIZE="12"/>
@@ -6752,7 +6897,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1623077732978" ID="ID_1180438338" MODIFIED="1623077735651" TEXT="&#x5185;&#x5b58;&#x5e03;&#x5c40;">
+<node CREATED="1623077732978" FOLDED="true" ID="ID_1180438338" MODIFIED="1623251512246" TEXT="&#x5185;&#x5b58;&#x5e03;&#x5c40;">
 <node CREATED="1623077735651" ID="ID_293032007" MODIFIED="1623077755615" TEXT="&#x7528;&#x6237;&#x7a7a;&#x95f4;/&#x5185;&#x6838;&#x7a7a;&#x95f4;">
 <node CREATED="1623077755917" ID="ID_1583469028" MODIFIED="1623077842618" TEXT="32&#x4f4d;&#x7cfb;&#x7edf;4GB&#x7684;&#x5185;&#x5b58;&#x4e2d;&#xff0c;Linux&#x7cfb;&#x7edf;&#x4e0b;&#xff0c;3-4G&#x7a7a;&#x95f4;&#x7ed9;&#x5185;&#x6838;&#x4f7f;&#x7528;&#xff0c;&#x5e94;&#x7528;&#x7a0b;&#x5e8f;&#x65e0;&#x6cd5;&#x76f4;&#x63a5;&#x8bbf;&#x95ee;&#x8fd9;&#x6bb5;&#x5185;&#x5b58;&#xff0c;&#x8fd9;&#x90e8;&#x5206;&#x5185;&#x5b58;&#x5730;&#x5740;&#x6210;&#x4e3a;&#x5185;&#x6838;&#x7a7a;&#x95f4;"/>
 </node>
@@ -6765,8 +6910,7 @@
   <body>
     <img src="tech/mm/linux-process-memory-space.jpg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1623078097355" ID="ID_592214132" MODIFIED="1623078099025" TEXT="&#x6808;">
 <node CREATED="1623078462335" ID="ID_1011598343" MODIFIED="1623078469588">
 <richcontent TYPE="NODE"><html>
@@ -6816,6 +6960,20 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
+<node CREATED="1623337679435" FOLDED="true" ID="ID_369226618" MODIFIED="1623681713757" TEXT="Linux&#x7cfb;&#x7edf;&#x7ed3;&#x6784;&#x8be6;&#x89e3;">
+<node CREATED="1623585303318" ID="ID_1988833014" MODIFIED="1623585312997">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="tech/linux/linux-sys/linux-sys.jpg" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1623585316172" ID="ID_1965630209" MODIFIED="1623585324062" TEXT="Linux&#x5185;&#x6838;"/>
+</node>
+</node>
 <node CREATED="1585052714343" FOLDED="true" ID="ID_599009783" MODIFIED="1622986863689" TEXT="Linux&#x5185;&#x6838;RCU&#x673a;&#x5236;&#xff08;Read-Copy Update&#xff09;">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1585052950977" ID="ID_741264968" MODIFIED="1622985289601" TEXT="&#x6982;&#x8ff0;&#xff1a;">
@@ -6862,8 +7020,7 @@
   <body>
     <img src="tech/rcu/grace-period.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -6878,8 +7035,7 @@
   <body>
     <img src="tech/rcu/rcu-read-node.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1622986510883" ID="ID_1954261272" MODIFIED="1622986513725" TEXT="&#x5220;&#x9664;&#x8282;&#x70b9;">
@@ -6891,8 +7047,7 @@
   <body>
     <img src="tech/rcu/rcu-delete-node.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -7134,8 +7289,7 @@
   <body>
     <img src="tech/gdb/gdb-condition-break.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -7149,8 +7303,7 @@
   <body>
     <img src="tech/gdb/gdb-command-break.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -7166,8 +7319,7 @@
   <body>
     <img src="tech/gdb/gdb-line-assemble.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1622987763607" ID="ID_274480546" MODIFIED="1622987794223" TEXT="&#x914d;&#x5408;info&#x67e5;&#x770b;CPU&#x5bc4;&#x5b58;&#x5668;&#x7684;&#x5f53;&#x524d;&#x503c;&#xff0c;stepi&#x6267;&#x884c;&#x5355;&#x6761;&#x6307;&#x4ee4;"/>
 </node>
 </node>
