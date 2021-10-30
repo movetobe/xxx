@@ -1221,7 +1221,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1560840243892" FOLDED="true" ID="ID_954473309" MODIFIED="1607094929749" TEXT="swap">
+<node CREATED="1560840243892" FOLDED="true" ID="ID_954473309" MODIFIED="1635431107507" TEXT="swap">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1560840249048" ID="ID_632216923" MODIFIED="1606049435645" TEXT="#define swap(a, b) \&#xa;&#x9;do { typeof(a) __tmp = (a); (a) = (b); (b) = __tmp; } while (0)">
 <font NAME="SansSerif" SIZE="12"/>
@@ -3174,7 +3174,7 @@
 <node CREATED="1634914918726" ID="ID_1351393106" MODIFIED="1634914997473" TEXT="cpu_exec()">
 <node CREATED="1634915042586" ID="ID_1371853671" MODIFIED="1634915055912" TEXT="cpu_handle_exception()"/>
 <node CREATED="1634915050716" ID="ID_1136963436" MODIFIED="1634915063083" TEXT="cpu_handle_interrupt()"/>
-<node CREATED="1634915063346" ID="ID_601484209" MODIFIED="1634915099555" TEXT="tb = tb_find(cpu)">
+<node CREATED="1634915063346" ID="ID_601484209" MODIFIED="1635597577492" TEXT="tb = tb_find(cpu)">
 <node CREATED="1634996197896" ID="ID_49618242" MODIFIED="1634996239309" TEXT="tb = tb_lookup__cpu_state(cpu, &amp;pc)">
 <node CREATED="1634996635462" ID="ID_1728778016" MODIFIED="1634996650233" TEXT="cpu_get_tb_cpu_state()"/>
 <node CREATED="1634996651190" ID="ID_191712907" MODIFIED="1634996701563" TEXT="hash = tb_jmp_cache_hash_func()"/>
@@ -3210,10 +3210,29 @@
 </node>
 </node>
 <node CREATED="1635080581047" ID="ID_997482271" MODIFIED="1635080584736" TEXT="aarch64">
+<node CREATED="1635430879786" ID="ID_1118113064" MODIFIED="1635430888941" TEXT="gen_tb_start()"/>
+<node CREATED="1635430892432" ID="ID_1763312601" MODIFIED="1635430906257" TEXT="aarch64_tr_tb_start()"/>
 <node CREATED="1635063506187" ID="ID_326762677" MODIFIED="1635063519608" TEXT="aarch64_tr_translate_insn()">
-<node CREATED="1635086430298" ID="ID_1142143226" MODIFIED="1635086440547" TEXT="disas_a64_insn()"/>
+<node CREATED="1635086430298" ID="ID_1142143226" MODIFIED="1635086440547" TEXT="disas_a64_insn()">
+<node CREATED="1635597704520" ID="ID_1701329891" MODIFIED="1635597711940" TEXT="disas_b_exec_sys()">
+<node CREATED="1635597715556" ID="ID_1425485225" MODIFIED="1635597724822" TEXT="disas_uncond_b_imm()">
+<node CREATED="1635597735025" ID="ID_928170879" MODIFIED="1635597739696" TEXT="gen_goto_tb()">
+<node CREATED="1635597789467" ID="ID_1409867593" MODIFIED="1635597793882" TEXT="use_goto_tb">
+<node CREATED="1635597794261" ID="ID_186902816" MODIFIED="1635597803180" TEXT="tcg_gen_goto_tb()"/>
+<node CREATED="1635597803414" ID="ID_1247261580" MODIFIED="1635597811026" TEXT="gen_a64_set_pc_im()"/>
+<node CREATED="1635597811289" ID="ID_95681192" MODIFIED="1635597816852" TEXT="tcg_gen_exit_tb()"/>
+</node>
+<node CREATED="1635597818992" ID="ID_1406461404" MODIFIED="1635597826271" TEXT="others">
+<node CREATED="1635597826271" ID="ID_550751456" MODIFIED="1635597840555" TEXT="gen_a64_set_pc_im()"/>
+<node CREATED="1635597840793" ID="ID_1616271520" MODIFIED="1635597850553" TEXT="tcg_gen_lookup_and_goto_ptr()"/>
+</node>
+</node>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1635086554008" ID="ID_852437122" MODIFIED="1635086561638" TEXT="aarch64_tr_tb_stop()"/>
+<node CREATED="1635430908184" ID="ID_1649415868" MODIFIED="1635430913758" TEXT="gen_tb_end()"/>
 </node>
 </node>
 </node>
@@ -3237,8 +3256,42 @@
 </node>
 </node>
 </node>
+<node CREATED="1635593519512" ID="ID_1739570675" MODIFIED="1635593534166" TEXT="Translator Internals">
+<node CREATED="1635595680113" ID="ID_872540100" MODIFIED="1635595689643" TEXT="Direct block chaining">
+<node CREATED="1635595727017" ID="ID_340732042" MODIFIED="1635595738370" TEXT="simplest, less optimized form">
+<node CREATED="1635595738370" ID="ID_536215449" MODIFIED="1635595803666" TEXT="exiting from current TB, going through the TB epilogue, and then back to the main loop, looks for or translate next TB"/>
 </node>
-<node CREATED="1584792723247" FOLDED="true" ID="ID_348746736" MODIFIED="1634914858134" TEXT="Qemu-Kvm">
+<node CREATED="1635595838101" ID="ID_1903974170" MODIFIED="1635595850854" TEXT="optimized mechanisms">
+<node CREATED="1635595851899" ID="ID_473706911" MODIFIED="1635595860259" TEXT="lookup_and_goto_ptr">
+<node CREATED="1635596091316" ID="ID_1067676463" MODIFIED="1635596114419" TEXT="calling tcg_gen_lookup_and_goto_ptr()">
+<node CREATED="1635596114421" ID="ID_815151246" MODIFIED="1635596155886" TEXT="helper_lookup_tb_ptr will lookup for existing TB that matches the current CPU state"/>
+<node CREATED="1635596158870" ID="ID_399966940" MODIFIED="1635596177292" TEXT="goto_ptr to next TB or return to main loop"/>
+</node>
+</node>
+<node CREATED="1635595860493" ID="ID_1699047456" MODIFIED="1635595866758" TEXT="goto_tb + exit_tb">
+<node CREATED="1635596197731" ID="ID_555685890" MODIFIED="1635596858181" TEXT="step1: call tcg_gen_goto_tb passing a jump slot index (0 or 1)">
+<node CREATED="1635596497659" ID="ID_463706636" MODIFIED="1635596532082" TEXT="emit a goto_tb TCG instruction that later on gets translated to a jump to an address associated with the specified jump slot"/>
+</node>
+<node CREATED="1635596228360" ID="ID_1768563370" MODIFIED="1635596863774" TEXT="step2: emit TCG instructions to update CPU state">
+<node CREATED="1635596702323" ID="ID_957798322" MODIFIED="1635596722947" TEXT="update cpu state with step1&apos;s address"/>
+</node>
+<node CREATED="1635596245054" ID="ID_718067555" MODIFIED="1635596869071" TEXT="step3: call tcg_gen_exit_tb passing current TB and jump slot index">
+<node CREATED="1635596726738" ID="ID_1638929141" MODIFIED="1635596772056" TEXT="exits from the current TB returned a tagged pointer composed of the last executed TB&apos;s address and the jump slot index"/>
+</node>
+<node CREATED="1635596869685" ID="ID_306537739" MODIFIED="1635596914650" TEXT="first time: step1 -&gt; step2 -&gt;step3 then go back to main loop">
+<node CREATED="1635596932814" ID="ID_1862459613" MODIFIED="1635597067585" TEXT="main loop looks for next TB to execute using current CPU state information and, before starting to exec the new TB&apos;s instructions, patches the previously executed TB by associating one of its jump slots with the address of te new TB"/>
+</node>
+<node CREATED="1635597078224" ID="ID_658050279" MODIFIED="1635597171570" TEXT="next time: previous TB executed and new TB will already be patched, and will jump directly to the first instruction of the destination TB, without going back to the main loop"/>
+</node>
+</node>
+</node>
+<node CREATED="1635597426142" ID="ID_1322497331" MODIFIED="1635597431165" TEXT="MMU emulation">
+<node CREATED="1635597432199" ID="ID_1672913" MODIFIED="1635597450155" TEXT="each basic block is indexed with its physical address"/>
+<node CREATED="1635597468852" ID="ID_573594232" MODIFIED="1635597514214" TEXT="chaining is only performed when the destination of the jump shares a page with the basic block that is performing the jump"/>
+</node>
+</node>
+</node>
+<node CREATED="1584792723247" FOLDED="true" ID="ID_348746736" MODIFIED="1635593478701" TEXT="Qemu-Kvm">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1610552457430" FOLDED="true" ID="ID_1660128838" MODIFIED="1611245374928" TEXT="&#x6982;&#x8ff0;">
 <node CREATED="1611244393290" FOLDED="true" ID="ID_1289303260" MODIFIED="1611762611467" TEXT="&#x8f6f;&#x4ef6;/&#x786c;&#x4ef6;&#x865a;&#x62df;&#x5316;">
@@ -3975,8 +4028,8 @@
 </node>
 <node CREATED="1610552487395" ID="ID_1740125875" MODIFIED="1625363252043" TEXT="&#x4e2d;&#x65ad;&#x865a;&#x62df;&#x5316;">
 <node CREATED="1611582398875" ID="ID_1498591063" MODIFIED="1625363254160" TEXT="&#x6982;&#x8ff0;">
-<node CREATED="1611582403602" FOLDED="true" ID="ID_1890024916" MODIFIED="1611762611539" TEXT="&#x4e2d;&#x65ad;&#x5904;&#x7406;">
-<node CREATED="1611582782810" FOLDED="true" ID="ID_1512616251" MODIFIED="1611762611539">
+<node CREATED="1611582403602" FOLDED="true" ID="ID_1890024916" MODIFIED="1635431239811" TEXT="&#x4e2d;&#x65ad;&#x5904;&#x7406;">
+<node CREATED="1611582782810" FOLDED="true" ID="ID_1512616251" MODIFIED="1635431237818">
 <richcontent TYPE="NODE"><html>
   <head>
     
