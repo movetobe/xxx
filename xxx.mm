@@ -6872,8 +6872,8 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1638227403983" ID="ID_1079441026" MODIFIED="1638227482749" TEXT="UCLOUD&#x9ad8;&#x6027;&#x80fd;RoCE&#x7f51;&#x7edc;&#x8bbe;&#x8ba1;">
-<node CREATED="1638227519402" ID="ID_856828015" MODIFIED="1638227531633" TEXT="&#x666e;&#x901a;&#x5185;&#x7f51;&#x6570;&#x636e;&#x5305;&#x4ea4;&#x4e92;">
+<node CREATED="1638227403983" FOLDED="true" ID="ID_1079441026" MODIFIED="1639351324525" TEXT="UCLOUD&#x9ad8;&#x6027;&#x80fd;RoCE&#x7f51;&#x7edc;&#x8bbe;&#x8ba1;">
+<node CREATED="1638227519402" FOLDED="true" ID="ID_856828015" MODIFIED="1638486476162" TEXT="&#x666e;&#x901a;&#x5185;&#x7f51;&#x6570;&#x636e;&#x5305;&#x4ea4;&#x4e92;">
 <node CREATED="1638227531635" ID="ID_43501098" MODIFIED="1638227541263" TEXT="&#x7cfb;&#x7edf;&#x7ea7;TCP/IP&#x534f;&#x8bae;&#x6808;">
 <node CREATED="1638227548479" ID="ID_231961784" MODIFIED="1638227559102" TEXT="CPU&#x8fdb;&#x884c;&#x6570;&#x636e;&#x5305;&#x89e3;&#x6790;"/>
 </node>
@@ -6896,8 +6896,7 @@
       <img height="300" src="tech/network/ucloud/ucloud-roce-rdma-solution.jpg" width="600" />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1638228037177" ID="ID_824664979" MODIFIED="1638228061816" TEXT="InfiniBand&#xff1a; &#x8be5;&#x65b9;&#x6848;&#x91cd;&#x65b0;&#x8bbe;&#x8ba1;&#x4e86;&#x7269;&#x7406;&#x94fe;&#x8def;&#x5c42;&#x3001;&#x7f51;&#x7edc;&#x5c42;&#x3001;&#x4f20;&#x8f93;&#x5c42;&#xff0c;&#x662f;RDMA&#x6700;&#x521d;&#x7684;&#x90e8;&#x7f72;&#x65b9;&#x6848;&#xff0c;&#x6240;&#x4ee5;&#x8981;&#x4f7f;&#x7528;&#x4e13;&#x7528;&#x7684;InfiniBand&#x4ea4;&#x6362;&#x673a;&#x505a;&#x7269;&#x7406;&#x9694;&#x79bb;&#x7684;&#x4e13;&#x7f51;&#xff0c;&#x6210;&#x672c;&#x8f83;&#x5927;&#xff0c;&#x4f46;&#x6027;&#x80fd;&#x8868;&#x73b0;&#x6700;&#x4f18;"/>
 <node CREATED="1638228040742" ID="ID_1524871106" MODIFIED="1638228079798" TEXT=" iWARP&#xff1a; &#x8be5;&#x65b9;&#x6848;&#x7684;&#x76ee;&#x7684;&#x662f;&#x8ba9;&#x4e3b;&#x6d41;&#x7684;&#x4ee5;&#x592a;&#x7f51;&#x652f;&#x6301;RDMA&#xff0c;&#x5c06;InfiniBand&#x79fb;&#x690d;&#x5230;TCP/IP&#x534f;&#x8bae;&#x6808;&#xff0c;&#x4f7f;&#x7528;TCP&#x534f;&#x8bae;&#x4fdd;&#x8bc1;&#x65e0;&#x4e22;&#x5305;&#xff0c;&#x4f46;&#x7f3a;&#x70b9;&#x5728;&#x4e8e;TCP&#x5f00;&#x9500;&#x8f83;&#x5927;&#xff0c;&#x4e14;&#x7b97;&#x6cd5;&#x590d;&#x6742;&#xff0c;&#x6240;&#x4ee5;&#x6027;&#x80fd;&#x8868;&#x73b0;&#x8f83;&#x5dee;&#xff1b;"/>
 <node CREATED="1638228042001" ID="ID_177703980" MODIFIED="1638228087262" TEXT=" RoCEv2&#xff1a; &#x8be5;&#x65b9;&#x6848;&#x7684;&#x76ee;&#x7684;&#x4e5f;&#x662f;&#x8ba9;&#x4e3b;&#x6d41;&#x7684;&#x4ee5;&#x592a;&#x7f51;&#x652f;&#x6301;RDMA&#xff08;RoCEv1&#x7248;&#x672c;&#x5df2;&#x5f88;&#x5c11;&#x63d0;&#x53ca;&#x4e86;&#xff09;&#x3002;&#x7f51;&#x7edc;&#x4fa7;&#x4f7f;&#x7528;PFC&#x4fdd;&#x8bc1;&#x62e5;&#x585e;&#x65f6;&#x4e0d;&#x4e22;&#x5305;&#xff0c;&#x7f51;&#x5361;&#x4fa7;&#x53c8;&#x4f7f;&#x7528;DCQCN&#x7684;&#x62e5;&#x585e;&#x63a7;&#x5236;&#x7b97;&#x6cd5;&#x8fdb;&#x4e00;&#x6b65;&#x51cf;&#x7f13;&#x62e5;&#x585e;&#xff08;&#x8be5;&#x62e5;&#x585e;&#x7b97;&#x6cd5;&#x9700;&#x8981;&#x7f51;&#x7edc;&#x4fa7;&#x652f;&#x6301;ECN&#x6807;&#x8bb0;&#xff09;&#xff0c;&#x4f20;&#x7edf;&#x7684;&#x4ee5;&#x592a;&#x7f51;&#x7ecf;&#x8fc7;PFC&#x548c;ECN&#x7684;&#x52a0;&#x6301;&#x8fdb;&#x5316;&#x6210;&#x4e3a;&#x65e0;&#x635f;&#x4ee5;&#x592a;&#x7f51;&#xff0c;&#x5728;&#x65e0;&#x635f;&#x4ee5;&#x592a;&#x7f51;&#x4e0a;&#x8fd0;&#x884c;RDMA&#x6027;&#x80fd;&#x5927;&#x5927;&#x589e;&#x5f3a;&#x3002;">
@@ -7353,6 +7352,55 @@
 <node CREATED="1629816731214" ID="ID_691414948" MODIFIED="1629816732779" TEXT="epoll"/>
 </node>
 <node CREATED="1629817073298" ID="ID_163655091" MODIFIED="1629817078610" TEXT="&#x4fe1;&#x53f7;&#x9a71;&#x52a8;IO"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1639351362610" ID="ID_494512559" MODIFIED="1639351376520" TEXT="&#x6df1;&#x5165;&#x6d45;&#x51fa;&#x5168;&#x9762;&#x89e3;&#x6790;RDMA">
+<node CREATED="1639610363561" ID="ID_1499438519" MODIFIED="1639610376135" TEXT="&#x4e09;&#x79cd;&#x786c;&#x4ef6;&#x5b9e;&#x73b0;">
+<node CREATED="1639610391864" ID="ID_1225751976" MODIFIED="1639610486557">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="tech/network/rdma/rdma-hardware-implementation.jpg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1639610536195" ID="ID_729179747" MODIFIED="1639610542552" TEXT="RDMA&#x6280;&#x672f;">
+<node CREATED="1639610577790" ID="ID_1287838256" MODIFIED="1639610586588">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="tech/network/rdma/rdma-tech.jpg" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1639610947914" ID="ID_1413576151" MODIFIED="1639610959813">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="tech/network/rdma/rdma-process.jpg" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1639610968539" ID="ID_347680732" MODIFIED="1639610974551" TEXT="&#x5355;&#x8fb9;&#x64cd;&#x4f5c;">
+<node CREATED="1639610974553" ID="ID_1638399055" MODIFIED="1639610982278" TEXT="RDMA READ/WRITE">
+<node CREATED="1639610982280" ID="ID_65730651" MODIFIED="1639611038191" TEXT="&#x53ea;&#x9700;&#x672c;&#x7aef;&#x660e;&#x786e;&#x4fe1;&#x606f;&#x7684;&#x6e90;&#x548c;&#x76ee;&#x7684;&#x5730;&#x5740;&#xff0c;&#x8fdc;&#x7aef;&#x5e94;&#x7528;&#x65e0;&#x9700;&#x611f;&#x77e5;&#xff0c;RDMA&#x5728;RNIC&#x548c;&#x5e94;&#x7528;buffer&#x4e4b;&#x95f4;&#x5b8c;&#x6210;"/>
+</node>
+</node>
+<node CREATED="1639611040240" ID="ID_129523571" MODIFIED="1639611045083" TEXT="&#x53cc;&#x8fb9;&#x64cd;&#x4f5c;">
+<node CREATED="1639611045085" ID="ID_876972380" MODIFIED="1639611053041" TEXT="RDMA SEND/RECEIVE">
+<node CREATED="1639611067287" ID="ID_1921525366" MODIFIED="1639611067287" TEXT=""/>
+</node>
+</node>
 </node>
 </node>
 </node>
